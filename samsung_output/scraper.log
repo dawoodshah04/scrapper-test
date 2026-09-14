@@ -1,0 +1,206 @@
+2026-09-14 17:50:17 [INFO    ] ============================================================
+2026-09-14 17:50:17 [INFO    ] Samsung Mobile Prices & Images Scraper
+2026-09-14 17:50:17 [INFO    ] Target : https://www.samsung.com/pk/smartphones/all-smartphones/
+2026-09-14 17:50:17 [INFO    ] Output : samsung_output/
+2026-09-14 17:50:17 [INFO    ] Log    : samsung_output\scraper.log
+2026-09-14 17:50:17 [INFO    ] ============================================================
+2026-09-14 17:50:17 [INFO    ] Submitting crawl job to http://localhost:11235
+2026-09-14 17:50:17 [DEBUG   ] Payload: {
+  "urls": [
+    "https://www.samsung.com/pk/smartphones/all-smartphones/"
+  ],
+  "browser_config": {
+    "type": "BrowserConfig",
+    "params": {
+      "headless": true,
+      "java_script_enabled": true,
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+    }
+  },
+  "crawler_config": {
+    "type": "CrawlerRunConfig",
+    "params": {
+      "cache_mode": "BYPASS",
+      "word_count_threshold": 0,
+      "scroll_delay": 0.8,
+      "delay_before_return": 4.0,
+      "page_timeout": 60000,
+      "extraction_strategy": {
+        "type": "JsonCssExtractionStrategy",
+        "params": {
+          "schema": {
+            "name": "Samsung Mobile Products",
+            "baseSelector": "div[class*='plp-product-card'], div[class*='pd19-product-card'], li[class*='product-item'], div[class*='ProductCard']",
+            "fields": [
+              {
+                "name": "title",
+                "selector": "[class*='plp-product__title'], [class*='product-card__name'], [class*='product-name'], h3, h4",
+                "type": "text"
+              },
+              {
+                "name": "price",
+                "selector": "[class*='plp-product__price'], [class*='product-card__price'], [class*='price'], [class*='Price']",
+                "type": "text"
+              },
+              {
+                "name": "product_url",
+                "selector": "a[href]",
+                "type": "attribute",
+                "attribute": "href"
+              },
+              {
+                "name": "image_url",
+                "selector": "img[src], img[data-src], img[data-lazy-src]",
+                "type": "attribute",
+                "attribute": "src"
+              },
+              {
+                "name": "image_lazy",
+                "selector": "img",
+                "type": "attribute",
+                "attribute": "data-src"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
+2026-09-14 17:50:17 [INFO    ] Using submit timeout: 300s
+2026-09-14 17:50:24 [INFO    ] Synchronous response received (no task_id).
+2026-09-14 17:50:24 [INFO    ] Parsed 0 products from this crawl result.
+2026-09-14 17:50:24 [INFO    ] Total extracted: 0 product entries
+2026-09-14 17:50:24 [WARNING ] No products extracted. Possible reasons:
+2026-09-14 17:50:24 [WARNING ]   - Samsung changed their CSS class names
+2026-09-14 17:50:24 [WARNING ]   - The page requires login / geo-blocking
+2026-09-14 17:50:24 [WARNING ]   - The container needs more scroll time
+2026-09-14 18:00:24 [INFO    ] ============================================================
+2026-09-14 18:00:24 [INFO    ] Samsung Mobile Prices & Images Scraper
+2026-09-14 18:00:24 [INFO    ] Target : https://www.samsung.com/pk/smartphones/all-smartphones/
+2026-09-14 18:00:24 [INFO    ] Output : samsung_output/
+2026-09-14 18:00:24 [INFO    ] Log    : samsung_output\scraper.log
+2026-09-14 18:00:24 [INFO    ] ============================================================
+2026-09-14 18:00:24 [INFO    ] Submitting crawl job to http://localhost:11235
+2026-09-14 18:00:24 [DEBUG   ] Payload: {
+  "urls": [
+    "https://www.samsung.com/pk/smartphones/all-smartphones/"
+  ],
+  "browser_config": {
+    "type": "BrowserConfig",
+    "params": {
+      "headless": true,
+      "java_script_enabled": true,
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+    }
+  },
+  "crawler_config": {
+    "type": "CrawlerRunConfig",
+    "params": {
+      "cache_mode": "BYPASS",
+      "word_count_threshold": 0,
+      "scroll_delay": 0.8,
+      "delay_before_return": 4.0,
+      "page_timeout": 60000,
+      "extraction_strategy": {
+        "type": "JsonCssExtractionStrategy",
+        "params": {
+          "schema": {
+            "name": "Samsung Mobile Products",
+            "baseSelector": ".pd21-product-card",
+            "fields": [
+              {
+                "name": "title",
+                "selector": ".pd21-product-card__name",
+                "type": "text"
+              },
+              {
+                "name": "price",
+                "selector": ".pd21-product-card__price, .pd21-price-main",
+                "type": "text"
+              },
+              {
+                "name": "product_url",
+                "selector": "a.pd21-product-card__name, a.pd21-product-card__image-cta",
+                "type": "attribute",
+                "attribute": "href"
+              },
+              {
+                "name": "image_url",
+                "selector": ".pd21-product-card__image-cta img, .pd21-product-card__image img",
+                "type": "attribute",
+                "attribute": "src"
+              },
+              {
+                "name": "image_lazy",
+                "selector": ".pd21-product-card__image-cta img, .pd21-product-card__image img",
+                "type": "attribute",
+                "attribute": "data-desktop-src"
+              },
+              {
+                "name": "rating",
+                "selector": ".pd21-product-card__rating",
+                "type": "text"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
+2026-09-14 18:00:24 [INFO    ] Using submit timeout: 300s
+2026-09-14 18:00:46 [INFO    ] Synchronous response received (no task_id).
+2026-09-14 18:00:46 [INFO    ] Parsed 0 products from this crawl result.
+2026-09-14 18:00:46 [INFO    ] Total extracted: 0 product entries
+2026-09-14 18:00:46 [WARNING ] No products extracted. Possible reasons:
+2026-09-14 18:00:46 [WARNING ]   - Samsung changed their CSS class names
+2026-09-14 18:00:46 [WARNING ]   - The page requires login / geo-blocking
+2026-09-14 18:00:46 [WARNING ]   - The container needs more scroll time
+2026-09-14 18:20:58 [INFO    ] =================================================================
+2026-09-14 18:20:58 [INFO    ] Samsung Pakistan Smartphones - Prices & Images Scraper
+2026-09-14 18:20:58 [INFO    ] Container : http://localhost:11235
+2026-09-14 18:20:58 [INFO    ] Target    : https://www.samsung.com/pk/smartphones/all-smartphones/
+2026-09-14 18:20:58 [INFO    ] Output    : samsung_output/
+2026-09-14 18:20:58 [INFO    ] Log       : samsung_output\scraper.log
+2026-09-14 18:20:58 [INFO    ] =================================================================
+2026-09-14 18:20:58 [INFO    ] Submitting crawl job to http://localhost:11235
+2026-09-14 18:20:58 [INFO    ] Target URL: https://www.samsung.com/pk/smartphones/all-smartphones/
+2026-09-14 18:20:58 [INFO    ] Waiting for crawl response (timeout: 300s)...
+2026-09-14 18:21:21 [INFO    ] Synchronous response received.
+2026-09-14 18:21:21 [INFO    ] Parsing raw HTML (306370 bytes) with DOM parser...
+2026-09-14 18:21:21 [INFO    ] Extracted 0 items from DOM parsing.
+2026-09-14 18:21:21 [WARNING ] No products found. Please check network connection and container logs.
+2026-09-14 18:26:10 [INFO    ] =================================================================
+2026-09-14 18:26:10 [INFO    ] Samsung Mobile Scraper (Prices & Images)
+2026-09-14 18:26:10 [INFO    ] =================================================================
+2026-09-14 18:26:10 [INFO    ] Submitting crawl job to http://localhost:11235
+2026-09-14 18:26:10 [INFO    ] Target: https://www.samsung.com/pk/smartphones/all-smartphones/
+2026-09-14 18:26:10 [INFO    ] Waiting for headless browser rendering (timeout: 300s)...
+2026-09-14 18:26:50 [INFO    ] Crawl completed. Received 2312785 bytes of rendered HTML.
+2026-09-14 18:26:51 [INFO    ] Found 40 product card elements in DOM.
+2026-09-14 18:26:51 [INFO    ] Successfully extracted 0 product records.
+2026-09-14 18:26:51 [WARNING ] No products extracted from rendered HTML.
+2026-09-14 18:39:29 [INFO    ] =================================================================
+2026-09-14 18:39:29 [INFO    ] Samsung Pakistan Smartphones Scraper
+2026-09-14 18:39:29 [INFO    ] =================================================================
+2026-09-14 18:39:29 [INFO    ] [Strategy 1] Probing Samsung product API endpoints...
+2026-09-14 18:39:29 [INFO    ] Probing Samsung product API endpoints...
+2026-09-14 18:39:31 [DEBUG   ] GET https://www.samsung.com/pk/smartphones/all-smartphones/all-smartphones-pf-pagination/?prd_type=01010 [502] Content-Type: text/html; charset=UTF-8
+2026-09-14 18:39:33 [DEBUG   ] GET https://www.samsung.com/pk/smartphones/all-smartphones/all-smartphones-pf-pagination/?categoryId=010 [404] Content-Type: text/html;charset=utf-8
+2026-09-14 18:39:36 [DEBUG   ] GET https://www.samsung.com/pk/smartphones/all-smartphones/all-smartphones-pf-pagination/?cat_code=01010 [404] Content-Type: text/html;charset=utf-8
+2026-09-14 18:39:38 [DEBUG   ] GET https://www.samsung.com/common/searchProduct.do?prd_type=01010100&start=0&perpage=100&type=pf [404] Content-Type: text/html
+2026-09-14 18:39:40 [DEBUG   ] GET https://www.samsung.com/common/searchProduct.do?categoryId=01010100&start=0&perpage=100 [404] Content-Type: text/html
+2026-09-14 18:39:42 [DEBUG   ] GET https://www.samsung.com/common/searchProduct.do?cat_code=01010100&start=0&perpage=100 [404] Content-Type: text/html
+2026-09-14 18:39:45 [DEBUG   ] GET https://www.samsung.com/pk/common/productData.do?prd_type=01010100&start=0&perpage=100&type=pf [404] Content-Type: text/html;charset=utf-8
+2026-09-14 18:39:48 [DEBUG   ] GET https://www.samsung.com/pk/common/productData.do?categoryId=01010100&start=0&perpage=100 [404] Content-Type: text/html;charset=utf-8
+2026-09-14 18:39:51 [DEBUG   ] GET https://www.samsung.com/pk/common/productData.do?cat_code=01010100&start=0&perpage=100 [404] Content-Type: text/html;charset=utf-8
+2026-09-14 18:39:54 [DEBUG   ] GET https://www.samsung.com/pk/api/v1/productFinder/?prd_type=01010100&start=0&perpage=100&type=pf [404] Content-Type: text/html;charset=utf-8
+2026-09-14 18:39:56 [DEBUG   ] GET https://www.samsung.com/pk/api/v1/productFinder/?categoryId=01010100&start=0&perpage=100 [404] Content-Type: text/html;charset=utf-8
+2026-09-14 18:39:59 [DEBUG   ] GET https://www.samsung.com/pk/api/v1/productFinder/?cat_code=01010100&start=0&perpage=100 [404] Content-Type: text/html;charset=utf-8
+2026-09-14 18:39:59 [INFO    ] [Strategy 2] Fetching via Crawl4AI and searching for embedded product JSON...
+2026-09-14 18:39:59 [INFO    ] Fetching Samsung page source via Crawl4AI to find embedded API data...
+2026-09-14 18:40:24 [INFO    ] Received page source: 375456 bytes
+2026-09-14 18:40:24 [INFO    ] [Strategy 3] Searching cached HTML for embedded product JSON...
+2026-09-14 18:40:25 [WARNING ] No products found from any strategy.
+2026-09-14 18:40:25 [WARNING ] Samsung may require session cookies or a geo-specific proxy.
