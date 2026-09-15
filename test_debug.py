@@ -29,9 +29,13 @@ payload = {
         "params": {
             "cache_mode": "BYPASS",
             "word_count_threshold": 0,
-            "scroll_delay": 1.0,
-            "delay_before_return": 5.0,
-            "page_timeout": 60000
+            "wait_until": "networkidle",
+            "wait_for": "css:li.pd21-product-card__item",
+            "scan_full_page": True,
+            "scroll_delay": 0.5,
+            "delay_before_return_html": 5.0,
+            "page_timeout": 90000,
+            "remove_overlay_elements": True,
         }
     }
 }
@@ -39,6 +43,10 @@ payload = {
 print("Sending crawl request to Crawl4AI (waiting for response)...")
 resp = requests.post(f"{CRAWL4AI_URL}/crawl", json=payload, headers=headers, timeout=300)
 print(f"Response status: {resp.status_code}")
+
+if resp.status_code != 200:
+    print(f"Error response: {resp.text}")
+    exit(1)
 
 data = resp.json()
 results = data.get("results") or data.get("result") or [data]
@@ -48,21 +56,13 @@ if isinstance(results, dict):
 r0 = results[0]
 print(f"Crawl success: {r0.get('success')}")
 html = r0.get("html") or ""
-md = r0.get("markdown") or ""
 
 print(f"HTML length: {len(html)} characters")
-print(f"Markdown length: {len(md)} characters")
 
 html_path = os.path.join(OUTPUT_DIR, "debug_raw.html")
-md_path = os.path.join(OUTPUT_DIR, "debug_raw.md")
-
 with open(html_path, "w", encoding="utf-8") as f:
     f.write(html)
-with open(md_path, "w", encoding="utf-8") as f:
-    f.write(md)
-
 print(f"Saved: {html_path}")
-print(f"Saved: {md_path}")
 
 # Quick search in HTML
 keywords = ["Galaxy", "Galaxy S", "Galaxy Z", "Galaxy A", "Rs.", "PKR", "pd21", "product-card", "price"]

@@ -204,3 +204,94 @@
 2026-09-14 18:40:24 [INFO    ] [Strategy 3] Searching cached HTML for embedded product JSON...
 2026-09-14 18:40:25 [WARNING ] No products found from any strategy.
 2026-09-14 18:40:25 [WARNING ] Samsung may require session cookies or a geo-specific proxy.
+2026-09-14 20:01:53 [INFO    ] =================================================================
+2026-09-14 20:01:53 [INFO    ] Samsung Pakistan Smartphones Scraper
+2026-09-14 20:01:53 [INFO    ] =================================================================
+2026-09-14 20:01:53 [INFO    ] [Step 1] Fetching rendered page via Crawl4AI...
+2026-09-14 20:01:53 [INFO    ] Sending crawl request to Crawl4AI at http://localhost:11235 ...
+2026-09-14 20:01:53 [INFO    ] [Step 3] Parsing product cards from HTML...
+2026-09-14 20:01:53 [INFO    ] Found 0 real product card elements.
+2026-09-14 20:01:53 [INFO    ] Fallback: 0 product cards after banner filter.
+2026-09-14 20:01:53 [INFO    ] Extracted 0 product records.
+2026-09-14 20:01:53 [WARNING ] No products extracted.
+2026-09-14 20:01:53 [WARNING ] Possible causes:
+2026-09-14 20:01:53 [WARNING ]   - Samsung changed CSS class names — check debug_raw.html
+2026-09-14 20:01:53 [WARNING ]   - Page JS did not finish rendering (increase delay_before_return)
+2026-09-14 20:01:53 [WARNING ]   - Geo-blocking or bot detection triggered
+2026-09-14 20:09:03 [INFO    ] =================================================================
+2026-09-14 20:09:03 [INFO    ] Samsung Pakistan Smartphones Scraper
+2026-09-14 20:09:03 [INFO    ] =================================================================
+2026-09-14 20:09:03 [INFO    ] [Step 1] Fetching rendered page via Crawl4AI...
+2026-09-14 20:09:03 [INFO    ] Sending crawl request to Crawl4AI at http://localhost:11235 ...
+2026-09-14 20:09:03 [ERROR   ] Crawl4AI returned HTTP 400: {"detail":"Rejected config: field 'js_code' is not permitted on CrawlerRunConfig from an untrusted request"}
+2026-09-14 20:09:03 [INFO    ] [Step 2] Loading cached HTML snapshot: samsung_output\debug_raw.html
+2026-09-14 20:09:03 [INFO    ] [Step 3] Parsing product cards from HTML...
+2026-09-14 20:09:03 [INFO    ] Found 0 real product card elements.
+2026-09-14 20:09:03 [INFO    ] Fallback: 0 product cards after banner filter.
+2026-09-14 20:09:03 [INFO    ] Extracted 0 product records.
+2026-09-14 20:09:03 [WARNING ] No products extracted.
+2026-09-14 20:09:03 [WARNING ] Possible causes:
+2026-09-14 20:09:03 [WARNING ]   - Samsung changed CSS class names — check debug_raw.html
+2026-09-14 20:09:03 [WARNING ]   - Page JS did not finish rendering (increase delay_before_return)
+2026-09-14 20:09:03 [WARNING ]   - Geo-blocking or bot detection triggered
+2026-09-14 20:10:14 [INFO    ] =================================================================
+2026-09-14 20:10:14 [INFO    ] Samsung Pakistan Smartphones Scraper
+2026-09-14 20:10:14 [INFO    ] =================================================================
+2026-09-14 20:10:14 [INFO    ] [Step 1] Fetching rendered page via Crawl4AI...
+2026-09-14 20:10:14 [INFO    ] Sending crawl request to Crawl4AI at http://localhost:11235 ...
+2026-09-14 20:10:14 [ERROR   ] Crawl4AI returned HTTP 400: {"detail":"Rejected config: field 'js_code' is not permitted on CrawlerRunConfig from an untrusted request"}
+2026-09-14 20:10:14 [INFO    ] [Step 2] Loading cached HTML snapshot: samsung_output\debug_raw.html
+2026-09-14 20:10:14 [INFO    ] [Step 3] Parsing product cards from HTML...
+2026-09-14 20:10:14 [INFO    ] Found 0 real product card elements.
+2026-09-14 20:10:14 [INFO    ] Fallback: 0 product cards after banner filter.
+2026-09-14 20:10:14 [INFO    ] Extracted 0 product records.
+2026-09-14 20:10:14 [WARNING ] No products extracted.
+2026-09-14 20:10:14 [WARNING ] Possible causes:
+2026-09-14 20:10:14 [WARNING ]   - Samsung changed CSS class names — check debug_raw.html
+2026-09-14 20:10:14 [WARNING ]   - Page JS did not finish rendering (increase delay_before_return)
+2026-09-14 20:10:14 [WARNING ]   - Geo-blocking or bot detection triggered
+2026-09-14 20:20:32 [INFO    ] =================================================================
+2026-09-14 20:20:32 [INFO    ] Samsung Pakistan Smartphones Scraper
+2026-09-14 20:20:32 [INFO    ] =================================================================
+2026-09-14 20:20:32 [INFO    ] [Step 1] Fetching rendered page via Crawl4AI...
+2026-09-14 20:20:32 [INFO    ] Sending crawl request to Crawl4AI at http://localhost:11235 ...
+2026-09-14 20:20:34 [ERROR   ] Crawl4AI returned HTTP 400: {"detail":"Rejected config: field 'js_code' is not permitted on CrawlerRunConfig from an untrusted request"}
+2026-09-14 20:20:34 [INFO    ] [Step 2] Loading cached HTML snapshot: samsung_output\debug_raw.html
+2026-09-14 20:20:34 [INFO    ] [Step 3] Parsing product cards from HTML...
+2026-09-14 20:20:35 [INFO    ] Found 0 real product card elements.
+2026-09-14 20:20:35 [INFO    ] Fallback: 0 product cards after banner filter.
+2026-09-14 20:20:35 [INFO    ] Extracted 0 product records.
+2026-09-14 20:20:35 [WARNING ] No products extracted.
+2026-09-14 20:20:35 [WARNING ] Possible causes:
+2026-09-14 20:20:35 [WARNING ]   - Samsung changed CSS class names — check debug_raw.html
+2026-09-14 20:20:35 [WARNING ]   - Page JS did not finish rendering (increase delay_before_return)
+2026-09-14 20:20:35 [WARNING ]   - Geo-blocking or bot detection triggered
+2026-09-14 21:06:37 [INFO    ] =================================================================
+2026-09-14 21:06:37 [INFO    ] Samsung Pakistan Smartphones Scraper
+2026-09-14 21:06:37 [INFO    ] =================================================================
+2026-09-14 21:06:37 [INFO    ] [Step 1] Fetching rendered page via Crawl4AI...
+2026-09-14 21:06:37 [INFO    ] Sending crawl request to Crawl4AI at http://localhost:11235 ...
+2026-09-14 21:08:00 [INFO    ] [Step 2] Loading cached HTML snapshot: samsung_output\debug_raw.html
+2026-09-14 21:08:00 [INFO    ] [Step 3] Parsing product cards from HTML...
+2026-09-14 21:08:00 [INFO    ] Found 0 product cards.
+2026-09-14 21:08:00 [INFO    ] Extracted 0 product records.
+2026-09-14 21:08:00 [WARNING ] No products extracted.
+2026-09-14 21:08:00 [WARNING ] Possible causes:
+2026-09-14 21:08:00 [WARNING ]   - Samsung changed CSS class names — check debug_raw.html
+2026-09-14 21:08:00 [WARNING ]   - Page JS did not finish rendering (increase delay_before_return)
+2026-09-14 21:08:00 [WARNING ]   - Geo-blocking or bot detection triggered
+2026-09-14 23:49:42 [INFO    ] =================================================================
+2026-09-14 23:49:42 [INFO    ] Samsung Pakistan Smartphones Scraper
+2026-09-14 23:49:42 [INFO    ] =================================================================
+2026-09-14 23:49:42 [INFO    ] [Step 1] Fetching rendered page via Crawl4AI...
+2026-09-14 23:49:42 [INFO    ] Sending crawl request to Crawl4AI at http://localhost:11235 ...
+2026-09-14 23:49:46 [ERROR   ] Crawl4AI request failed: HTTPConnectionPool(host='localhost', port=11235): Max retries exceeded with url: /crawl (Caused by NewConnectionError("HTTPConnection(host='localhost', port=11235): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-09-14 23:49:46 [INFO    ] [Step 2] Loading cached HTML snapshot: samsung_output\debug_raw.html
+2026-09-14 23:49:46 [INFO    ] [Step 3] Parsing product cards from HTML...
+2026-09-14 23:49:46 [INFO    ] Found 0 product cards.
+2026-09-14 23:49:46 [INFO    ] Extracted 0 product records.
+2026-09-14 23:49:46 [WARNING ] No products extracted.
+2026-09-14 23:49:46 [WARNING ] Possible causes:
+2026-09-14 23:49:46 [WARNING ]   - Samsung changed CSS class names — check debug_raw.html
+2026-09-14 23:49:46 [WARNING ]   - Page JS did not finish rendering (increase delay_before_return)
+2026-09-14 23:49:46 [WARNING ]   - Geo-blocking or bot detection triggered

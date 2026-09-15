@@ -1,7 +1,13 @@
 """
-Samsung Mobile Scraper - API-based approach
-Calls Samsung's internal product listing API directly (same endpoint their
-website uses) to get product data, prices, and images without needing JS rendering.
+Samsung Pakistan Smartphones Scraper
+=====================================
+Uses Crawl4AI (via Docker container at localhost:11235) to:
+  1. Load the Samsung PK smartphones page with full JS rendering
+  2. Wait until product cards are actually visible in the DOM
+  3. Execute JS to scroll the page so lazy-loaded items appear
+  4. Parse the rendered HTML for product name, price, image
+  5. Download images (using official Samsung CDN URLs)
+  6. Save results as products.json and products.csv
 
 Outputs:
   samsung_output/
@@ -9,17 +15,18 @@ Outputs:
     products.csv
     images/
     scraper.log
+    debug_raw.html   (last raw HTML snapshot for debugging)
 """
 
 import os
 import re
 import csv
 import json
-import time
 import logging
 import urllib.parse
 import requests
 from datetime import datetime
+from bs4 import BeautifulSoup
 
 # ---------------------------------------------------------------------------
 # Directories & Logging
@@ -31,7 +38,7 @@ os.makedirs(IMAGES_DIR, exist_ok=True)
 LOG_FILE = os.path.join(OUTPUT_DIR, "scraper.log")
 
 logging.basicConfig(
-    level=logging.DEBUG,
+    level=logging.INFO,
     format="%(asctime)s [%(levelname)-8s] %(message)s",
     datefmt="%Y-%m-%d %H:%M:%S",
     handlers=[
@@ -45,98 +52,7 @@ logging.getLogger("requests").setLevel(logging.WARNING)
 logger = logging.getLogger("samsung_scraper")
 
 # ---------------------------------------------------------------------------
-# Samsung Product API Configuration
-# Samsung PK uses this API to load product listings dynamically.
-# ---------------------------------------------------------------------------
-SAMSUNG_API_URL = (
-    "https://www.samsung.com/pk/smartphones/all-smartphones/all-smartphones-pf-pagination/"
-)
-# These are the query parameters Samsung's frontend sends
-API_PARAMS = {
-    "prd_type": "01010100",   # smartphones category code
-    "start": 0,
-    "perpage": 100,           # request up to 100 per page
-    "type": "pf",
-    "sort": "latest",
-}
-# Samsung's CDN base for images
-IMAGE_CDN = "https://images.samsung.com"
-
-REQUEST_HEADERS = {
-    "Accept": "application/json, text/plain, */*",
-    "Accept-Language": "en-US,en;q=0.9",
-    "Referer": "https://www.samsung.com/pk/smartphones/all-smartphones/",
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/124.0.0.0 Safari/537.36"
-    ),
-    "X-Requested-With": "XMLHttpRequest",
-}
-
-
-# ---------------------------------------------------------------------------
-# API Discovery: Try several known Samsung API patterns for PK region
-# ---------------------------------------------------------------------------
-CANDIDATE_APIS = [
-    # Pattern 1: Samsung standard product finder JSON API
-    "https://www.samsung.com/pk/smartphones/all-smartphones/all-smartphones-pf-pagination/",
-    # Pattern 2: Samsung common search/filter API
-    "https://www.samsung.com/common/searchProduct.do",
-    # Pattern 3: Samsung product finder JSON endpoint
-    "https://www.samsung.com/pk/common/productData.do",
-    # Pattern 4: Samsung Galaxy Finder
-    "https://www.samsung.com/pk/api/v1/productFinder/",
-]
-
-SEARCH_PARAMS_VARIANTS = [
-    {"prd_type": "01010100", "start": 0, "perpage": 100, "type": "pf"},
-    {"categoryId": "01010100", "start": 0, "perpage": 100},
-    {"cat_code": "01010100", "start": 0, "perpage": 100},
-]
-
-
-def try_api_fetch(url, params):
-    """Try fetching an API endpoint. Return parsed JSON or None."""
-    try:
-        resp = requests.get(url, params=params, headers=REQUEST_HEADERS, timeout=30)
-        logger.debug("GET %s [%d] Content-Type: %s", resp.url[:100], resp.status_code, resp.headers.get("content-type", ""))
-        if resp.status_code == 200:
-            ct = resp.headers.get("content-type", "")
-            if "json" in ct or "javascript" in ct:
-                return resp.json()
-            elif "html" not in ct:
-                try:
-                    return resp.json()
-                except Exception:
-                    pass
-    except Exception as e:
-        logger.debug("API probe failed for %s: %s", url, e)
-    return None
-
-
-def discover_api():
-    """
-    Auto-discover Samsung's product listing API by probing candidate endpoints.
-    Returns (url, params, data) or None.
-    """
-    logger.info("Probing Samsung product API endpoints...")
-    for url in CANDIDATE_APIS:
-        for params in SEARCH_PARAMS_VARIANTS:
-            data = try_api_fetch(url, params)
-            if data and isinstance(data, dict):
-                # Check for product-like data
-                possible_keys = ["productList", "products", "items", "resultList", "data"]
-                for k in possible_keys:
-                    if k in data and data[k]:
-                        logger.info("Found product data at %s (key: '%s')", url, k)
-                        return url, params, data
-            time.sleep(0.5)
-    return None
-
-
-# ---------------------------------------------------------------------------
-# Crawl4AI fallback: scrape the raw API URLs embedded in the page source
+# Crawl4AI Config
 # ---------------------------------------------------------------------------
 CRAWL4AI_URL = "http://localhost:11235"
 API_TOKEN = os.environ.get(
@@ -145,21 +61,27 @@ API_TOKEN = os.environ.get(
 )
 HEADERS_C4AI = {"Authorization": f"Bearer {API_TOKEN}"}
 
+TARGET_URL = "https://www.samsung.com/pk/smartphones/all-smartphones/"
+IMAGE_CDN = "https://images.samsung.com"
 
-def intercept_api_via_crawl4ai():
-    """
-    Use Crawl4AI to fetch the page source and extract Samsung API endpoints
-    by searching for JSON data embedded in <script> tags.
-    """
-    logger.info("Fetching Samsung page source via Crawl4AI to find embedded API data...")
+PRODUCT_CARD_SEL = "li.pd21-product-card__item:not(.pd21-product-card__banner)"
+
+
+# ---------------------------------------------------------------------------
+# Crawl4AI fetch with wait_for + JS scroll
+# ---------------------------------------------------------------------------
+def fetch_via_crawl4ai():
+    """Fetch fully rendered HTML from Crawl4AI container without custom JS."""
+    logger.info("Sending crawl request to Crawl4AI at %s ...", CRAWL4AI_URL)
     payload = {
-        "urls": ["https://www.samsung.com/pk/smartphones/all-smartphones/"],
+        "urls": [TARGET_URL],
         "browser_config": {
             "type": "BrowserConfig",
             "params": {
                 "headless": True,
                 "java_script_enabled": True,
-                "user_agent": REQUEST_HEADERS["User-Agent"],
+                "viewport_width": 1440,
+                "viewport_height": 900,
             },
         },
         "crawler_config": {
@@ -167,129 +89,102 @@ def intercept_api_via_crawl4ai():
             "params": {
                 "cache_mode": "BYPASS",
                 "word_count_threshold": 0,
-                "delay_before_return": 8.0,
-                "page_timeout": 60000,
+                "wait_for": "css:li.pd21-product-card__item",
+                "scan_full_page": True,
+                "scroll_delay": 0.5,
+                "delay_before_return_html": 5.0,
+                "page_timeout": 90000,
+                "remove_overlay_elements": True,
             },
         },
     }
-    try:
-        resp = requests.post(
-            f"{CRAWL4AI_URL}/crawl",
-            json=payload,
-            headers=HEADERS_C4AI,
-            timeout=180,
-        )
-        if not resp.ok:
-            logger.error("Crawl4AI request failed: %s", resp.status_code)
-            return None, None
 
+    try:
+        resp = requests.post(f"{CRAWL4AI_URL}/crawl", json=payload, headers=HEADERS_C4AI, timeout=300)
+        if resp.status_code != 200:
+            logger.error("Crawl4AI HTTP %d: %s", resp.status_code, resp.text)
+            return None
         data = resp.json()
         results = data.get("results") or data.get("result") or [data]
         if isinstance(results, dict):
             results = [results]
-        r0 = results[0]
-        html = r0.get("html") or ""
-        logger.info("Received page source: %d bytes", len(html))
-
-        # Save for reference
-        with open(os.path.join(OUTPUT_DIR, "debug_raw.html"), "w", encoding="utf-8") as f:
-            f.write(html)
-
-        return extract_products_from_json_in_html(html), html
-
+        html = results[0].get("html") or ""
+        if html:
+            debug_path = os.path.join(OUTPUT_DIR, "debug_raw.html")
+            with open(debug_path, "w", encoding="utf-8") as f:
+                f.write(html)
+            logger.info("Saved HTML snapshot (%d bytes) -> %s", len(html), debug_path)
+        return html
     except Exception as e:
-        logger.error("Crawl4AI intercept failed: %s", e)
-        return None, None
+        logger.error("Crawl4AI request failed: %s", e)
+        return None
 
 
-def extract_products_from_json_in_html(html):
-    """
-    Samsung embeds product data as a JSON object inside a <script> tag.
-    Common patterns:
-      window.productList = [...];
-      var pfData = {...};
-      digitalData.product = [...];
-    """
-    if not html:
-        return []
-
-    products = []
-
-    # Try to find JSON product arrays embedded in script tags
-    patterns = [
-        r'window\.__PRELOADED_STATE__\s*=\s*({.+?});\s*</script>',
-        r'window\.productList\s*=\s*(\[.+?\]);\s*(?:</script>|var )',
-        r'"productList"\s*:\s*(\[.+?\])\s*[,}]',
-        r'var pfData\s*=\s*({.+?});\s*(?:</script>|//)',
-        r'"products"\s*:\s*(\[.+?\])',
-        r'"items"\s*:\s*(\[.+?\])',
+def parse_products(html):
+    """Parse Samsung product cards from the fully-rendered page HTML."""
+    soup = BeautifulSoup(html, "html.parser")
+    cards = soup.select(PRODUCT_CARD_SEL) or [
+        c for c in soup.select("li.pd21-product-card__item")
+        if "pd21-product-card__banner" not in c.get("class", [])
     ]
-
-    for pattern in patterns:
-        matches = re.findall(pattern, html, re.DOTALL)
-        for match in matches:
-            try:
-                obj = json.loads(match)
-                if isinstance(obj, list) and len(obj) > 0:
-                    products.extend(obj)
-                    logger.info("Found %d products via pattern '%s...'", len(obj), pattern[:30])
-                    break
-                elif isinstance(obj, dict):
-                    for key in ["productList", "products", "items", "data"]:
-                        if key in obj and isinstance(obj[key], list):
-                            products.extend(obj[key])
-                            logger.info("Found %d products in key '%s'", len(obj[key]), key)
-                            break
-            except Exception:
-                pass
-        if products:
-            break
-
+    logger.info("Found %d product cards.", len(cards))
+    products = [p for p in (_extract_card(c) for c in cards) if p]
+    logger.info("Extracted %d product records.", len(products))
     return products
 
 
-# ---------------------------------------------------------------------------
-# Parse products from Samsung's API response or embedded JSON
-# ---------------------------------------------------------------------------
-def normalize_product(p):
-    """
-    Normalize a Samsung product object from either API or embedded JSON.
-    Samsung's objects use various field naming conventions.
-    """
-    def get_field(*keys):
-        for k in keys:
-            val = p.get(k)
-            if val and str(val).lower() not in ("null", "undefined", "none", ""):
-                return str(val).strip()
-        return ""
+def _extract_card(card):
+    """Extract title, price, image, model, url from a single product card."""
+    title = ""
+    for sel in [".pd21-product-card__name", "a[data-modelname]", "[data-modeldisplay]", "a[aria-label]", "h3"]:
+        el = card.select_one(sel)
+        if el:
+            t = el.get("data-modeldisplay") or el.get("data-modelname") or el.get("aria-label") or el.get_text(strip=True)
+            if t and len(t) > 2:
+                title = t
+                break
 
-    title = get_field("displayName", "modelNm", "title", "name", "productName")
-    model_code = get_field("modelCode", "modelCd", "model_code", "sku")
-    price_raw = get_field("priceDisplay", "price_display", "price", "sellingPrice", "lowestPrice")
-    product_url = get_field("linkUrl", "detailUrl", "url", "pdpUrl")
-    image_url = get_field("thumbUrl", "thumbImgUrl", "imageUrl", "img_url", "image")
-    rating = get_field("ratingAvg", "rating", "avgRating")
-
-    # Clean price
     price = ""
-    if price_raw and price_raw.lower() not in ("null", "undefined"):
-        price = price_raw
-    else:
+    for sel in [
+        ".pd21-product-card__price-main",
+        ".pd21-product-card__price",
+        ".js-pfv2-price",
+        ".option-selector-v2__price",
+        ".price-ux__price-current",
+        "[data-pricetext]",
+        "[class*='price']",
+    ]:
+        el = card.select_one(sel)
+        if el:
+            p = el.get("data-pricetext") or el.get_text(" ", strip=True)
+            if p and p not in ("null", "undefined"):
+                price = p
+                break
+    if not price:
         price = "Coming Soon"
 
-    # Fix relative URLs
-    if product_url and product_url.startswith("/"):
-        product_url = "https://www.samsung.com" + product_url
-    if image_url and image_url.startswith("//"):
-        image_url = "https:" + image_url
-    elif image_url and image_url.startswith("/"):
-        image_url = IMAGE_CDN + image_url
+    model_code = card.get("data-modelcode") or card.get("data-model-code") or ""
+
+    product_url = ""
+    link = card.select_one("a[href]")
+    if link:
+        href = link.get("href", "")
+        product_url = f"https://www.samsung.com{href}" if href.startswith("/") else href
+
+    image_url = ""
+    for img in card.select("img"):
+        src = img.get("data-desktop-src") or img.get("data-src") or img.get("src") or ""
+        if src and not src.startswith("data:") and len(src) > 15:
+            image_url = (IMAGE_CDN + src) if src.startswith("/") else src
+            break
+
+    if not title and not product_url:
+        return None
 
     return {
         "title": title,
         "model_code": model_code,
         "price": price,
-        "rating": rating,
         "product_url": product_url,
         "image_url": image_url,
     }
@@ -303,16 +198,12 @@ def sanitize(name):
 
 
 def download_image(img_url, title, idx):
-    """Download image and return local path."""
+    """Download image from Samsung CDN and return local path."""
     if not img_url or img_url.startswith("data:"):
         return None
-    if img_url.startswith("//"):
-        img_url = "https:" + img_url
-    elif img_url.startswith("/"):
-        img_url = "https://www.samsung.com" + img_url
 
     ext = os.path.splitext(urllib.parse.urlparse(img_url).path)[-1] or ".png"
-    if ext not in (".jpg", ".jpeg", ".png", ".webp", ".gif"):
+    if ext.lower() not in (".jpg", ".jpeg", ".png", ".webp", ".gif"):
         ext = ".png"
 
     fname = f"{idx:02d}_{sanitize(title or 'product')}{ext}"
@@ -322,16 +213,24 @@ def download_image(img_url, title, idx):
         return fpath
 
     try:
-        r = requests.get(img_url, timeout=25, headers={
-            "Referer": "https://www.samsung.com/",
-            "User-Agent": "Mozilla/5.0",
-        })
+        r = requests.get(
+            img_url,
+            timeout=30,
+            headers={
+                "Referer": "https://www.samsung.com/",
+                "User-Agent": (
+                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                    "AppleWebKit/537.36 (KHTML, like Gecko) "
+                    "Chrome/124.0.0.0 Safari/537.36"
+                ),
+            },
+        )
         r.raise_for_status()
         with open(fpath, "wb") as f:
             f.write(r.content)
         return fpath
     except Exception as e:
-        logger.warning("[%02d] Image download error: %s", idx, e)
+        logger.warning("[%02d] Image download failed (%s): %s", idx, img_url[:60], e)
         return None
 
 
@@ -344,75 +243,59 @@ def main():
     logger.info("Samsung Pakistan Smartphones Scraper")
     logger.info("=" * 65)
 
-    raw_products = []
+    html = None
 
-    # Strategy 1: Direct API probe
-    logger.info("[Strategy 1] Probing Samsung product API endpoints...")
-    api_result = discover_api()
-    if api_result:
-        url, params, data = api_result
-        for key in ["productList", "products", "items", "resultList", "data"]:
-            if key in data and data[key]:
-                raw_products = data[key]
-                logger.info("API returned %d raw product entries.", len(raw_products))
-                break
+    # Step 1: Fetch via Crawl4AI (with JS wait_for + scroll)
+    logger.info("[Step 1] Fetching rendered page via Crawl4AI...")
+    html = fetch_via_crawl4ai()
 
-    # Strategy 2: Crawl4AI page source + embedded JSON
-    if not raw_products:
-        logger.info("[Strategy 2] Fetching via Crawl4AI and searching for embedded product JSON...")
-        embedded, raw_html = intercept_api_via_crawl4ai()
-        if embedded:
-            raw_products = embedded
-            logger.info("Found %d products from embedded JSON.", len(raw_products))
-
-    # Strategy 3: Load cached debug_raw.html if available
-    if not raw_products:
+    # Step 2: Fallback to cached snapshot
+    if not html:
         cache_path = os.path.join(OUTPUT_DIR, "debug_raw.html")
         if os.path.exists(cache_path):
-            logger.info("[Strategy 3] Searching cached HTML for embedded product JSON...")
+            logger.info("[Step 2] Loading cached HTML snapshot: %s", cache_path)
             with open(cache_path, "r", encoding="utf-8") as f:
                 html = f.read()
-            embedded = extract_products_from_json_in_html(html)
-            if embedded:
-                raw_products = embedded
-                logger.info("Found %d products from cached HTML.", len(raw_products))
+        else:
+            logger.error("No HTML available and no cached snapshot found. Aborting.")
+            return
 
-    if not raw_products:
-        logger.warning("No products found from any strategy.")
-        logger.warning("Samsung may require session cookies or a geo-specific proxy.")
-        return
-
-    # Normalize products
-    products = [normalize_product(p) for p in raw_products]
-    products = [p for p in products if p.get("title")]
-    logger.info("Normalized %d valid product records.", len(products))
+    # Step 3: Parse product cards from rendered HTML
+    logger.info("[Step 3] Parsing product cards from HTML...")
+    products = parse_products(html)
 
     if not products:
-        logger.warning("No valid products after normalization. Raw sample:")
-        logger.warning("%s", json.dumps(raw_products[0] if raw_products else {}, indent=2)[:500])
+        logger.warning("No products extracted.")
+        logger.warning("Possible causes:")
+        logger.warning("  - Samsung changed CSS class names — check debug_raw.html")
+        logger.warning("  - Page JS did not finish rendering (increase delay_before_return)")
+        logger.warning("  - Geo-blocking or bot detection triggered")
         return
 
-    # Download images & log
+    # Step 4: Download images
+    logger.info("[Step 4] Downloading product images...")
     logger.info("-" * 65)
     for idx, p in enumerate(products, start=1):
         local_img = download_image(p["image_url"], p["title"], idx)
         p["local_image"] = local_img
         logger.info(
-            "[%02d] %-30s | %-18s | %s",
-            idx, p["title"][:30], p["price"][:18],
-            os.path.basename(local_img) if local_img else "(no image)"
+            "[%02d] %-35s | %-20s | %s",
+            idx,
+            (p["title"] or "(no name)")[:35],
+            p["price"][:20],
+            os.path.basename(local_img) if local_img else "(no image)",
         )
     logger.info("-" * 65)
 
-    # Save JSON
+    # Step 5: Save JSON
     json_path = os.path.join(OUTPUT_DIR, "products.json")
     with open(json_path, "w", encoding="utf-8") as f:
         json.dump(products, f, indent=2, ensure_ascii=False)
     logger.info("Saved JSON -> %s", json_path)
 
-    # Save CSV
+    # Step 6: Save CSV
     csv_path = os.path.join(OUTPUT_DIR, "products.csv")
-    fieldnames = ["title", "model_code", "price", "rating", "product_url", "image_url", "local_image"]
+    fieldnames = ["title", "model_code", "price", "product_url", "image_url", "local_image"]
     with open(csv_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction="ignore")
         writer.writeheader()
@@ -433,3 +316,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
