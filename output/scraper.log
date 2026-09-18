@@ -1,0 +1,68 @@
+2026-09-15 13:30:36 [INFO    ] =================================================================
+2026-09-15 13:30:36 [INFO    ] Multi-Site Pakistan Smartphones Scraper
+2026-09-15 13:30:36 [INFO    ] =================================================================
+2026-09-15 13:30:36 [INFO    ] Sites configured: PriceOye, Xiaomi Pakistan, Telemart
+2026-09-15 13:30:36 [INFO    ] =================================================================
+2026-09-15 13:30:36 [INFO    ] -----------------------------------------------------------------
+2026-09-15 13:30:36 [INFO    ] Scraping: PriceOye
+2026-09-15 13:30:36 [INFO    ] -----------------------------------------------------------------
+2026-09-15 13:30:36 [INFO    ]   Page 1/5: https://priceoye.pk/mobiles
+2026-09-15 13:30:36 [INFO    ]   Direct HTTP GET: https://priceoye.pk/mobiles
+2026-09-15 13:30:39 [INFO    ]   Saved HTML snapshot (845608 bytes) -> output\priceoye\debug_raw.html
+2026-09-15 13:30:39 [INFO    ]   Found 36 product cards.
+2026-09-15 13:30:39 [INFO    ]   Extracted 36 products from PriceOye.
+2026-09-15 13:30:39 [INFO    ]   Running total: 36 products
+2026-09-15 13:30:39 [INFO    ]   Page 2/5: https://priceoye.pk/mobiles?page=2
+2026-09-15 13:30:39 [INFO    ]   Direct HTTP GET: https://priceoye.pk/mobiles?page=2
+2026-09-15 13:30:42 [INFO    ]   Saved HTML snapshot (765292 bytes) -> output\priceoye\debug_raw.html
+2026-09-15 13:30:42 [INFO    ]   Found 36 product cards.
+2026-09-15 13:30:42 [INFO    ]   Extracted 36 products from PriceOye.
+2026-09-15 13:30:42 [INFO    ]   Running total: 72 products
+2026-09-15 13:30:42 [INFO    ]   Page 3/5: https://priceoye.pk/mobiles?page=3
+2026-09-15 13:30:42 [INFO    ]   Direct HTTP GET: https://priceoye.pk/mobiles?page=3
+2026-09-15 13:30:44 [INFO    ]   Saved HTML snapshot (828292 bytes) -> output\priceoye\debug_raw.html
+2026-09-15 13:30:44 [INFO    ]   Found 36 product cards.
+2026-09-15 13:30:44 [INFO    ]   Extracted 36 products from PriceOye.
+2026-09-15 13:30:44 [INFO    ]   Running total: 108 products
+2026-09-15 13:30:44 [INFO    ]   Page 4/5: https://priceoye.pk/mobiles?page=4
+2026-09-15 13:30:44 [INFO    ]   Direct HTTP GET: https://priceoye.pk/mobiles?page=4
+2026-09-15 13:30:47 [INFO    ]   Saved HTML snapshot (915044 bytes) -> output\priceoye\debug_raw.html
+2026-09-15 13:30:47 [INFO    ]   Found 36 product cards.
+2026-09-15 13:30:47 [INFO    ]   Extracted 36 products from PriceOye.
+2026-09-15 13:30:47 [INFO    ]   Running total: 144 products
+2026-09-15 13:30:47 [INFO    ]   Page 5/5: https://priceoye.pk/mobiles?page=5
+2026-09-15 13:30:47 [INFO    ]   Direct HTTP GET: https://priceoye.pk/mobiles?page=5
+2026-09-15 13:30:49 [INFO    ]   Saved HTML snapshot (863294 bytes) -> output\priceoye\debug_raw.html
+2026-09-15 13:30:49 [INFO    ]   Found 36 product cards.
+2026-09-15 13:30:49 [INFO    ]   Extracted 36 products from PriceOye.
+2026-09-15 13:30:49 [INFO    ]   Running total: 180 products
+2026-09-15 13:30:49 [INFO    ]   After dedup: 166 unique products
+2026-09-15 13:30:49 [INFO    ]   Downloading images for PriceOye ...
+2026-09-15 13:36:52 [INFO    ]   Saved PriceOye -> output\priceoye\products.json
+2026-09-15 13:36:52 [INFO    ]   => PriceOye: 166 products collected
+2026-09-15 13:36:52 [INFO    ] -----------------------------------------------------------------
+2026-09-15 13:36:52 [INFO    ] Scraping: Xiaomi Pakistan
+2026-09-15 13:36:52 [INFO    ] -----------------------------------------------------------------
+2026-09-15 13:36:52 [INFO    ]   Crawl4AI request: https://www.mi.com/pk/product-list?categoryId=2
+2026-09-15 13:38:07 [WARNING ]   No HTML available for Xiaomi Pakistan. Skipping.
+2026-09-15 13:38:07 [INFO    ]   => Xiaomi Pakistan: 0 products collected
+2026-09-15 13:38:07 [INFO    ] -----------------------------------------------------------------
+2026-09-15 13:38:07 [INFO    ] Scraping: Telemart
+2026-09-15 13:38:07 [INFO    ] -----------------------------------------------------------------
+2026-09-15 13:38:07 [INFO    ]   Crawl4AI request: https://telemart.pk/collections/smartphones
+2026-09-15 13:39:26 [WARNING ]   No HTML available for Telemart. Skipping.
+2026-09-15 13:39:26 [INFO    ]   => Telemart: 0 products collected
+2026-09-15 13:39:26 [INFO    ] =================================================================
+2026-09-15 13:39:26 [INFO    ] Combined JSON -> output\products.json  (166 products)
+2026-09-15 13:39:26 [INFO    ] Combined CSV  -> output\products.csv
+2026-09-15 13:39:26 [INFO    ] =================================================================
+2026-09-15 13:39:26 [INFO    ] SUMMARY
+2026-09-15 13:39:26 [INFO    ] -----------------------------------------------------------------
+2026-09-15 13:39:26 [INFO    ]   priceoye        : 166 products
+2026-09-15 13:39:26 [INFO    ] -----------------------------------------------------------------
+2026-09-15 13:39:26 [INFO    ] Total Products  : 166
+2026-09-15 13:39:26 [INFO    ] Images Saved    : 166
+2026-09-15 13:39:26 [INFO    ] JSON            : output\products.json
+2026-09-15 13:39:26 [INFO    ] CSV             : output\products.csv
+2026-09-15 13:39:26 [INFO    ] Time Elapsed    : 530s
+2026-09-15 13:39:26 [INFO    ] =================================================================

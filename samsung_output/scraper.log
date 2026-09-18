@@ -295,3 +295,32 @@
 2026-09-14 23:49:46 [WARNING ]   - Samsung changed CSS class names — check debug_raw.html
 2026-09-14 23:49:46 [WARNING ]   - Page JS did not finish rendering (increase delay_before_return)
 2026-09-14 23:49:46 [WARNING ]   - Geo-blocking or bot detection triggered
+2026-09-15 12:58:52 [INFO    ] =================================================================
+2026-09-15 12:58:52 [INFO    ] Samsung Pakistan Smartphones Scraper
+2026-09-15 12:58:52 [INFO    ] =================================================================
+2026-09-15 12:58:52 [INFO    ] [Step 1] Fetching rendered page via Crawl4AI...
+2026-09-15 12:58:52 [INFO    ] Sending crawl request to Crawl4AI at http://localhost:11235 ...
+2026-09-15 12:58:56 [ERROR   ] Crawl4AI request failed: HTTPConnectionPool(host='localhost', port=11235): Max retries exceeded with url: /crawl (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000021DA0680440>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2026-09-15 12:58:56 [INFO    ] [Step 2] Loading cached HTML snapshot: samsung_output\debug_raw.html
+2026-09-15 12:58:56 [INFO    ] [Step 3] Parsing product cards from HTML...
+2026-09-15 12:58:56 [INFO    ] Found 0 product cards.
+2026-09-15 12:58:56 [INFO    ] Extracted 0 product records.
+2026-09-15 12:58:56 [WARNING ] No products extracted.
+2026-09-15 12:58:56 [WARNING ] Possible causes:
+2026-09-15 12:58:56 [WARNING ]   - Samsung changed CSS class names — check debug_raw.html
+2026-09-15 12:58:56 [WARNING ]   - Page JS did not finish rendering (increase delay_before_return)
+2026-09-15 12:58:56 [WARNING ]   - Geo-blocking or bot detection triggered
+2026-09-15 13:03:19 [INFO    ] =================================================================
+2026-09-15 13:03:19 [INFO    ] Samsung Pakistan Smartphones Scraper
+2026-09-15 13:03:19 [INFO    ] =================================================================
+2026-09-15 13:03:19 [INFO    ] [Step 1] Fetching rendered page via Crawl4AI...
+2026-09-15 13:03:19 [INFO    ] Sending crawl request to Crawl4AI at http://localhost:11235 ...
+2026-09-15 13:05:12 [INFO    ] [Step 2] Loading cached HTML snapshot: samsung_output\debug_raw.html
+2026-09-15 13:05:12 [INFO    ] [Step 3] Parsing product cards from HTML...
+2026-09-15 13:05:12 [INFO    ] Found 0 product cards.
+2026-09-15 13:05:12 [INFO    ] Extracted 0 product records.
+2026-09-15 13:05:12 [WARNING ] No products extracted.
+2026-09-15 13:05:12 [WARNING ] Possible causes:
+2026-09-15 13:05:12 [WARNING ]   - Samsung changed CSS class names — check debug_raw.html
+2026-09-15 13:05:12 [WARNING ]   - Page JS did not finish rendering (increase delay_before_return)
+2026-09-15 13:05:12 [WARNING ]   - Geo-blocking or bot detection triggered
