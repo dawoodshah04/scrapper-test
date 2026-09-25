@@ -1,0 +1,14 @@
+{
+  "https://www.samsung.com/pk/smartphones/all-smartphones/": {
+    "content_hash": "bde0b5f400d35f40cdcd20107665d232",
+    "last_scraped": "2026-09-15T21:26:08.608424",
+    "products_count": 21,
+    "website": "Samsung"
+  },
+  "https://mega.pk/mobiles/": {
+    "content_hash": "d71bcb9dec60e175570897ff6e754a49",
+    "last_scraped": "2026-09-17T23:53:21.269728",
+    "products_count": 132,
+    "website": "Mega"
+  }
+}

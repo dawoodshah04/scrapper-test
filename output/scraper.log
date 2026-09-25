@@ -1,0 +1,638 @@
+2026-09-15 20:19:09 [INFO    ] =================================================================
+2026-09-15 20:19:09 [INFO    ] Master E-Commerce Scraper
+2026-09-15 20:19:09 [INFO    ] Target URL : https://priceoye.pk/mobiles
+2026-09-15 20:19:09 [INFO    ] Website    : PriceOye
+2026-09-15 20:19:09 [INFO    ] =================================================================
+2026-09-15 20:19:09 [INFO    ] Fetching page via Crawl4AI: https://priceoye.pk/mobiles ...
+2026-09-15 20:19:10 [INFO    ] Direct HTTP fetch succeeded (845608 bytes)
+2026-09-15 20:19:10 [INFO    ] Extracted 36 products from PriceOye
+2026-09-15 20:19:10 [INFO    ] Merge Summary: 36 new products, 0 updated existing products.
+2026-09-15 20:19:10 [INFO    ] Downloading 36 new/missing images using 15 threads...
+2026-09-15 20:19:17 [INFO    ] Updated master database -> output/products.json (36 items)
+2026-09-15 20:19:17 [INFO    ] Updated master CSV export -> output/products.csv
+2026-09-15 20:19:17 [INFO    ] =================================================================
+2026-09-15 20:19:17 [INFO    ] Scrape Completed Successfully!
+2026-09-15 20:19:17 [INFO    ] Website Tag        : PriceOye
+2026-09-15 20:19:17 [INFO    ] Scraped This Run   : 36
+2026-09-15 20:19:17 [INFO    ] Master Database    : 36 total products -> output/products.json
+2026-09-15 20:19:17 [INFO    ] Master CSV Export  : output/products.csv
+2026-09-15 20:19:17 [INFO    ] Images Directory   : output/images/
+2026-09-15 20:19:17 [INFO    ] =================================================================
+2026-09-15 20:34:22 [INFO    ] =================================================================
+2026-09-15 20:34:22 [INFO    ] Master E-Commerce Scraper
+2026-09-15 20:34:22 [INFO    ] Target URL : https://www.samsung.com/pk/smartphones/all-smartphones/
+2026-09-15 20:34:22 [INFO    ] Website    : Samsung
+2026-09-15 20:34:22 [INFO    ] =================================================================
+2026-09-15 20:34:22 [INFO    ] Loaded 36 existing product records from output/products.json
+2026-09-15 20:34:22 [INFO    ] Fetching page via Crawl4AI: https://www.samsung.com/pk/smartphones/all-smartphones/ ...
+2026-09-15 20:34:23 [INFO    ] Direct HTTP fetch succeeded (313089 bytes)
+2026-09-15 20:34:23 [INFO    ] Extracted 21 products from Samsung
+2026-09-15 20:34:23 [INFO    ] Merge Summary: 21 new products, 0 updated existing products.
+2026-09-15 20:34:23 [INFO    ] Downloading 21 new/missing images using 15 threads...
+2026-09-15 20:34:29 [INFO    ] Updated master database -> output/products.json (57 items)
+2026-09-15 20:34:29 [INFO    ] Updated master CSV export -> output/products.csv
+2026-09-15 20:34:29 [INFO    ] =================================================================
+2026-09-15 20:34:29 [INFO    ] Scrape Completed Successfully!
+2026-09-15 20:34:29 [INFO    ] Website Tag        : Samsung
+2026-09-15 20:34:29 [INFO    ] Scraped This Run   : 21
+2026-09-15 20:34:29 [INFO    ] Master Database    : 57 total products -> output/products.json
+2026-09-15 20:34:29 [INFO    ] Master CSV Export  : output/products.csv
+2026-09-15 20:34:29 [INFO    ] Images Directory   : output/images/
+2026-09-15 20:34:29 [INFO    ] =================================================================
+2026-09-15 20:34:44 [INFO    ] =================================================================
+2026-09-15 20:34:44 [INFO    ] Master E-Commerce Scraper
+2026-09-15 20:34:44 [INFO    ] Target URL : https://priceoye.pk/mobiles
+2026-09-15 20:34:44 [INFO    ] Website    : PriceOye
+2026-09-15 20:34:44 [INFO    ] =================================================================
+2026-09-15 20:34:44 [INFO    ] Loaded 57 existing product records from output/products.json
+2026-09-15 20:34:44 [INFO    ] Fetching page via Crawl4AI: https://priceoye.pk/mobiles ...
+2026-09-15 20:34:46 [INFO    ] Direct HTTP fetch succeeded (845608 bytes)
+2026-09-15 20:34:46 [INFO    ] Extracted 76 products from PriceOye
+2026-09-15 20:34:46 [INFO    ] Merge Summary: 40 new products, 36 updated existing products.
+2026-09-15 20:34:46 [INFO    ] Downloading 40 new/missing images using 15 threads...
+2026-09-15 20:34:47 [WARNING ] Image download failed (https://images.priceoye.pk/tecno-spark-50-pakistan-priceoye.): 403 Client Error: Forbidden for url: https://images.priceoye.pk/tecno-spark-50-pakistan-priceoye.webp
+2026-09-15 20:34:47 [WARNING ] Image download failed (https://images.priceoye.pk/apple-iphone-17-pro-max-pakistan-): 403 Client Error: Forbidden for url: https://images.priceoye.pk/apple-iphone-17-pro-max-pakistan-priceoye.webp
+2026-09-15 20:34:47 [WARNING ] Image download failed (https://images.priceoye.pk/vivo-y05-pakistan-priceoye.webp): 403 Client Error: Forbidden for url: https://images.priceoye.pk/vivo-y05-pakistan-priceoye.webp
+2026-09-15 20:34:47 [WARNING ] Image download failed (https://images.priceoye.pk/honor-x8d-pakistan-priceoye.webp): 403 Client Error: Forbidden for url: https://images.priceoye.pk/honor-x8d-pakistan-priceoye.webp
+2026-09-15 20:34:47 [WARNING ] Image download failed (https://images.priceoye.pk/xiaomi-redmi-9c-pakistan-priceoye): 403 Client Error: Forbidden for url: https://images.priceoye.pk/xiaomi-redmi-9c-pakistan-priceoye.webp
+2026-09-15 20:34:47 [WARNING ] Image download failed (https://images.priceoye.pk/oppo-a6-pakistan-priceoye.webp): 403 Client Error: Forbidden for url: https://images.priceoye.pk/oppo-a6-pakistan-priceoye.webp
+2026-09-15 20:34:47 [WARNING ] Image download failed (https://images.priceoye.pk/infinix-note-60-edge-5g-pakistan-): 403 Client Error: Forbidden for url: https://images.priceoye.pk/infinix-note-60-edge-5g-pakistan-priceoye.webp
+2026-09-15 20:34:47 [WARNING ] Image download failed (https://images.priceoye.pk/qmobile-e1000-party-2021-pakistan): 403 Client Error: Forbidden for url: https://images.priceoye.pk/qmobile-e1000-party-2021-pakistan-priceoye.webp
+2026-09-15 20:34:47 [WARNING ] Image download failed (https://images.priceoye.pk/realme-c100i-pakistan-priceoye.we): 403 Client Error: Forbidden for url: https://images.priceoye.pk/realme-c100i-pakistan-priceoye.webp
+2026-09-15 20:34:47 [WARNING ] Image download failed (https://images.priceoye.pk/motorola-edge-70-fusion-pakistan-): 403 Client Error: Forbidden for url: https://images.priceoye.pk/motorola-edge-70-fusion-pakistan-priceoye.webp
+2026-09-15 20:34:47 [WARNING ] Image download failed (https://images.priceoye.pk/me-mobile-power-bold-pakistan-pri): 403 Client Error: Forbidden for url: https://images.priceoye.pk/me-mobile-power-bold-pakistan-priceoye.webp
+2026-09-15 20:34:47 [WARNING ] Image download failed (https://images.priceoye.pk/sego-epicx-pakistan-priceoye.webp): 403 Client Error: Forbidden for url: https://images.priceoye.pk/sego-epicx-pakistan-priceoye.webp
+2026-09-15 20:34:47 [WARNING ] Image download failed (https://images.priceoye.pk/infinix-smart-20-pakistan-priceoy): 403 Client Error: Forbidden for url: https://images.priceoye.pk/infinix-smart-20-pakistan-priceoye.webp
+2026-09-15 20:34:47 [WARNING ] Image download failed (https://images.priceoye.pk/nothing-cmf-phone-1-5g-pakistan-p): 403 Client Error: Forbidden for url: https://images.priceoye.pk/nothing-cmf-phone-1-5g-pakistan-priceoye.webp
+2026-09-15 20:34:47 [WARNING ] Image download failed (https://images.priceoye.pk/vgo-tel-i252-pakistan-priceoye.we): 403 Client Error: Forbidden for url: https://images.priceoye.pk/vgo-tel-i252-pakistan-priceoye.webp
+2026-09-15 20:34:48 [WARNING ] Image download failed (https://images.priceoye.pk/xmobile-g3-plus-pakistan-priceoye): 403 Client Error: Forbidden for url: https://images.priceoye.pk/xmobile-g3-plus-pakistan-priceoye.webp
+2026-09-15 20:34:48 [WARNING ] Image download failed (https://images.priceoye.pk/gresso-4sim-pakistan-priceoye.web): 403 Client Error: Forbidden for url: https://images.priceoye.pk/gresso-4sim-pakistan-priceoye.webp
+2026-09-15 20:34:48 [WARNING ] Image download failed (https://images.priceoye.pk/e-tachi-ipro-pakistan-priceoye.we): 403 Client Error: Forbidden for url: https://images.priceoye.pk/e-tachi-ipro-pakistan-priceoye.webp
+2026-09-15 20:34:48 [WARNING ] Image download failed (https://images.priceoye.pk/xmobile-dabang-plus-pakistan-pric): 403 Client Error: Forbidden for url: https://images.priceoye.pk/xmobile-dabang-plus-pakistan-priceoye.webp
+2026-09-15 20:34:48 [WARNING ] Image download failed (https://images.priceoye.pk/xmobile-x1000-music-pakistan-pric): 403 Client Error: Forbidden for url: https://images.priceoye.pk/xmobile-x1000-music-pakistan-priceoye.webp
+2026-09-15 20:34:48 [WARNING ] Image download failed (https://images.priceoye.pk/xmobile-d4-ultra-pakistan-priceoy): 403 Client Error: Forbidden for url: https://images.priceoye.pk/xmobile-d4-ultra-pakistan-priceoye.webp
+2026-09-15 20:34:48 [WARNING ] Image download failed (https://images.priceoye.pk/xmobile-x2-selfie-pakistan-priceo): 403 Client Error: Forbidden for url: https://images.priceoye.pk/xmobile-x2-selfie-pakistan-priceoye.webp
+2026-09-15 20:34:48 [WARNING ] Image download failed (https://images.priceoye.pk/xmobile-x3-pakistan-priceoye.webp): 403 Client Error: Forbidden for url: https://images.priceoye.pk/xmobile-x3-pakistan-priceoye.webp
+2026-09-15 20:34:48 [WARNING ] Image download failed (https://images.priceoye.pk/xmobile-platinum-1000-pakistan-pr): 403 Client Error: Forbidden for url: https://images.priceoye.pk/xmobile-platinum-1000-pakistan-priceoye.webp
+2026-09-15 20:34:48 [WARNING ] Image download failed (https://images.priceoye.pk/qmobile-q150-pakistan-priceoye.we): 403 Client Error: Forbidden for url: https://images.priceoye.pk/qmobile-q150-pakistan-priceoye.webp
+2026-09-15 20:34:48 [WARNING ] Image download failed (https://images.priceoye.pk/qmobile-qguru-plus-pakistan-price): 403 Client Error: Forbidden for url: https://images.priceoye.pk/qmobile-qguru-plus-pakistan-priceoye.webp
+2026-09-15 20:34:48 [WARNING ] Image download failed (https://images.priceoye.pk/itel-magic-4-it6360-pakistan-pric): 403 Client Error: Forbidden for url: https://images.priceoye.pk/itel-magic-4-it6360-pakistan-priceoye.webp
+2026-09-15 20:34:48 [WARNING ] Image download failed (https://images.priceoye.pk/itel-it2166-pakistan-priceoye.web): 403 Client Error: Forbidden for url: https://images.priceoye.pk/itel-it2166-pakistan-priceoye.webp
+2026-09-15 20:34:48 [WARNING ] Image download failed (https://images.priceoye.pk/nokia-110-2023-pakistan-priceoye.): 403 Client Error: Forbidden for url: https://images.priceoye.pk/nokia-110-2023-pakistan-priceoye.webp
+2026-09-15 20:34:48 [WARNING ] Image download failed (https://images.priceoye.pk/qmobile-q150s-pakistan-priceoye.w): 403 Client Error: Forbidden for url: https://images.priceoye.pk/qmobile-q150s-pakistan-priceoye.webp
+2026-09-15 20:34:48 [WARNING ] Image download failed (https://images.priceoye.pk/xmobile-x4-music-pakistan-priceoy): 403 Client Error: Forbidden for url: https://images.priceoye.pk/xmobile-x4-music-pakistan-priceoye.webp
+2026-09-15 20:34:48 [WARNING ] Image download failed (https://images.priceoye.pk/qmobile-qhero-pakistan-priceoye.w): 403 Client Error: Forbidden for url: https://images.priceoye.pk/qmobile-qhero-pakistan-priceoye.webp
+2026-09-15 20:34:48 [WARNING ] Image download failed (https://images.priceoye.pk/vgo-tel-i15-pakistan-priceoye.web): 403 Client Error: Forbidden for url: https://images.priceoye.pk/vgo-tel-i15-pakistan-priceoye.webp
+2026-09-15 20:34:48 [WARNING ] Image download failed (https://images.priceoye.pk/gresso-a10-pakistan-priceoye.webp): 403 Client Error: Forbidden for url: https://images.priceoye.pk/gresso-a10-pakistan-priceoye.webp
+2026-09-15 20:34:48 [WARNING ] Image download failed (https://images.priceoye.pk/honor-x6c-pakistan-priceoye.webp): 403 Client Error: Forbidden for url: https://images.priceoye.pk/honor-x6c-pakistan-priceoye.webp
+2026-09-15 20:34:48 [WARNING ] Image download failed (https://images.priceoye.pk/gresso-silk-slim-pakistan-priceoy): 403 Client Error: Forbidden for url: https://images.priceoye.pk/gresso-silk-slim-pakistan-priceoye.webp
+2026-09-15 20:34:48 [WARNING ] Image download failed (https://images.priceoye.pk/xiaomi-redmi-note-15-pro-pakistan): 403 Client Error: Forbidden for url: https://images.priceoye.pk/xiaomi-redmi-note-15-pro-pakistan-priceoye.webp
+2026-09-15 20:34:48 [WARNING ] Image download failed (https://images.priceoye.pk/motorola-moto-g-77-pakistan-price): 403 Client Error: Forbidden for url: https://images.priceoye.pk/motorola-moto-g-77-pakistan-priceoye.webp
+2026-09-15 20:34:48 [WARNING ] Image download failed (https://images.priceoye.pk/nothing-phone-3a-lite-5g-pakistan): 403 Client Error: Forbidden for url: https://images.priceoye.pk/nothing-phone-3a-lite-5g-pakistan-priceoye.webp
+2026-09-15 20:34:49 [WARNING ] Image download failed (https://images.priceoye.pk/vgo-tel-beauty-max-pakistan-price): 403 Client Error: Forbidden for url: https://images.priceoye.pk/vgo-tel-beauty-max-pakistan-priceoye.webp
+2026-09-15 20:34:49 [INFO    ] Updated master database -> output/products.json (97 items)
+2026-09-15 20:34:49 [INFO    ] Updated master CSV export -> output/products.csv
+2026-09-15 20:34:49 [INFO    ] =================================================================
+2026-09-15 20:34:49 [INFO    ] Scrape Completed Successfully!
+2026-09-15 20:34:49 [INFO    ] Website Tag        : PriceOye
+2026-09-15 20:34:49 [INFO    ] Scraped This Run   : 76
+2026-09-15 20:34:49 [INFO    ] Master Database    : 97 total products -> output/products.json
+2026-09-15 20:34:49 [INFO    ] Master CSV Export  : output/products.csv
+2026-09-15 20:34:49 [INFO    ] Images Directory   : output/images/
+2026-09-15 20:34:49 [INFO    ] =================================================================
+2026-09-15 20:35:43 [INFO    ] =================================================================
+2026-09-15 20:35:43 [INFO    ] Master E-Commerce Scraper
+2026-09-15 20:35:43 [INFO    ] Target URL : https://priceoye.pk/mobiles
+2026-09-15 20:35:43 [INFO    ] Website    : PriceOye
+2026-09-15 20:35:43 [INFO    ] =================================================================
+2026-09-15 20:35:43 [INFO    ] Loaded 97 existing product records from output/products.json
+2026-09-15 20:35:43 [INFO    ] Fetching page via Crawl4AI: https://priceoye.pk/mobiles ...
+2026-09-15 20:35:45 [INFO    ] Direct HTTP fetch succeeded (845608 bytes)
+2026-09-15 20:35:45 [INFO    ] Extracted 76 products from PriceOye
+2026-09-15 20:35:45 [INFO    ] Merge Summary: 0 new products, 76 updated existing products.
+2026-09-15 20:35:45 [INFO    ] All images already cached on disk across websites! Skipping download step.
+2026-09-15 20:35:45 [INFO    ] Updated master database -> output/products.json (97 items)
+2026-09-15 20:35:45 [INFO    ] Updated master CSV export -> output/products.csv
+2026-09-15 20:35:45 [INFO    ] =================================================================
+2026-09-15 20:35:45 [INFO    ] Scrape Completed Successfully!
+2026-09-15 20:35:45 [INFO    ] Website Tag        : PriceOye
+2026-09-15 20:35:45 [INFO    ] Scraped This Run   : 76
+2026-09-15 20:35:45 [INFO    ] Master Database    : 97 total products -> output/products.json
+2026-09-15 20:35:45 [INFO    ] Master CSV Export  : output/products.csv
+2026-09-15 20:35:45 [INFO    ] Images Directory   : output/images/
+2026-09-15 20:35:45 [INFO    ] =================================================================
+2026-09-15 20:35:55 [INFO    ] =================================================================
+2026-09-15 20:35:55 [INFO    ] Master E-Commerce Scraper
+2026-09-15 20:35:55 [INFO    ] Target URL : https://telex.pk/collections/mobiles-tablets
+2026-09-15 20:35:55 [INFO    ] Website    : Telex
+2026-09-15 20:35:55 [INFO    ] =================================================================
+2026-09-15 20:35:55 [INFO    ] Loaded 97 existing product records from output/products.json
+2026-09-15 20:35:55 [INFO    ] Fetching page via Crawl4AI: https://telex.pk/collections/mobiles-tablets ...
+2026-09-15 20:35:58 [INFO    ] Direct HTTP fetch succeeded (832481 bytes)
+2026-09-15 20:36:08 [INFO    ] Extracted 543 products from Telex
+2026-09-15 20:36:08 [INFO    ] Merge Summary: 543 new products, 0 updated existing products.
+2026-09-15 20:36:08 [INFO    ] Downloading 543 new/missing images using 15 threads...
+2026-09-15 20:36:43 [INFO    ] Updated master database -> output/products.json (640 items)
+2026-09-15 20:36:43 [INFO    ] Updated master CSV export -> output/products.csv
+2026-09-15 20:36:43 [INFO    ] =================================================================
+2026-09-15 20:36:43 [INFO    ] Scrape Completed Successfully!
+2026-09-15 20:36:43 [INFO    ] Website Tag        : Telex
+2026-09-15 20:36:43 [INFO    ] Scraped This Run   : 543
+2026-09-15 20:36:43 [INFO    ] Master Database    : 640 total products -> output/products.json
+2026-09-15 20:36:43 [INFO    ] Master CSV Export  : output/products.csv
+2026-09-15 20:36:43 [INFO    ] Images Directory   : output/images/
+2026-09-15 20:36:43 [INFO    ] =================================================================
+2026-09-15 20:56:10 [INFO    ] =================================================================
+2026-09-15 20:56:10 [INFO    ] Master E-Commerce Scraper
+2026-09-15 20:56:10 [INFO    ] Target URL : https://priceoye.pk/mobiles
+2026-09-15 20:56:10 [INFO    ] Website    : PriceOye
+2026-09-15 20:56:10 [INFO    ] =================================================================
+2026-09-15 20:56:10 [INFO    ] Loaded 640 existing product records from output/products.json
+2026-09-15 20:56:10 [INFO    ] Fetching page via Crawl4AI: https://priceoye.pk/mobiles ...
+2026-09-15 20:56:12 [INFO    ] Direct HTTP fetch succeeded (845608 bytes)
+2026-09-15 20:56:12 [INFO    ] ⚠️ PAGE MODIFIED or First Run (Hash: None -> 3bf1f63828034b918b723572c92a24b4)
+2026-09-15 20:56:12 [INFO    ] Extracted 76 products from PriceOye
+2026-09-15 20:56:12 [INFO    ] Merge Summary: 0 new products added, 0 updated, 76 unchanged.
+2026-09-15 20:56:12 [INFO    ] All images already cached on disk across websites! Skipping download step.
+2026-09-15 20:56:12 [INFO    ] Updated master database -> output/products.json (640 items)
+2026-09-15 20:56:12 [INFO    ] Updated master CSV export -> output/products.csv
+2026-09-15 20:56:12 [INFO    ] Updated site cache -> output/site_cache.json
+2026-09-15 20:56:12 [INFO    ] =================================================================
+2026-09-15 20:56:12 [INFO    ] Scrape Completed Successfully!
+2026-09-15 20:56:12 [INFO    ] Website Tag        : PriceOye
+2026-09-15 20:56:12 [INFO    ] Scraped This Run   : 76
+2026-09-15 20:56:12 [INFO    ] Master Database    : 640 total products -> output/products.json
+2026-09-15 20:56:12 [INFO    ] Master CSV Export  : output/products.csv
+2026-09-15 20:56:12 [INFO    ] Images Directory   : output/images/
+2026-09-15 20:56:12 [INFO    ] =================================================================
+2026-09-15 21:01:16 [INFO    ] =================================================================
+2026-09-15 21:01:16 [INFO    ] Master E-Commerce Scraper
+2026-09-15 21:01:16 [INFO    ] Target URL : https://priceoye.pk/mobiles
+2026-09-15 21:01:16 [INFO    ] Website    : PriceOye
+2026-09-15 21:01:16 [INFO    ] =================================================================
+2026-09-15 21:01:16 [INFO    ] Loaded 640 existing product records from output/products.json
+2026-09-15 21:01:16 [INFO    ] Fetching page via Crawl4AI: https://priceoye.pk/mobiles ...
+2026-09-15 21:01:17 [INFO    ] Direct HTTP fetch succeeded (845608 bytes)
+2026-09-15 21:01:17 [INFO    ] =================================================================
+2026-09-15 21:01:17 [INFO    ] ✅ NO CHANGES DETECTED on page for https://priceoye.pk/mobiles
+2026-09-15 21:01:17 [INFO    ]         Content Hash: 3bf1f63828034b918b723572c92a24b4
+2026-09-15 21:01:17 [INFO    ]         Last Scraped: 2026-09-15T20:56:12.935716
+2026-09-15 21:01:17 [INFO    ] Skipping full parsing, item updates, and image downloads.
+2026-09-15 21:01:17 [INFO    ] =================================================================
+2026-09-15 21:04:37 [INFO    ] =================================================================
+2026-09-15 21:04:37 [INFO    ] Master E-Commerce Scraper
+2026-09-15 21:04:37 [INFO    ] Target URL : https://priceoye.pk/mobiles
+2026-09-15 21:04:37 [INFO    ] Website    : PriceOye
+2026-09-15 21:04:37 [INFO    ] =================================================================
+2026-09-15 21:04:37 [INFO    ] Loaded 640 existing product records from output/products.json
+2026-09-15 21:04:37 [INFO    ] Fetching page via Crawl4AI: https://priceoye.pk/mobiles ...
+2026-09-15 21:04:38 [INFO    ] Direct HTTP fetch succeeded (845608 bytes)
+2026-09-15 21:04:38 [INFO    ] =================================================================
+2026-09-15 21:04:38 [INFO    ] ✅ NO CHANGES DETECTED on page for https://priceoye.pk/mobiles
+2026-09-15 21:04:38 [INFO    ]         Content Hash: 3bf1f63828034b918b723572c92a24b4
+2026-09-15 21:04:38 [INFO    ]         Last Scraped: 2026-09-15T20:56:12.935716
+2026-09-15 21:04:38 [INFO    ] Skipping full parsing, item updates, and image downloads.
+2026-09-15 21:04:38 [INFO    ] =================================================================
+2026-09-15 21:07:17 [INFO    ] =================================================================
+2026-09-15 21:07:17 [INFO    ] Master E-Commerce Scraper
+2026-09-15 21:07:17 [INFO    ] Target URL : https://priceoye.pk/mobiles
+2026-09-15 21:07:17 [INFO    ] Website    : PriceOye
+2026-09-15 21:07:17 [INFO    ] =================================================================
+2026-09-15 21:07:17 [INFO    ] Loaded 640 existing product records from output/products.json
+2026-09-15 21:07:17 [INFO    ] Fetching page via Crawl4AI: https://priceoye.pk/mobiles ...
+2026-09-15 21:07:18 [INFO    ] Direct HTTP fetch succeeded (845608 bytes)
+2026-09-15 21:07:18 [INFO    ] 🔄 FORCED RE-SCRAPE (--force flag passed). Bypassing content hash cache.
+2026-09-15 21:07:18 [INFO    ] Extracted 76 products from PriceOye
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] Infinix Smart 20 | Price: Rs 38,499 -> Rs 38,499
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] Infinix Note 60 Edge 5G | Price: Rs 92,499 -> Rs 92,499
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] Honor X8d | Price: Rs 74,499 -> Rs 74,499
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] Nothing CMF Phone 1 5G | Price: Rs 76,599 -> Rs 76,599
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] Vivo Y05 | Price: Rs 39,999 -> Rs 39,999
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] Sego EPICx | Price: Rs 33,499 -> Rs 33,499
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] Realme C100i | Price: Rs 35,999 -> Rs 35,999
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] Oppo A6 | Price: Rs 67,999 -> Rs 67,999
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] Tecno Spark 50 | Price: Rs 54,499 -> Rs 54,499
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] Apple Iphone 17 Pro Max | Price: Rs 462,499 -> Rs 462,499
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] Xiaomi Redmi 9C | Price: Rs 33,499 -> Rs 33,499
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] VGO TEL i252 | Price: Rs 3,649 -> Rs 3,649
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] me Mobile Power Bold | Price: Rs 2,299 -> Rs 2,299
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] GRESSO 4sim | Price: Rs 2,949 -> Rs 2,949
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] XMobile X2 Selfie | Price: Rs 2,429 -> Rs 2,429
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] XMobile X3 | Price: Rs 2,649 -> Rs 2,649
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] E-Tachi iPro | Price: Rs 3,499 -> Rs 3,499
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] Nokia 110 2023 | Price: Rs 5,099 -> Rs 5,099
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] Xmobile Platinum 1000 | Price: Rs 3,329 -> Rs 3,329
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] Qmobile QGuru Plus | Price: Rs 2,299 -> Rs 2,299
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] Qmobile Q150 | Price: Rs 2,779 -> Rs 2,779
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] Qmobile Q150s | Price: Rs 2,649 -> Rs 2,649
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] Itel it2166 | Price: Rs 2,699 -> Rs 2,699
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] Itel Magic 4 | Price: Rs 3,499 -> Rs 3,499
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] XMobile X4 Music | Price: Rs 3,099 -> Rs 3,099
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] QMobile QHero | Price: Rs 3,249 -> Rs 3,249
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] VGO TEL i15 | Price: Rs 4,299 -> Rs 4,299
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] VGO TEL Beauty Max | Price: Rs 3,649 -> Rs 3,649
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] Infinix Smart 20 | Price: Rs 38,499 -> Rs 38,499
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] Motorola Edge 70 Fusion | Price: Rs 134,999 -> Rs 134,999
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] Infinix Note 60 Edge 5G | Price: Rs 92,499 -> Rs 92,499
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] Honor X8d | Price: Rs 74,499 -> Rs 74,499
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] Nothing CMF Phone 1 5G | Price: Rs 76,599 -> Rs 76,599
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] Vivo Y05 | Price: Rs 39,999 -> Rs 39,999
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] Sego EPICx | Price: Rs 33,499 -> Rs 33,499
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] Realme C100i | Price: Rs 35,999 -> Rs 35,999
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] Oppo A6 | Price: Rs 67,999 -> Rs 67,999
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] Tecno Spark 50 | Price: Rs 54,499 -> Rs 54,499
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] Apple Iphone 17 Pro Max | Price: Rs 462,499 -> Rs 462,499
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] Xiaomi Redmi 9C | Price: Rs 33,499 -> Rs 33,499
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] VGO TEL i252 | Price: Rs 3,649 -> Rs 3,649
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] Qmobile E1000 Party 2021 | Price: Rs 3,829 -> Rs 3,829
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] me Mobile Power Bold | Price: Rs 2,299 -> Rs 2,299
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] GRESSO 4sim | Price: Rs 2,949 -> Rs 2,949
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] XMobile X2 Selfie | Price: Rs 2,429 -> Rs 2,429
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] XMobile Dabang Plus | Price: Rs 3,099 -> Rs 3,099
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] XMobile X1000 Music | Price: Rs 3,999 -> Rs 3,999
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] XMobile X3 | Price: Rs 2,649 -> Rs 2,649
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] E-Tachi iPro | Price: Rs 3,499 -> Rs 3,499
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] Nokia 110 2023 | Price: Rs 5,099 -> Rs 5,099
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] Xmobile D4 Ultra | Price: Rs 3,200 -> Rs 3,200
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] Xmobile G3 Plus | Price: Rs 3,299 -> Rs 3,299
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] Xmobile Platinum 1000 | Price: Rs 3,329 -> Rs 3,329
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] Qmobile QGuru Plus | Price: Rs 2,299 -> Rs 2,299
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] Qmobile Q150 | Price: Rs 2,779 -> Rs 2,779
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] Qmobile Q150s | Price: Rs 2,649 -> Rs 2,649
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] Itel it2166 | Price: Rs 2,699 -> Rs 2,699
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] Itel Magic 4 | Price: Rs 3,499 -> Rs 3,499
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] XMobile X4 Music | Price: Rs 3,099 -> Rs 3,099
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] QMobile QHero | Price: Rs 3,249 -> Rs 3,249
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] VGO TEL i15 | Price: Rs 4,299 -> Rs 4,299
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] Gresso A10 | Price: Rs 3,300 -> Rs 3,300
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] Gresso SILK SLIM | Price: Rs 2,799 -> Rs 2,799
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] VGO TEL Beauty Max | Price: Rs 3,649 -> Rs 3,649
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] Motorola Moto G77 5G | Price: Rs 91,999 -> Rs 91,999
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] Xiaomi Redmi Note 15 Pro | Price: Rs 88,499 -> Rs 88,499
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] Nothing Phone 3a Lite 5G | Price: Rs 94,999 -> Rs 94,999
+2026-09-15 21:07:18 [INFO    ]   [UPDATED] Honor X6c | Price: Rs 43,999 -> Rs 43,999
+2026-09-15 21:07:18 [INFO    ] Merge Summary: 0 new products added, 68 updated, 8 unchanged.
+2026-09-15 21:07:19 [INFO    ] All images already cached on disk across websites! Skipping download step.
+2026-09-15 21:07:19 [INFO    ] Updated master database -> output/products.json (640 items)
+2026-09-15 21:07:19 [INFO    ] Updated master CSV export -> output/products.csv
+2026-09-15 21:07:19 [INFO    ] Updated site cache -> output/site_cache.json
+2026-09-15 21:07:19 [INFO    ] =================================================================
+2026-09-15 21:07:19 [INFO    ] Scrape Completed Successfully!
+2026-09-15 21:07:19 [INFO    ] Website Tag        : PriceOye
+2026-09-15 21:07:19 [INFO    ] Scraped This Run   : 76
+2026-09-15 21:07:19 [INFO    ] Master Database    : 640 total products -> output/products.json
+2026-09-15 21:07:19 [INFO    ] Master CSV Export  : output/products.csv
+2026-09-15 21:07:19 [INFO    ] Images Directory   : output/images/
+2026-09-15 21:07:19 [INFO    ] =================================================================
+2026-09-15 21:08:12 [INFO    ] =================================================================
+2026-09-15 21:08:12 [INFO    ] Master E-Commerce Scraper
+2026-09-15 21:08:12 [INFO    ] Target URL : https://priceoye.pk/mobiles
+2026-09-15 21:08:12 [INFO    ] Website    : PriceOye
+2026-09-15 21:08:12 [INFO    ] =================================================================
+2026-09-15 21:08:12 [INFO    ] Loaded 640 existing product records from output/products.json
+2026-09-15 21:08:12 [INFO    ] Fetching page via Crawl4AI: https://priceoye.pk/mobiles ...
+2026-09-15 21:08:14 [INFO    ] Direct HTTP fetch succeeded (845608 bytes)
+2026-09-15 21:08:14 [INFO    ] 🔄 FORCED RE-SCRAPE (--force flag passed). Bypassing content hash cache.
+2026-09-15 21:08:14 [INFO    ] Extracted 76 products from PriceOye
+2026-09-15 21:08:14 [INFO    ]   [UPDATED] Infinix Smart 20 | Price: Rs 38,499 -> Rs 38,499
+2026-09-15 21:08:14 [INFO    ]   [UPDATED] Infinix Note 60 Edge 5G | Price: Rs 92,499 -> Rs 92,499
+2026-09-15 21:08:14 [INFO    ]   [UPDATED] Honor X8d | Price: Rs 74,499 -> Rs 74,499
+2026-09-15 21:08:14 [INFO    ]   [UPDATED] Nothing CMF Phone 1 5G | Price: Rs 76,599 -> Rs 76,599
+2026-09-15 21:08:14 [INFO    ]   [UPDATED] Vivo Y05 | Price: Rs 39,999 -> Rs 39,999
+2026-09-15 21:08:14 [INFO    ]   [UPDATED] Sego EPICx | Price: Rs 33,499 -> Rs 33,499
+2026-09-15 21:08:14 [INFO    ]   [UPDATED] Realme C100i | Price: Rs 35,999 -> Rs 35,999
+2026-09-15 21:08:14 [INFO    ]   [UPDATED] Oppo A6 | Price: Rs 67,999 -> Rs 67,999
+2026-09-15 21:08:14 [INFO    ]   [UPDATED] Tecno Spark 50 | Price: Rs 54,499 -> Rs 54,499
+2026-09-15 21:08:14 [INFO    ]   [UPDATED] Apple Iphone 17 Pro Max | Price: Rs 462,499 -> Rs 462,499
+2026-09-15 21:08:14 [INFO    ]   [UPDATED] Xiaomi Redmi 9C | Price: Rs 33,499 -> Rs 33,499
+2026-09-15 21:08:14 [INFO    ]   [UPDATED] VGO TEL i252 | Price: Rs 3,649 -> Rs 3,649
+2026-09-15 21:08:14 [INFO    ]   [UPDATED] me Mobile Power Bold | Price: Rs 2,299 -> Rs 2,299
+2026-09-15 21:08:14 [INFO    ]   [UPDATED] GRESSO 4sim | Price: Rs 2,949 -> Rs 2,949
+2026-09-15 21:08:14 [INFO    ]   [UPDATED] XMobile X2 Selfie | Price: Rs 2,429 -> Rs 2,429
+2026-09-15 21:08:14 [INFO    ]   [UPDATED] XMobile X3 | Price: Rs 2,649 -> Rs 2,649
+2026-09-15 21:08:14 [INFO    ]   [UPDATED] E-Tachi iPro | Price: Rs 3,499 -> Rs 3,499
+2026-09-15 21:08:14 [INFO    ]   [UPDATED] Nokia 110 2023 | Price: Rs 5,099 -> Rs 5,099
+2026-09-15 21:08:14 [INFO    ]   [UPDATED] Xmobile Platinum 1000 | Price: Rs 3,329 -> Rs 3,329
+2026-09-15 21:08:14 [INFO    ]   [UPDATED] Qmobile QGuru Plus | Price: Rs 2,299 -> Rs 2,299
+2026-09-15 21:08:14 [INFO    ]   [UPDATED] Qmobile Q150 | Price: Rs 2,779 -> Rs 2,779
+2026-09-15 21:08:14 [INFO    ]   [UPDATED] Qmobile Q150s | Price: Rs 2,649 -> Rs 2,649
+2026-09-15 21:08:14 [INFO    ]   [UPDATED] Itel it2166 | Price: Rs 2,699 -> Rs 2,699
+2026-09-15 21:08:14 [INFO    ]   [UPDATED] Itel Magic 4 | Price: Rs 3,499 -> Rs 3,499
+2026-09-15 21:08:14 [INFO    ]   [UPDATED] XMobile X4 Music | Price: Rs 3,099 -> Rs 3,099
+2026-09-15 21:08:14 [INFO    ]   [UPDATED] QMobile QHero | Price: Rs 3,249 -> Rs 3,249
+2026-09-15 21:08:14 [INFO    ]   [UPDATED] VGO TEL i15 | Price: Rs 4,299 -> Rs 4,299
+2026-09-15 21:08:14 [INFO    ]   [UPDATED] VGO TEL Beauty Max | Price: Rs 3,649 -> Rs 3,649
+2026-09-15 21:08:14 [INFO    ] Merge Summary: 0 new products added, 28 updated, 48 unchanged.
+2026-09-15 21:08:14 [INFO    ] All images already cached on disk across websites! Skipping download step.
+2026-09-15 21:08:14 [INFO    ] Updated master database -> output/products.json (640 items)
+2026-09-15 21:08:14 [INFO    ] Updated master CSV export -> output/products.csv
+2026-09-15 21:08:14 [INFO    ] Updated site cache -> output/site_cache.json
+2026-09-15 21:08:14 [INFO    ] =================================================================
+2026-09-15 21:08:14 [INFO    ] Scrape Completed Successfully!
+2026-09-15 21:08:14 [INFO    ] Website Tag        : PriceOye
+2026-09-15 21:08:14 [INFO    ] Scraped This Run   : 76
+2026-09-15 21:08:14 [INFO    ] Master Database    : 640 total products -> output/products.json
+2026-09-15 21:08:14 [INFO    ] Master CSV Export  : output/products.csv
+2026-09-15 21:08:14 [INFO    ] Images Directory   : output/images/
+2026-09-15 21:08:14 [INFO    ] =================================================================
+2026-09-15 21:19:02 [INFO    ] =================================================================
+2026-09-15 21:19:02 [INFO    ] Master E-Commerce Scraper
+2026-09-15 21:19:02 [INFO    ] Target URL : https://www.samsung.com/pk/smartphones/all-smartphones/
+2026-09-15 21:19:02 [INFO    ] Website    : Samsung
+2026-09-15 21:19:02 [INFO    ] =================================================================
+2026-09-15 21:19:02 [INFO    ] Fetching page via Crawl4AI: https://www.samsung.com/pk/smartphones/all-smartphones/ ...
+2026-09-15 21:19:04 [INFO    ] Direct HTTP fetch succeeded (313088 bytes)
+2026-09-15 21:19:04 [INFO    ] ⚠️ PAGE MODIFIED or First Run (Hash: None -> 50db293505792b4b46ce25620963260d)
+2026-09-15 21:19:04 [INFO    ] Extracted 21 products from Samsung
+2026-09-15 21:19:04 [INFO    ]   [ADDED] Galaxy A27 5G | Price: PKR 124,999
+2026-09-15 21:19:04 [INFO    ]   [ADDED] Galaxy A17 5G | Price: PKR 99,999
+2026-09-15 21:19:04 [INFO    ]   [ADDED] Galaxy A37 5G | Price: PKR 152,999
+2026-09-15 21:19:04 [INFO    ]   [ADDED] Galaxy A57 5G | Price: PKR 167,999
+2026-09-15 21:19:04 [INFO    ]   [ADDED] Galaxy S26 | Price: PKR 379,999
+2026-09-15 21:19:04 [INFO    ]   [ADDED] Galaxy S26+ | Price: PKR 444,999
+2026-09-15 21:19:04 [INFO    ]   [ADDED] Galaxy S26 Ultra | Price: PKR 519,999
+2026-09-15 21:19:04 [INFO    ]   [ADDED] Galaxy A07 | Price: PKR 42,999
+2026-09-15 21:19:04 [INFO    ]   [ADDED] Galaxy A17 | Price: PKR 72,999
+2026-09-15 21:19:04 [INFO    ]   [ADDED] Galaxy S25 FE | Price: PKR 254,999
+2026-09-15 21:19:04 [INFO    ]   [ADDED] Galaxy A26 5G | Price: PKR 94,999
+2026-09-15 21:19:04 [INFO    ]   [ADDED] Galaxy A56 5G | Price: PKR 137,999
+2026-09-15 21:19:04 [INFO    ]   [ADDED] Galaxy S25 Ultra | Price: PKR 459,999
+2026-09-15 21:19:04 [INFO    ]   [ADDED] Galaxy S24 FE | Price: PKR 219,999
+2026-09-15 21:19:04 [INFO    ]   [ADDED] Galaxy S24 Ultra (Online Exclu | Price: PKR 541,999
+2026-09-15 21:19:04 [INFO    ]   [ADDED] Galaxy Z Flip6 | Price: PKR 384,999
+2026-09-15 21:19:04 [INFO    ]   [ADDED] Galaxy A25 5G | Price: PKR 98,500
+2026-09-15 21:19:04 [INFO    ]   [ADDED] Galaxy S24 Ultra | Price: PKR 541,999
+2026-09-15 21:19:04 [INFO    ]   [ADDED] Galaxy A34 5G | Price: PKR 116,999
+2026-09-15 21:19:04 [INFO    ]   [ADDED] Galaxy Z Fold5 | Price: PKR 656,999
+2026-09-15 21:19:04 [INFO    ]   [ADDED] Galaxy A13 | Price: PKR 57,999
+2026-09-15 21:19:04 [INFO    ] Merge Summary: 21 new products added, 0 updated, 0 unchanged.
+2026-09-15 21:19:04 [INFO    ] Downloading 21 new/missing images using 15 threads...
+2026-09-15 21:19:07 [INFO    ] Updated master database -> output/products.json (21 items)
+2026-09-15 21:19:07 [INFO    ] Updated master CSV export -> output/products.csv
+2026-09-15 21:19:07 [INFO    ] Updated site cache -> output/site_cache.json
+2026-09-15 21:19:07 [INFO    ] =================================================================
+2026-09-15 21:19:07 [INFO    ] Scrape Completed Successfully!
+2026-09-15 21:19:07 [INFO    ] Website Tag        : Samsung
+2026-09-15 21:19:07 [INFO    ] Scraped This Run   : 21
+2026-09-15 21:19:07 [INFO    ] Master Database    : 21 total products -> output/products.json
+2026-09-15 21:19:07 [INFO    ] Master CSV Export  : output/products.csv
+2026-09-15 21:19:07 [INFO    ] Images Directory   : output/images/
+2026-09-15 21:19:07 [INFO    ] =================================================================
+2026-09-15 21:22:23 [INFO    ] Fetching page via Crawl4AI: https://www.samsung.com/pk/smartphones/all-smartphones/ ...
+2026-09-15 21:22:42 [INFO    ] Crawl4AI rendered HTML (1161624 bytes)
+2026-09-15 21:25:22 [INFO    ] =================================================================
+2026-09-15 21:25:22 [INFO    ] Master E-Commerce Scraper
+2026-09-15 21:25:22 [INFO    ] Target URL : https://www.samsung.com/pk/smartphones/all-smartphones/
+2026-09-15 21:25:22 [INFO    ] Website    : Samsung
+2026-09-15 21:25:22 [INFO    ] =================================================================
+2026-09-15 21:25:22 [INFO    ] Loaded 21 existing product records from output/products.json
+2026-09-15 21:25:22 [INFO    ] Fetching page via Crawl4AI: https://www.samsung.com/pk/smartphones/all-smartphones/ ...
+2026-09-15 21:25:38 [INFO    ] Crawl4AI rendered HTML (769048 bytes)
+2026-09-15 21:25:38 [INFO    ] ⚠️ PAGE MODIFIED or First Run (Hash: None -> 32399e9798f40b6eec3fa29fc27c9c77)
+2026-09-15 21:25:38 [INFO    ] Extracted 21 products from Samsung
+2026-09-15 21:25:38 [INFO    ] Merge Summary: 0 new products added, 0 updated, 21 unchanged.
+2026-09-15 21:25:38 [INFO    ] All images already cached on disk across websites! Skipping download step.
+2026-09-15 21:25:38 [INFO    ] Updated master database -> output/products.json (21 items)
+2026-09-15 21:25:38 [INFO    ] Updated master CSV export -> output/products.csv
+2026-09-15 21:25:38 [INFO    ] Updated site cache -> output/site_cache.json
+2026-09-15 21:25:38 [INFO    ] =================================================================
+2026-09-15 21:25:38 [INFO    ] Scrape Completed Successfully!
+2026-09-15 21:25:38 [INFO    ] Website Tag        : Samsung
+2026-09-15 21:25:38 [INFO    ] Scraped This Run   : 21
+2026-09-15 21:25:38 [INFO    ] Master Database    : 21 total products -> output/products.json
+2026-09-15 21:25:38 [INFO    ] Master CSV Export  : output/products.csv
+2026-09-15 21:25:38 [INFO    ] Images Directory   : output/images/
+2026-09-15 21:25:38 [INFO    ] =================================================================
+2026-09-15 21:25:51 [INFO    ] =================================================================
+2026-09-15 21:25:51 [INFO    ] Master E-Commerce Scraper
+2026-09-15 21:25:51 [INFO    ] Target URL : https://www.samsung.com/pk/smartphones/all-smartphones/
+2026-09-15 21:25:51 [INFO    ] Website    : Samsung
+2026-09-15 21:25:51 [INFO    ] =================================================================
+2026-09-15 21:25:51 [INFO    ] Loaded 21 existing product records from output/products.json
+2026-09-15 21:25:51 [INFO    ] Fetching page via Crawl4AI: https://www.samsung.com/pk/smartphones/all-smartphones/ ...
+2026-09-15 21:26:08 [INFO    ] Crawl4AI rendered HTML (988652 bytes)
+2026-09-15 21:26:08 [INFO    ] ⚠️ PAGE MODIFIED or First Run (Hash: 32399e9798f40b6eec3fa29fc27c9c77 -> bde0b5f400d35f40cdcd20107665d232)
+2026-09-15 21:26:08 [INFO    ] Extracted 21 products from Samsung
+2026-09-15 21:26:08 [INFO    ] Merge Summary: 0 new products added, 0 updated, 21 unchanged.
+2026-09-15 21:26:08 [INFO    ] All images already cached on disk across websites! Skipping download step.
+2026-09-15 21:26:08 [INFO    ] Updated master database -> output/products.json (21 items)
+2026-09-15 21:26:08 [INFO    ] Updated master CSV export -> output/products.csv
+2026-09-15 21:26:08 [INFO    ] Updated site cache -> output/site_cache.json
+2026-09-15 21:26:08 [INFO    ] =================================================================
+2026-09-15 21:26:08 [INFO    ] Scrape Completed Successfully!
+2026-09-15 21:26:08 [INFO    ] Website Tag        : Samsung
+2026-09-15 21:26:08 [INFO    ] Scraped This Run   : 21
+2026-09-15 21:26:08 [INFO    ] Master Database    : 21 total products -> output/products.json
+2026-09-15 21:26:08 [INFO    ] Master CSV Export  : output/products.csv
+2026-09-15 21:26:08 [INFO    ] Images Directory   : output/images/
+2026-09-15 21:26:08 [INFO    ] =================================================================
+2026-09-17 23:45:39 [INFO    ] =================================================================
+2026-09-17 23:45:39 [INFO    ] Master E-Commerce Scraper
+2026-09-17 23:45:39 [INFO    ] Target URL : https://mega.pk/mobiles/
+2026-09-17 23:45:39 [INFO    ] Website    : Mega
+2026-09-17 23:45:39 [INFO    ] =================================================================
+2026-09-17 23:45:39 [INFO    ] Loaded 21 existing product records from output/products.json
+2026-09-17 23:45:39 [INFO    ] Fetching page via Crawl4AI: https://mega.pk/mobiles/ ...
+2026-09-17 23:45:51 [INFO    ] Crawl4AI rendered HTML (351101 bytes)
+2026-09-17 23:45:51 [INFO    ] ⚠️ PAGE MODIFIED or First Run (Hash: None -> d71bcb9dec60e175570897ff6e754a49)
+2026-09-17 23:45:51 [INFO    ] Using generic extractor for website: Mega
+2026-09-17 23:45:51 [INFO    ] Extracted 0 products from Mega
+2026-09-17 23:45:51 [WARNING ] No products extracted. Aborting.
+2026-09-17 23:49:48 [INFO    ] =================================================================
+2026-09-17 23:49:48 [INFO    ] Master E-Commerce Scraper
+2026-09-17 23:49:48 [INFO    ] Target URL : https://mega.pk/mobiles/
+2026-09-17 23:49:48 [INFO    ] Website    : Mega
+2026-09-17 23:49:48 [INFO    ] =================================================================
+2026-09-17 23:49:48 [INFO    ] Loaded 21 existing product records from output/products.json
+2026-09-17 23:49:48 [INFO    ] Fetching page via Crawl4AI: https://mega.pk/mobiles/ ...
+2026-09-17 23:49:59 [INFO    ] Crawl4AI rendered HTML (351101 bytes)
+2026-09-17 23:49:59 [INFO    ] ⚠️ PAGE MODIFIED or First Run (Hash: None -> d71bcb9dec60e175570897ff6e754a49)
+2026-09-17 23:49:59 [INFO    ] Extracted 32 products from Mega
+2026-09-17 23:49:59 [INFO    ]   [ADDED] Apple iPhone 17 Pro Max 256GB  | Price: Rs. 411,999
+2026-09-17 23:49:59 [INFO    ]   [ADDED] Apple iPhone 17 Pro | Price: Rs. 374,999
+2026-09-17 23:49:59 [INFO    ]   [ADDED] Google Pixel 10 Pro XL | Price: Rs. 297,999
+2026-09-17 23:49:59 [INFO    ]   [ADDED] Samsung Galaxy Z Fold 7 | Price: Rs. 417,499
+2026-09-17 23:49:59 [INFO    ]   [ADDED] Samsung Galaxy S25 Ultra | Price: Rs. 244,999
+2026-09-17 23:49:59 [INFO    ]   [ADDED] Apple iPhone 16 Plus 128GB Non | Price: Rs. 249,999
+2026-09-17 23:49:59 [INFO    ]   [ADDED] Apple iPhone Air 1TB Storage P | Price: Rs. 584,999
+2026-09-17 23:49:59 [INFO    ]   [ADDED] Apple iPhone Air 512GB Storage | Price: Rs. 504,999
+2026-09-17 23:49:59 [INFO    ]   [ADDED] Apple iPhone Air 256GB Storage | Price: Rs. 424,999
+2026-09-17 23:49:59 [INFO    ]   [ADDED] Apple iPhone Air | Price: Rs. 289,999
+2026-09-17 23:49:59 [INFO    ]   [ADDED] Apple iPhone 17 Pro Max | Price: Rs. 411,999
+2026-09-17 23:49:59 [INFO    ]   [ADDED] Apple iPhone 16 Plus | Price: Rs. 249,999
+2026-09-17 23:49:59 [INFO    ]   [ADDED] Apple iPhone 16 | Price: Rs. 224,999
+2026-09-17 23:49:59 [INFO    ]   [ADDED] Apple iPhone 16 Pro Max | Price: Rs. 324,999
+2026-09-17 23:49:59 [INFO    ]   [ADDED] Apple iPhone Duo | Price: Rs. Coming Soon
+2026-09-17 23:49:59 [INFO    ]   [ADDED] Samsung Galaxy A57 12GB RAM 51 | Price: Rs. 223,999
+2026-09-17 23:49:59 [INFO    ]   [ADDED] Samsung Galaxy A57 12GB RAM 25 | Price: Rs. 183,999
+2026-09-17 23:49:59 [INFO    ]   [ADDED] Samsung Galaxy A17 8GB RAM 256 | Price: Rs. 98,999
+2026-09-17 23:49:59 [INFO    ]   [ADDED] OPPO Reno 16F 8GB RAM 256GB St | Price: Rs. Coming Soon
+2026-09-17 23:49:59 [INFO    ]   [ADDED] OPPO Reno 16 8GB RAM 256GB Sto | Price: Rs. Coming Soon
+2026-09-17 23:49:59 [INFO    ]   [ADDED] Apple iPhone 18 Pro Max | Price: Rs. Coming Soon
+2026-09-17 23:49:59 [INFO    ]   [ADDED] Google Pixel 11 Pro Fold 16GB  | Price: Rs. 574,999
+2026-09-17 23:49:59 [INFO    ]   [ADDED] Google Pixel 11 Pro Fold 16GB  | Price: Rs. 534,999
+2026-09-17 23:49:59 [INFO    ]   [ADDED] Google Pixel 11 12GB RAM 256GB | Price: Rs. 284,999
+2026-09-17 23:49:59 [INFO    ]   [ADDED] Google Pixel 11 Pro XL 16GB RA | Price: Rs. 454,999
+2026-09-17 23:49:59 [INFO    ]   [ADDED] Google Pixel 11 Pro XL 12GB RA | Price: Rs. 399,999
+2026-09-17 23:49:59 [INFO    ]   [ADDED] Google Pixel 11 Pro 16GB RAM 5 | Price: Rs. 409,999
+2026-09-17 23:49:59 [INFO    ]   [ADDED] Google Pixel 11 Pro 12GB RAM 2 | Price: Rs. 369,999
+2026-09-17 23:49:59 [INFO    ]   [ADDED] RedMagic 11S Pro 16GB RAM 512G | Price: Rs. 344,999
+2026-09-17 23:49:59 [INFO    ]   [ADDED] Samsung Galaxy Z Fold 8 Ultra  | Price: Rs. 514,999
+2026-09-17 23:49:59 [INFO    ]   [ADDED] Samsung Galaxy Z Fold 8 Ultra  | Price: Rs. 469,999
+2026-09-17 23:49:59 [INFO    ]   [ADDED] Samsung Galaxy Z Fold 8 12GB R | Price: Rs. 479,999
+2026-09-17 23:49:59 [INFO    ] Merge Summary: 32 new products added, 0 updated, 0 unchanged.
+2026-09-17 23:49:59 [INFO    ] Downloading 32 new/missing images using 15 threads...
+2026-09-17 23:50:01 [INFO    ] Updated master database -> output/products.json (53 items)
+2026-09-17 23:50:01 [INFO    ] Updated master CSV export -> output/products.csv
+2026-09-17 23:50:01 [INFO    ] Updated site cache -> output/site_cache.json
+2026-09-17 23:50:01 [INFO    ] =================================================================
+2026-09-17 23:50:01 [INFO    ] Scrape Completed Successfully!
+2026-09-17 23:50:01 [INFO    ] Website Tag        : Mega
+2026-09-17 23:50:01 [INFO    ] Scraped This Run   : 32
+2026-09-17 23:50:01 [INFO    ] Master Database    : 53 total products -> output/products.json
+2026-09-17 23:50:01 [INFO    ] Master CSV Export  : output/products.csv
+2026-09-17 23:50:01 [INFO    ] Images Directory   : output/images/
+2026-09-17 23:50:01 [INFO    ] =================================================================
+2026-09-17 23:53:01 [INFO    ] =================================================================
+2026-09-17 23:53:01 [INFO    ] Master E-Commerce Scraper
+2026-09-17 23:53:01 [INFO    ] Target URL : https://mega.pk/mobiles/
+2026-09-17 23:53:01 [INFO    ] Website    : Mega
+2026-09-17 23:53:01 [INFO    ] =================================================================
+2026-09-17 23:53:01 [INFO    ] Loaded 53 existing product records from output/products.json
+2026-09-17 23:53:01 [INFO    ] Fetching page via Crawl4AI: https://mega.pk/mobiles/ ...
+2026-09-17 23:53:12 [INFO    ] Crawl4AI rendered HTML (351101 bytes)
+2026-09-17 23:53:12 [INFO    ] 🔄 FORCED RE-SCRAPE (--force flag passed). Bypassing content hash cache.
+2026-09-17 23:53:13 [INFO    ] Mega Page 1: extracted 32 products.
+2026-09-17 23:53:14 [INFO    ] Mega Page 2: extracted 32 products (total so far: 64).
+2026-09-17 23:53:15 [INFO    ] Mega Page 3: extracted 32 products (total so far: 92).
+2026-09-17 23:53:16 [INFO    ] Mega Page 4: extracted 32 products (total so far: 123).
+2026-09-17 23:53:17 [INFO    ] Mega Page 5: extracted 9 products (total so far: 132).
+2026-09-17 23:53:18 [INFO    ] Extracted 132 products from Mega
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Xiaomi Redmi Note 15 Pro 12GB  | Price: Rs. 115,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Xiaomi Redmi Note 15 Pro 8GB R | Price: Rs. 94,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Samsung Galaxy A57 8GB RAM 256 | Price: Rs. 165,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Samsung Galaxy A37 8GB RAM 256 | Price: Rs. 147,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] RedMagic 11 Pro 24GB RAM 1TB S | Price: Rs. 379,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] RedMagic 11 Pro 16GB RAM 512GB | Price: Rs. 329,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Infinix Note 60 Ultra 12GB Ram | Price: Rs. 204,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Infinix Note 60 8GB Ram 256GB  | Price: Rs. 104,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Infinix Note 60 Pro 8GB Ram 25 | Price: Rs. 121,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Oppo Find X9 Pro 16GB RAM 512G | Price: Rs. 354,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Google Pixel 10 128GB Storage  | Price: Rs. 274,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Google Pixel 10a 128GB Storage | Price: Rs. 167,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Samsung Galaxy S26 Ultra 12GB  | Price: Rs. 271,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Samsung Galaxy S26 Ultra 12GB  | Price: Rs. 314,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Samsung Galaxy A07 4GB RAM 128 | Price: Rs. 51,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Samsung Galaxy A07 4GB RAM 64G | Price: Rs. 41,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Samsung Galaxy A17 8GB RAM 256 | Price: Rs. 93,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Samsung Galaxy S26 Plus 12GB R | Price: Rs. 442,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Samsung Galaxy S26 Plus 12GB R | Price: Rs. 382,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Samsung Galaxy S26 12GB RAM 51 | Price: Rs. 378,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Samsung Galaxy S26 12GB RAM 25 | Price: Rs. 317,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Samsung Galaxy S26 Ultra 12GB  | Price: Rs. 517,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Samsung Galaxy S26 Ultra 12GB  | Price: Rs. 447,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Apple iPhone 17 Pro Max 512GB  | Price: Rs. 581,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Samsung Galaxy S25 FE 8GB RAM  | Price: Rs. 239,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] OPPO A6 Pro 8GB RAM 256GB Stor | Price: Rs. 94,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Samsung Galaxy Z TriFold 16GB  | Price: Rs. Coming Soon
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Samsung Galaxy Z Fold 7 | Price: Rs. 531,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Infinix Hot 60 Pro Plus 8GB RA | Price: Rs. 91,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] OnePlus 13s 12GB RAM 256GB Sto | Price: Rs. 181,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Samsung Galaxy S25 FE 8GB RAM  | Price: Rs. 214,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] RedMagic 11 Pro 16GB RAM 512GB | Price: Rs. 299,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Realme 15 Pro 12GB RAM 512GB S | Price: Rs. 148,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] OnePlus 15 16GB RAM 512GB Stor | Price: Rs. 284,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Xiaomi Redmi Note 14 Pro 8GB R | Price: Rs. 81,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Xiaomi Redmi Note 14 8GB RAM 1 | Price: Rs. 63,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Xiaomi Redmi 15c 6GB RAM 128GB | Price: Rs. 51,499
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Samsung Galaxy A07 6GB RAM 128 | Price: Rs. 61,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Apple iPhone 17 256GB Storage  | Price: Rs. 369,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Xiaomi Redmi A5 4GB Ram 128GB  | Price: Rs. 38,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Apple iPhone 17 Pro Max 256GB  | Price: Rs. 494,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Apple iPhone 17 Pro Max 1TB St | Price: Rs. 684,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Apple iPhone 17 Pro 1TB Storag | Price: Rs. 653,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Apple iPhone 17 Pro 256GB Stor | Price: Rs. 462,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Apple iPhone 17 Pro 512GB Stor | Price: Rs. 560,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Samsung Galaxy A17 6GB RAM 128 | Price: Rs. 71,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Vivo V60 12GB RAM 256GB Storag | Price: Rs. 137,499
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Samsung Galaxy Z Fold 7 12GB R | Price: Rs. 361,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Apple iPhone 17 Pro 512GB Stor | Price: Rs. 424,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Apple iPhone 17 Pro 256GB Stor | Price: Rs. 381,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Apple iPhone 17 Pro Max 1TB St | Price: Rs. 544,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Apple iPhone 17 Pro Max 512GB  | Price: Rs. 471,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Apple iPhone 17 | Price: Rs. 284,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Google Pixel 10 Pro XL 512GB S | Price: Rs. 339,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Google Pixel 10 Pro 256GB Stor | Price: Rs. Coming Soon
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Google Pixel 10 256GB Storage  | Price: Rs. 219,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Google Pixel 10 Pro 128GB Stor | Price: Rs. 262,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Google Pixel 10 128GB Storage  | Price: Rs. 189,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] OnePlus 13s 12GB RAM 512GB Sto | Price: Rs. 194,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Infinix Smart 10 Plus 4GB RAM  | Price: Rs. 46,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Infinix Hot 60 Pro 8GB RAM 128 | Price: Rs. 73,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Infinix Hot 60i 6GB RAM 128GB  | Price: Rs. 54,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Vivo X200 FE 12GB RAM 512GB St | Price: Rs. 199,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Google Pixel 9a 128GB NON PTA | Price: Rs. 124,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Samsung Galaxy A26 8GB RAM 256 | Price: Rs. 93,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Samsung Galaxy A36 8GB RAM 256 | Price: Rs. 108,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Samsung Galaxy A56 8GB RAM 256 | Price: Rs. 122,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Samsung Galaxy A56 12GB RAM 25 | Price: Rs. 139,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Google Pixel 9 Pro XL 128GB No | Price: Rs. 209,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Samsung Galaxy S25 Ultra 12GB  | Price: Rs. 342,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Samsung Galaxy S25 Ultra 12GB  | Price: Rs. 384,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Samsung Galaxy S25 Ultra 12GB  | Price: Rs. 290,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Samsung Galaxy S25 Ultra 12GB  | Price: Rs. 244,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Google Pixel 9 Pro 128GB Non P | Price: Rs. 224,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Apple iPhone 16e 128GB Storage | Price: Rs. 157,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Xiaomi Redmi Note 14 Pro 12GB  | Price: Rs. 92,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Xiaomi Redmi Note 14 8GB RAM 2 | Price: Rs. 68,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Google Pixel 9 12GB RAM 256GB  | Price: Rs. 209,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Apple iPhone 16 128GB Single S | Price: Rs. 329,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Apple iPhone 16 256GB Single S | Price: Rs. 364,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Apple iPhone 16 Pro 1TB Single | Price: Rs. Coming Soon
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Apple iPhone 16 Pro 512GB Sing | Price: Rs. Coming Soon
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Apple iPhone 16 Pro 256GB Sing | Price: Rs. Coming Soon
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Apple iPhone 16 Pro 128GB Sing | Price: Rs. Coming Soon
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Apple iPhone 16 Pro Max 256GB  | Price: Rs. 459,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Apple iPhone 16 Pro Max 512GB  | Price: Rs. 507,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Apple iPhone 16 Pro Max 1TB Si | Price: Rs. Coming Soon
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Apple iPhone 16 128GB Dual Sim | Price: Rs. 239,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Apple iPhone 16 Pro 256GB Dual | Price: Rs. 307,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Apple iPhone 16 Pro 128GB Dual | Price: Rs. 281,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Apple iPhone 16 Pro Max 512GB  | Price: Rs. 371,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Apple iPhone 16 Pro Max 256GB  | Price: Rs. 341,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Apple iPhone 16 128GB Single S | Price: Rs. 224,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Apple iPhone 16 Pro 256GB Sing | Price: Rs. 314,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Apple iPhone 16 Pro 128GB Sing | Price: Rs. 284,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Apple iPhone 16 Pro Max 256GB  | Price: Rs. 324,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Google Pixel 9 Pro 256GB Non P | Price: Rs. 259,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Google Pixel 9 Pro XL 512GB No | Price: Rs. 284,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Google Pixel 9 Pro XL 256GB No | Price: Rs. 269,999
+2026-09-17 23:53:18 [INFO    ]   [ADDED] Google Pixel 9 | Price: Rs. 169,999
+2026-09-17 23:53:18 [INFO    ] Merge Summary: 100 new products added, 0 updated, 32 unchanged.
+2026-09-17 23:53:18 [INFO    ] Downloading 99 new/missing images using 15 threads...
+2026-09-17 23:53:21 [INFO    ] Updated master database -> output/products.json (153 items)
+2026-09-17 23:53:21 [INFO    ] Updated master CSV export -> output/products.csv
+2026-09-17 23:53:21 [INFO    ] Updated site cache -> output/site_cache.json
+2026-09-17 23:53:21 [INFO    ] =================================================================
+2026-09-17 23:53:21 [INFO    ] Scrape Completed Successfully!
+2026-09-17 23:53:21 [INFO    ] Website Tag        : Mega
+2026-09-17 23:53:21 [INFO    ] Scraped This Run   : 132
+2026-09-17 23:53:21 [INFO    ] Master Database    : 153 total products -> output/products.json
+2026-09-17 23:53:21 [INFO    ] Master CSV Export  : output/products.csv
+2026-09-17 23:53:21 [INFO    ] Images Directory   : output/images/
+2026-09-17 23:53:21 [INFO    ] =================================================================
+2026-09-17 23:55:47 [INFO    ] =================================================================
+2026-09-17 23:55:47 [INFO    ] Master E-Commerce Scraper
+2026-09-17 23:55:47 [INFO    ] Target URL : https://mega.pk/mobiles/
+2026-09-17 23:55:47 [INFO    ] Website    : Mega
+2026-09-17 23:55:47 [INFO    ] =================================================================
+2026-09-17 23:55:47 [INFO    ] Loaded 153 existing product records from output/products.json
+2026-09-17 23:55:47 [INFO    ] Fetching page via Crawl4AI: https://mega.pk/mobiles/ ...
+2026-09-17 23:55:58 [INFO    ] Crawl4AI rendered HTML (351101 bytes)
+2026-09-17 23:55:58 [INFO    ] =================================================================
+2026-09-17 23:55:58 [INFO    ] ✅ NO CHANGES DETECTED on page for https://mega.pk/mobiles/
+2026-09-17 23:55:58 [INFO    ]         Content Hash: d71bcb9dec60e175570897ff6e754a49
+2026-09-17 23:55:58 [INFO    ]         Last Scraped: 2026-09-17T23:53:21.269728
+2026-09-17 23:55:58 [INFO    ] Skipping full parsing, item updates, and image downloads.
+2026-09-17 23:55:58 [INFO    ] (Use --force flag to force re-parsing all products)
+2026-09-17 23:55:58 [INFO    ] =================================================================

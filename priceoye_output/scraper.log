@@ -1,0 +1,199 @@
+2026-09-15 14:28:04 [INFO    ] =================================================================
+2026-09-15 14:28:04 [INFO    ] PriceOye Smartphones Scraper (via Crawl4AI)
+2026-09-15 14:28:04 [INFO    ] =================================================================
+2026-09-15 14:28:04 [INFO    ] [Step 1] Fetching rendered page from PriceOye via Crawl4AI...
+2026-09-15 14:28:04 [INFO    ] Sending crawl request to Crawl4AI at http://localhost:11235 ...
+2026-09-15 14:28:16 [INFO    ] Saved Crawl4AI HTML snapshot (1054479 bytes) -> priceoye_output/debug_raw.html
+2026-09-15 14:28:16 [INFO    ] [Step 2] Parsing product cards from HTML...
+2026-09-15 14:28:17 [INFO    ] Found 180 DOM product card elements.
+2026-09-15 14:28:17 [INFO    ] Extracted 177 unique product records from DOM cards.
+2026-09-15 14:28:17 [INFO    ] Total unique product records extracted: 177
+2026-09-15 14:28:17 [INFO    ] [Step 3] Downloading product images...
+2026-09-15 14:28:17 [INFO    ] -----------------------------------------------------------------
+2026-09-15 14:28:17 [INFO    ] [01] Infinix Smart 20                    | Rs 38,499          | 01_Infinix_Smart_20.webp
+2026-09-15 14:28:18 [INFO    ] [02] Motorola Edge 70 Fusion             | Rs 134,999         | 02_Motorola_Edge_70_Fusion.webp
+2026-09-15 14:28:18 [INFO    ] [03] Infinix Note 60 Edge 5G             | Rs 92,499          | 03_Infinix_Note_60_Edge_5G.webp
+2026-09-15 14:28:18 [INFO    ] [04] Honor X8d                           | Rs 74,499          | 04_Honor_X8d.webp
+2026-09-15 14:28:19 [INFO    ] [05] Nothing CMF Phone 1 5G              | Rs 76,599          | 05_Nothing_CMF_Phone_1_5G.webp
+2026-09-15 14:28:19 [INFO    ] [06] Vivo Y05                            | Rs 39,999          | 06_Vivo_Y05.webp
+2026-09-15 14:28:19 [INFO    ] [07] Sego EPICx                          | Rs 33,499          | 07_Sego_EPICx.webp
+2026-09-15 14:28:20 [INFO    ] [08] Realme C100i                        | Rs 35,999          | 08_Realme_C100i.webp
+2026-09-15 14:28:20 [INFO    ] [09] Oppo A6                             | Rs 67,999          | 09_Oppo_A6.webp
+2026-09-15 14:28:20 [INFO    ] [10] Tecno Spark 50                      | Rs 54,499          | 10_Tecno_Spark_50.webp
+2026-09-15 14:28:20 [INFO    ] [11] Apple Iphone 17 Pro Max             | Rs 462,499         | 11_Apple_Iphone_17_Pro_Max.webp
+2026-09-15 14:28:21 [INFO    ] [12] Xiaomi Redmi 9C                     | Rs 33,499          | 12_Xiaomi_Redmi_9C.webp
+2026-09-15 14:28:21 [INFO    ] [13] VGO TEL i252                        | Rs 3,649           | 13_VGO_TEL_i252.webp
+2026-09-15 14:28:21 [INFO    ] [14] Qmobile E1000 Party 2021            | Rs 3,829           | 14_Qmobile_E1000_Party_2021.webp
+2026-09-15 14:28:22 [INFO    ] [15] me Mobile Power Bold                | Rs 2,299           | 15_me_Mobile_Power_Bold.webp
+2026-09-15 14:28:22 [INFO    ] [16] GRESSO 4sim                         | Rs 2,949           | 16_GRESSO_4sim.webp
+2026-09-15 14:28:22 [INFO    ] [17] XMobile X2 Selfie                   | Rs 2,429           | 17_XMobile_X2_Selfie.webp
+2026-09-15 14:28:22 [INFO    ] [18] XMobile Dabang Plus                 | Rs 3,099           | 18_XMobile_Dabang_Plus.webp
+2026-09-15 14:28:23 [INFO    ] [19] XMobile X1000 Music                 | Rs 3,999           | 19_XMobile_X1000_Music.webp
+2026-09-15 14:28:23 [INFO    ] [20] XMobile X3                          | Rs 2,649           | 20_XMobile_X3.webp
+2026-09-15 14:28:23 [INFO    ] [21] E-Tachi iPro                        | Rs 3,499           | 21_E-Tachi_iPro.webp
+2026-09-15 14:28:24 [INFO    ] [22] Nokia 110 2023                      | Rs 5,099           | 22_Nokia_110_2023.webp
+2026-09-15 14:28:24 [INFO    ] [23] Xmobile D4 Ultra                    | Rs 3,200           | 23_Xmobile_D4_Ultra.webp
+2026-09-15 14:28:24 [INFO    ] [24] Xmobile G3 Plus                     | Rs 3,299           | 24_Xmobile_G3_Plus.webp
+2026-09-15 14:28:25 [INFO    ] [25] Xmobile Platinum 1000               | Rs 3,329           | 25_Xmobile_Platinum_1000.webp
+2026-09-15 14:28:25 [INFO    ] [26] Qmobile QGuru Plus                  | Rs 2,299           | 26_Qmobile_QGuru_Plus.webp
+2026-09-15 14:28:25 [INFO    ] [27] Qmobile Q150                        | Rs 2,779           | 27_Qmobile_Q150.webp
+2026-09-15 14:28:26 [INFO    ] [28] Qmobile Q150s                       | Rs 2,649           | 28_Qmobile_Q150s.webp
+2026-09-15 14:28:26 [INFO    ] [29] Itel it2166                         | Rs 2,699           | 29_Itel_it2166.webp
+2026-09-15 14:28:27 [INFO    ] [30] Itel Magic 4                        | Rs 3,499           | 30_Itel_Magic_4.webp
+2026-09-15 14:28:27 [INFO    ] [31] XMobile X4 Music                    | Rs 3,099           | 31_XMobile_X4_Music.webp
+2026-09-15 14:28:27 [INFO    ] [32] QMobile QHero                       | Rs 3,249           | 32_QMobile_QHero.webp
+2026-09-15 14:28:27 [INFO    ] [33] VGO TEL i15                         | Rs 4,299           | 33_VGO_TEL_i15.webp
+2026-09-15 14:28:28 [INFO    ] [34] Gresso A10                          | Rs 3,300           | 34_Gresso_A10.webp
+2026-09-15 14:28:28 [INFO    ] [35] Gresso SILK SLIM                    | Rs 2,799           | 35_Gresso_SILK_SLIM.webp
+2026-09-15 14:28:28 [INFO    ] [36] VGO TEL Beauty Max                  | Rs 3,649           | 36_VGO_TEL_Beauty_Max.webp
+2026-09-15 14:28:28 [INFO    ] [37] Calme C222                          | Rs 3,099           | 37_Calme_C222.webp
+2026-09-15 14:28:28 [INFO    ] [38] Club Mobile 15 pro Metal            | Rs 3,350           | 38_Club_Mobile_15_pro_Metal.webp
+2026-09-15 14:28:29 [INFO    ] [39] E-Tachi Magic E4                    | Rs 3,849           | 39_E-Tachi_Magic_E4.webp
+2026-09-15 14:28:29 [INFO    ] [40] Memobile I touch                    | Rs 3,149           | 40_Memobile_I_touch.webp
+2026-09-15 14:28:29 [INFO    ] [41] Calme 4G Music                      | Rs 6,799           | 41_Calme_4G_Music.webp
+2026-09-15 14:28:29 [INFO    ] [42] Villaon V220                        | Rs 2,899           | 42_Villaon_V220.webp
+2026-09-15 14:28:30 [INFO    ] [43] Villaon V230                        | Rs 3,099           | 43_Villaon_V230.webp
+2026-09-15 14:28:30 [INFO    ] [44] Hello Tech E500                     | Rs 2,599           | 44_Hello_Tech_E500.webp
+2026-09-15 14:28:31 [INFO    ] [45] Hello Tech V2                       | Rs 2,399           | 45_Hello_Tech_V2.webp
+2026-09-15 14:28:31 [INFO    ] [46] Hello Tech G8                       | Rs 3,050           | 46_Hello_Tech_G8.webp
+2026-09-15 14:28:32 [INFO    ] [47] Qmobile Q Galaxy                    | Rs 5,449           | 47_Qmobile_Q_Galaxy.webp
+2026-09-15 14:28:32 [INFO    ] [48] Villaon V105                        | Rs 2,199           | 48_Villaon_V105.webp
+2026-09-15 14:28:32 [INFO    ] [49] Sego Magic 6                        | Rs 2,999           | 49_Sego_Magic_6.webp
+2026-09-15 14:28:32 [INFO    ] [50] Memobile I Smart Ultra              | Rs 3,249           | 50_Memobile_I_Smart_Ultra.webp
+2026-09-15 14:28:33 [INFO    ] [51] Spice ipro Ultra                    | Rs 3,499           | 51_Spice_ipro_Ultra.webp
+2026-09-15 14:28:33 [INFO    ] [52] GRESSO 007i                         | Rs 2,349           | 52_GRESSO_007i.webp
+2026-09-15 14:28:33 [INFO    ] [53] Itel Muzik 400 pro                  | Rs 3,950           | 53_Itel_Muzik_400_pro.webp
+2026-09-15 14:28:34 [INFO    ] [54] Gresso Turbo 2                      | Rs 2,399           | 54_Gresso_Turbo_2.webp
+2026-09-15 14:28:34 [INFO    ] [55] Club Mobile Winner                  | Rs 3,299           | 55_Club_Mobile_Winner.webp
+2026-09-15 14:28:34 [INFO    ] [56] Hmd 150 Music                       | Rs 6,249           | 56_Hmd_150_Music.webp
+2026-09-15 14:28:34 [INFO    ] [57] Sego music 500                      | Rs 3,149           | 57_Sego_music_500.webp
+2026-09-15 14:28:35 [INFO    ] [58] Sego Power 200s                     | Rs 2,349           | 58_Sego_Power_200s.webp
+2026-09-15 14:28:35 [INFO    ] [59] Sego Power 200                      | Rs 2,499           | 59_Sego_Power_200.webp
+2026-09-15 14:28:35 [INFO    ] [60] Zentality B3310                     | Rs 2,199           | 60_Zentality_B3310.webp
+2026-09-15 14:28:35 [INFO    ] [61] QMobile QMagic                      | Rs 5,599           | 61_QMobile_QMagic.webp
+2026-09-15 14:28:35 [INFO    ] [62] Itel it2181                         | Rs 2,799           | 62_Itel_it2181.webp
+2026-09-15 14:28:36 [INFO    ] [63] QMobile Boom 100                    | Rs 2,550           | 63_QMobile_Boom_100.webp
+2026-09-15 14:28:36 [INFO    ] [64] QMobile Boom 400                    | Rs 2,950           | 64_QMobile_Boom_400.webp
+2026-09-15 14:28:36 [INFO    ] [65] QMobile q2165                       | Rs 2,180           | 65_QMobile_q2165.webp
+2026-09-15 14:28:36 [INFO    ] [66] Faywa Sound Master                  | Rs 2,899           | 66_Faywa_Sound_Master.webp
+2026-09-15 14:28:37 [INFO    ] [67] QMobile Q5606                       | Rs 2,499           | 67_QMobile_Q5606.webp
+2026-09-15 14:28:37 [INFO    ] [68] Villaon V120                        | Rs 2,600           | 68_Villaon_V120.webp
+2026-09-15 14:28:38 [INFO    ] [69] Gfive Magic Smart                   | Rs 3,050           | 69_Gfive_Magic_Smart.webp
+2026-09-15 14:28:38 [INFO    ] [70] Gfive G95                           | Rs 3,349           | 70_Gfive_G95.webp
+2026-09-15 14:28:38 [INFO    ] [71] GFive Magic                         | Rs 3,399           | 71_GFive_Magic.webp
+2026-09-15 14:28:38 [INFO    ] [72] GFive P70 Max                       | Rs 2,999           | 72_GFive_P70_Max.webp
+2026-09-15 14:28:38 [INFO    ] [73] Calme C150i                         | Rs 3,150           | 73_Calme_C150i.webp
+2026-09-15 14:28:38 [INFO    ] [74] Club Mobile Grace                   | Rs 3,149           | 74_Club_Mobile_Grace.webp
+2026-09-15 14:28:39 [INFO    ] [75] Memobile Power 300                  | Rs 2,299           | 75_Memobile_Power_300.webp
+2026-09-15 14:28:39 [INFO    ] [76] Memobile Power Master               | Rs 2,499           | 76_Memobile_Power_Master.webp
+2026-09-15 14:28:39 [INFO    ] [77] Digit C1                            | Rs 2,349           | 77_Digit_C1.webp
+2026-09-15 14:28:39 [INFO    ] [78] Me Mobile Yorker bold               | Rs 2,499           | 78_Me_Mobile_Yorker_bold.webp
+2026-09-15 14:28:39 [INFO    ] [79] Me Mobile E800 pro                  | Rs 2,749           | 79_Me_Mobile_E800_pro.webp
+2026-09-15 14:28:40 [INFO    ] [80] Spice S7 Power                      | Rs 2,425           | 80_Spice_S7_Power.webp
+2026-09-15 14:28:40 [INFO    ] [81] Spice S9 Power                      | Rs 2,349           | 81_Spice_S9_Power.webp
+2026-09-15 14:28:40 [INFO    ] [82] Spice S10 power                     | Rs 2,500           | 82_Spice_S10_power.webp
+2026-09-15 14:28:40 [INFO    ] [83] Faywa Bass Pro                      | Rs 3,049           | 83_Faywa_Bass_Pro.webp
+2026-09-15 14:28:40 [INFO    ] [84] QMobile Q2165 Music                 | Rs 2,450           | 84_QMobile_Q2165_Music.webp
+2026-09-15 14:28:40 [INFO    ] [85] Sego Spro                           | Rs 8,799           | 85_Sego_Spro.webp
+2026-09-15 14:28:41 [INFO    ] [86] Digit Prime                         | Rs 2,399           | 86_Digit_Prime.webp
+2026-09-15 14:28:41 [INFO    ] [87] QMobile QPrime                      | Rs 3,359           | 87_QMobile_QPrime.webp
+2026-09-15 14:28:42 [INFO    ] [88] QMobile QCrystal                    | Rs 3,449           | 88_QMobile_QCrystal.webp
+2026-09-15 14:28:42 [INFO    ] [89] LvTel Simba                         | Rs 2,149           | 89_LvTel_Simba.webp
+2026-09-15 14:28:43 [INFO    ] [90] LvTel Mufasa                        | Rs 2,149           | 90_LvTel_Mufasa.webp
+2026-09-15 14:28:43 [INFO    ] [91] Faywa Prime 4                       | Rs 2,399           | 91_Faywa_Prime_4.webp
+2026-09-15 14:28:43 [INFO    ] [92] QMobile QGuru Pro                   | Rs 2,299           | 92_QMobile_QGuru_Pro.webp
+2026-09-15 14:28:43 [INFO    ] [93] Digit Neo                           | Rs 2,349           | 93_Digit_Neo.webp
+2026-09-15 14:28:44 [INFO    ] [94] XMobile X1818                       | Rs 2,249           | 94_XMobile_X1818.webp
+2026-09-15 14:28:44 [INFO    ] [95] XMobile SL101                       | Rs 3,289           | 95_XMobile_SL101.webp
+2026-09-15 14:28:44 [INFO    ] [96] XMobile Chief 100                   | Rs 2,429           | 96_XMobile_Chief_100.webp
+2026-09-15 14:28:45 [INFO    ] [97] XMobille Retro 100                  | Rs 2,609           | 97_XMobille_Retro_100.webp
+2026-09-15 14:28:45 [INFO    ] [98] XMobile Retro 100 lite              | Rs 2,519           | 98_XMobile_Retro_100_lite.webp
+2026-09-15 14:28:45 [INFO    ] [99] XMobile X20                         | Rs 3,019           | 99_XMobile_X20.webp
+2026-09-15 14:28:45 [INFO    ] [100] XMobile Prime 100                   | Rs 3,239           | 100_XMobile_Prime_100.webp
+2026-09-15 14:28:45 [INFO    ] [101] XMobile Power Max 1000              | Rs 3,829           | 101_XMobile_Power_Max_1000.webp
+2026-09-15 14:28:46 [INFO    ] [102] XMobile X30                         | Rs 3,019           | 102_XMobile_X30.webp
+2026-09-15 14:28:46 [INFO    ] [103] Sego Orbit O1                       | Rs 23,749          | 103_Sego_Orbit_O1.webp
+2026-09-15 14:28:46 [INFO    ] [104] Memobile Bouncer Pro                | Rs 2,249           | 104_Memobile_Bouncer_Pro.webp
+2026-09-15 14:28:46 [INFO    ] [105] Memobile Power 17                   | Rs 2,799           | 105_Memobile_Power_17.webp
+2026-09-15 14:28:47 [INFO    ] [106] Memobile XL500                      | Rs 3,249           | 106_Memobile_XL500.webp
+2026-09-15 14:28:47 [INFO    ] [107] Memobile E550                       | Rs 4,249           | 107_Memobile_E550.webp
+2026-09-15 14:28:47 [INFO    ] [108] GFive 16 Max                        | Rs 3,149           | 108_GFive_16_Max.webp
+2026-09-15 14:28:48 [INFO    ] [109] Qmobile Boom300 Cam                 | Rs 2,699           | 109_Qmobile_Boom300_Cam.webp
+2026-09-15 14:28:48 [INFO    ] [110] Qmobile Boom600 Cam                 | Rs 3,099           | 110_Qmobile_Boom600_Cam.webp
+2026-09-15 14:28:48 [INFO    ] [111] Digit power king                    | Rs 2,499           | 111_Digit_power_king.webp
+2026-09-15 14:28:48 [INFO    ] [112] Bontel Honey                        | Rs 3,699           | 112_Bontel_Honey.webp
+2026-09-15 14:28:49 [INFO    ] [113] Calme SL100                         | Rs 3,399           | 113_Calme_SL100.webp
+2026-09-15 14:28:49 [INFO    ] [114] Digit Nova                          | Rs 2,249           | 114_Digit_Nova.webp
+2026-09-15 14:28:49 [INFO    ] [115] Digit 8                             | Rs 18,449          | 115_Digit_8.webp
+2026-09-15 14:28:50 [INFO    ] [116] Nokia 5710                          | Rs 13,999          | 116_Nokia_5710.webp
+2026-09-15 14:28:50 [INFO    ] [117] Gfive 15 Pro                        | Rs 3,200           | 117_Gfive_15_Pro.webp
+2026-09-15 14:28:50 [INFO    ] [118] Gfive 16 Pro 2G                     | Rs 3,349           | 118_Gfive_16_Pro_2G.webp
+2026-09-15 14:28:50 [INFO    ] [119] Xiaomi 14                           | Rs 321,999         | 119_Xiaomi_14.webp
+2026-09-15 14:28:51 [INFO    ] [120] Sego Neo 20 Pro                     | Rs 21,999          | 120_Sego_Neo_20_Pro.webp
+2026-09-15 14:28:51 [INFO    ] [121] Club Mobile Super Hit               | Rs 2,849           | 121_Club_Mobile_Super_Hit.webp
+2026-09-15 14:28:51 [INFO    ] [122] Itel Muzik 300                      | Rs 3,399           | 122_Itel_Muzik_300.webp
+2026-09-15 14:28:51 [INFO    ] [123] CALME 4G Power                      | Rs 8,849           | 123_CALME_4G_Power.webp
+2026-09-15 14:28:52 [INFO    ] [124] Faywa Pro 1 4g                      | Rs 7,299           | 124_Faywa_Pro_1_4g.webp
+2026-09-15 14:28:52 [INFO    ] [125] HMD Aura 2                          | Rs 28,499          | 125_HMD_Aura_2.webp
+2026-09-15 14:28:52 [INFO    ] [126] me Mobile L109                      | Rs 2,249           | 126_me_Mobile_L109.webp
+2026-09-15 14:28:52 [INFO    ] [127] Calme 4g Premium                    | Rs 9,949           | 127_Calme_4g_Premium.webp
+2026-09-15 14:28:53 [INFO    ] [128] Calme 4g Platinum                   | Rs 6,999           | 128_Calme_4g_Platinum.webp
+2026-09-15 14:28:53 [INFO    ] [129] Calme 4G Super                      | Rs 7,499           | 129_Calme_4G_Super.webp
+2026-09-15 14:28:53 [INFO    ] [130] itel it2165 eco                     | Rs 2,149           | 130_itel_it2165_eco.webp
+2026-09-15 14:28:53 [INFO    ] [131] Digit C2                            | Rs 2,499           | 131_Digit_C2.webp
+2026-09-15 14:28:54 [INFO    ] [132] QMobile Q2165 Eco                   | Rs 2,249           | 132_QMobile_Q2165_Eco.webp
+2026-09-15 14:28:54 [INFO    ] [133] Itel It 2210                        | Rs 2,750           | 133_Itel_It_2210.webp
+2026-09-15 14:28:54 [INFO    ] [134] VGO TEL Smart HI-FI                 | Rs 4,699           | 134_VGO_TEL_Smart_HI-FI.webp
+2026-09-15 14:28:54 [INFO    ] [135] Tecno Phantom V Flip 2 5G           | Rs 174,999         | 135_Tecno_Phantom_V_Flip_2_5G.webp
+2026-09-15 14:28:55 [INFO    ] [136] Faywa Play Tv                       | Rs 4,199           | 136_Faywa_Play_Tv.webp
+2026-09-15 14:28:55 [INFO    ] [137] MeMobile IPower Gold                | Rs 2,249           | 137_MeMobile_IPower_Gold.webp
+2026-09-15 14:28:55 [INFO    ] [138] Me Mobile Cammando                  | Rs 3,199           | 138_Me_Mobile_Cammando.webp
+2026-09-15 14:28:55 [INFO    ] [139] Samsung Galaxy Z Fold 4             | Rs 289,999         | 139_Samsung_Galaxy_Z_Fold_4.webp
+2026-09-15 14:28:56 [INFO    ] [140] Nokia 5310 (2020)                   | Rs 10,499          | 140_Nokia_5310__2020_.webp
+2026-09-15 14:28:56 [INFO    ] [141] Memobile I Smart Pro                | Rs 3,349           | 141_Memobile_I_Smart_Pro.webp
+2026-09-15 14:28:56 [INFO    ] [142] Samsung Galaxy Z Flip 5             | Rs 217,999         | 142_Samsung_Galaxy_Z_Flip_5.webp
+2026-09-15 14:28:56 [INFO    ] [143] QMobile Boom 200                    | Rs 2,630           | 143_QMobile_Boom_200.webp
+2026-09-15 14:28:57 [INFO    ] [144] Faywa F4                            | Rs 2,899           | 144_Faywa_F4.webp
+2026-09-15 14:28:57 [INFO    ] [145] Gfive G96                           | Rs 3,599           | 145_Gfive_G96.webp
+2026-09-15 14:28:57 [INFO    ] [146] Vgo tel i555                        | Rs 3,699           | 146_Vgo_tel_i555.webp
+2026-09-15 14:28:57 [INFO    ] [147] Digit 4g Edge                       | Rs 9,999           | 147_Digit_4g_Edge.webp
+2026-09-15 14:28:57 [INFO    ] [148] Digit D1                            | Rs 2,999           | 148_Digit_D1.webp
+2026-09-15 14:28:57 [INFO    ] [149] Calme 4G 8210                       | Rs 7,999           | 149_Calme_4G_8210.webp
+2026-09-15 14:28:58 [INFO    ] [150] Samsung Galaxy S23 Ultra            | Rs 269,999         | 150_Samsung_Galaxy_S23_Ultra.webp
+2026-09-15 14:28:58 [INFO    ] [151] Itel Neo X30+                       | Rs 4,699           | 151_Itel_Neo_X30_.webp
+2026-09-15 14:28:58 [INFO    ] [152] Honor X6c                           | Rs 43,999          | 152_Honor_X6c.webp
+2026-09-15 14:28:58 [INFO    ] [153] Itel A100                           | Rs 31,999          | 153_Itel_A100.webp
+2026-09-15 14:28:58 [INFO    ] [154] VGO TEL New 17                      | Rs 25,199          | 154_VGO_TEL_New_17.webp
+2026-09-15 14:28:58 [INFO    ] [155] Dcode Cygnal Ultra                  | Rs 36,999          | 155_Dcode_Cygnal_Ultra.webp
+2026-09-15 14:28:59 [INFO    ] [156] Dcode Cygnal Prime                  | Rs 32,799          | 156_Dcode_Cygnal_Prime.webp
+2026-09-15 14:28:59 [INFO    ] [157] Dcode Cygnal Evo                    | Rs 28,999          | 157_Dcode_Cygnal_Evo.webp
+2026-09-15 14:28:59 [INFO    ] [158] Honor X5c                           | Rs 30,999          | 158_Honor_X5c.webp
+2026-09-15 14:28:59 [INFO    ] [159] Oppo A6K                            | Rs 59,499          | 159_Oppo_A6K.webp
+2026-09-15 14:29:00 [INFO    ] [160] Realme 16 5G                        | Rs 114,499         | 160_Realme_16_5G.webp
+2026-09-15 14:29:00 [INFO    ] [161] Vivo V70 FE                         | Rs 119,999         | 161_Vivo_V70_FE.webp
+2026-09-15 14:29:00 [INFO    ] [162] Samsung Galaxy A37 5G               | Rs 133,399         | 162_Samsung_Galaxy_A37_5G.webp
+2026-09-15 14:29:00 [INFO    ] [163] Sego Hot 100                        | Rs 27,700          | 163_Sego_Hot_100.webp
+2026-09-15 14:29:00 [INFO    ] [164] HMD 102                             | Rs 3,799           | 164_HMD_102.webp
+2026-09-15 14:29:00 [INFO    ] [165] Sego Value 200                      | Rs 2,299           | 165_Sego_Value_200.webp
+2026-09-15 14:29:00 [INFO    ] [166] Faywa F21                           | Rs 2,199           | 166_Faywa_F21.webp
+2026-09-15 14:29:00 [INFO    ] [167] Nothing Phone 3a Lite 5G            | Rs 94,999          | 167_Nothing_Phone_3a_Lite_5G.webp
+2026-09-15 14:29:01 [INFO    ] [168] Samsung Galaxy S26 Plus             | Rs 325,999         | 168_Samsung_Galaxy_S26_Plus.webp
+2026-09-15 14:29:01 [INFO    ] [169] Nothing Phone 4a Pro                | Rs 231,999         | 169_Nothing_Phone_4a_Pro.webp
+2026-09-15 14:29:01 [INFO    ] [170] Digit 260                           | Rs 1,999           | 170_Digit_260.webp
+2026-09-15 14:29:01 [INFO    ] [171] HMD 105 Pure                        | Rs 3,049           | 171_HMD_105_Pure.webp
+2026-09-15 14:29:01 [INFO    ] [172] QMobile E4 2025                     | Rs 2,999           | 172_QMobile_E4_2025.webp
+2026-09-15 14:29:02 [INFO    ] [173] QMobile Q6303 Metal                 | Rs 3,749           | 173_QMobile_Q6303_Metal.webp
+2026-09-15 14:29:02 [INFO    ] [174] Nokia 105 Classic                   | Rs 3,249           | 174_Nokia_105_Classic.webp
+2026-09-15 14:29:02 [INFO    ] [175] Gfive Pro 16                        | Rs 22,999          | 175_Gfive_Pro_16.webp
+2026-09-15 14:29:02 [INFO    ] [176] Dcode Cygnal X                      | Rs 24,499          | 176_Dcode_Cygnal_X.webp
+2026-09-15 14:29:02 [INFO    ] [177] Villaon V50s                        | Rs 18,599          | 177_Villaon_V50s.webp
+2026-09-15 14:29:02 [INFO    ] -----------------------------------------------------------------
+2026-09-15 14:29:02 [INFO    ] Saved JSON -> priceoye_output/products.json
+2026-09-15 14:29:02 [INFO    ] Saved CSV  -> priceoye_output/products.csv
+2026-09-15 14:29:02 [INFO    ] =================================================================
+2026-09-15 14:29:02 [INFO    ] Total Products  : 177
+2026-09-15 14:29:02 [INFO    ] Images Saved    : 177 -> priceoye_output/images/
+2026-09-15 14:29:02 [INFO    ] JSON            : priceoye_output/products.json
+2026-09-15 14:29:02 [INFO    ] CSV             : priceoye_output/products.csv
+2026-09-15 14:29:02 [INFO    ] Time Elapsed    : 57s
+2026-09-15 14:29:02 [INFO    ] =================================================================

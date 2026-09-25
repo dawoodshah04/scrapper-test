@@ -295,3 +295,316 @@
 2026-09-14 23:49:46 [WARNING ]   - Samsung changed CSS class names — check debug_raw.html
 2026-09-14 23:49:46 [WARNING ]   - Page JS did not finish rendering (increase delay_before_return)
 2026-09-14 23:49:46 [WARNING ]   - Geo-blocking or bot detection triggered
+2026-09-15 13:38:28 [INFO    ] =================================================================
+2026-09-15 13:38:28 [INFO    ] Samsung Pakistan Smartphones Scraper
+2026-09-15 13:38:28 [INFO    ] =================================================================
+2026-09-15 13:38:28 [INFO    ] [Step 1] Fetching rendered page via Crawl4AI...
+2026-09-15 13:38:28 [INFO    ] Sending crawl request to Crawl4AI at http://localhost:11235 ...
+2026-09-15 13:38:28 [ERROR   ] Crawl4AI request failed: HTTPConnectionPool(host='localhost', port=11235): Max retries exceeded with url: /crawl (Caused by NewConnectionError("HTTPConnection(host='localhost', port=11235): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-15 13:38:28 [INFO    ] [Step 2] Loading cached HTML snapshot: samsung_output/debug_raw.html
+2026-09-15 13:38:28 [INFO    ] [Step 3] Parsing product cards from HTML...
+2026-09-15 13:38:28 [INFO    ] Found 0 product cards.
+2026-09-15 13:38:28 [INFO    ] Extracted 0 product records.
+2026-09-15 13:38:28 [WARNING ] No products extracted.
+2026-09-15 13:38:28 [WARNING ] Possible causes:
+2026-09-15 13:38:28 [WARNING ]   - Samsung changed CSS class names — check debug_raw.html
+2026-09-15 13:38:28 [WARNING ]   - Page JS did not finish rendering (increase delay_before_return)
+2026-09-15 13:38:28 [WARNING ]   - Geo-blocking or bot detection triggered
+2026-09-15 13:38:43 [INFO    ] =================================================================
+2026-09-15 13:38:43 [INFO    ] Samsung Pakistan Smartphones Scraper
+2026-09-15 13:38:43 [INFO    ] =================================================================
+2026-09-15 13:38:43 [INFO    ] [Step 1] Fetching rendered page via Crawl4AI...
+2026-09-15 13:38:43 [INFO    ] Sending crawl request to Crawl4AI at http://localhost:11235 ...
+2026-09-15 13:38:43 [ERROR   ] Crawl4AI request failed: HTTPConnectionPool(host='localhost', port=11235): Max retries exceeded with url: /crawl (Caused by NewConnectionError("HTTPConnection(host='localhost', port=11235): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-15 13:38:43 [INFO    ] [Step 2] Loading cached HTML snapshot: samsung_output/debug_raw.html
+2026-09-15 13:38:43 [INFO    ] [Step 3] Parsing product cards from HTML...
+2026-09-15 13:38:43 [INFO    ] Found 0 product cards.
+2026-09-15 13:38:43 [INFO    ] Extracted 0 product records.
+2026-09-15 13:38:43 [WARNING ] No products extracted.
+2026-09-15 13:38:43 [WARNING ] Possible causes:
+2026-09-15 13:38:43 [WARNING ]   - Samsung changed CSS class names — check debug_raw.html
+2026-09-15 13:38:43 [WARNING ]   - Page JS did not finish rendering (increase delay_before_return)
+2026-09-15 13:38:43 [WARNING ]   - Geo-blocking or bot detection triggered
+2026-09-15 13:40:12 [INFO    ] =================================================================
+2026-09-15 13:40:12 [INFO    ] Samsung Pakistan Smartphones Scraper
+2026-09-15 13:40:12 [INFO    ] =================================================================
+2026-09-15 13:40:12 [INFO    ] [Step 1] Fetching rendered page via Crawl4AI...
+2026-09-15 13:40:12 [INFO    ] Sending crawl request to Crawl4AI at http://localhost:11235 ...
+2026-09-15 13:40:12 [ERROR   ] Crawl4AI request failed: HTTPConnectionPool(host='localhost', port=11235): Max retries exceeded with url: /crawl (Caused by NewConnectionError("HTTPConnection(host='localhost', port=11235): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-15 13:40:12 [INFO    ] [Step 2] Loading cached HTML snapshot: samsung_output/debug_raw.html
+2026-09-15 13:40:12 [INFO    ] [Step 3] Parsing product cards from HTML...
+2026-09-15 13:40:12 [INFO    ] Found 0 product cards.
+2026-09-15 13:40:12 [INFO    ] Extracted 0 product records.
+2026-09-15 13:40:12 [WARNING ] No products extracted.
+2026-09-15 13:40:12 [WARNING ] Possible causes:
+2026-09-15 13:40:12 [WARNING ]   - Samsung changed CSS class names — check debug_raw.html
+2026-09-15 13:40:12 [WARNING ]   - Page JS did not finish rendering (increase delay_before_return)
+2026-09-15 13:40:12 [WARNING ]   - Geo-blocking or bot detection triggered
+2026-09-15 13:44:19 [INFO    ] =================================================================
+2026-09-15 13:44:19 [INFO    ] Samsung Pakistan Smartphones Scraper
+2026-09-15 13:44:19 [INFO    ] =================================================================
+2026-09-15 13:44:19 [INFO    ] [Step 1] Fetching rendered page via Crawl4AI...
+2026-09-15 13:44:19 [INFO    ] Sending crawl request to Crawl4AI at http://localhost:11235 ...
+2026-09-15 13:44:19 [WARNING ] Crawl4AI service unavailable on http://localhost:11235 (HTTPConnectionPool(host='localhost', port=11235): Max retries exceeded with url: /crawl (Caused by NewConnectionError("HTTPConnection(host='localhost', port=11235): Failed to establish a new connection: [Errno 111] Connection refused"))).
+2026-09-15 13:44:19 [INFO    ] Falling back to direct HTTP fetch...
+2026-09-15 13:44:22 [INFO    ] Direct HTTP fetch succeeded (315227 bytes) -> samsung_output/debug_raw.html
+2026-09-15 13:44:22 [INFO    ] [Step 3] Parsing product cards from HTML...
+2026-09-15 13:44:22 [INFO    ] No DOM product cards extracted. Trying JSON-LD structured data parsing...
+2026-09-15 13:44:22 [INFO    ] Extracted 23 product records.
+2026-09-15 13:44:22 [INFO    ] [Step 4] Downloading product images...
+2026-09-15 13:44:22 [INFO    ] -----------------------------------------------------------------
+2026-09-15 13:44:25 [INFO    ] [01] Galaxy A27 5G                       | PKR 124,999          | 01_Galaxy_A27_5G.png
+2026-09-15 13:44:28 [INFO    ] [02] Galaxy A17 5G                       | PKR 99,999           | 02_Galaxy_A17_5G.png
+2026-09-15 13:44:30 [INFO    ] [03] Galaxy A37 5G                       | PKR 152,999          | 03_Galaxy_A37_5G.png
+2026-09-15 13:44:33 [INFO    ] [04] Galaxy A57 5G                       | PKR 167,999          | 04_Galaxy_A57_5G.png
+2026-09-15 13:44:35 [INFO    ] [05] Galaxy S26                          | PKR 379,999          | 05_Galaxy_S26.png
+2026-09-15 13:44:37 [INFO    ] [06] Galaxy S26+                         | PKR 444,999          | 06_Galaxy_S26_.png
+2026-09-15 13:44:40 [INFO    ] [07] Galaxy S26 Ultra                    | PKR 519,999          | 07_Galaxy_S26_Ultra.png
+2026-09-15 13:44:43 [INFO    ] [08] Galaxy A07                          | PKR 42,999           | 08_Galaxy_A07.png
+2026-09-15 13:44:45 [INFO    ] [09] Galaxy A17                          | PKR 94,999           | 09_Galaxy_A17.png
+2026-09-15 13:44:48 [INFO    ] [10] Galaxy S25 FE                       | PKR 254,999          | 10_Galaxy_S25_FE.png
+2026-09-15 13:44:51 [INFO    ] [11] Galaxy A26 5G                       | PKR 94,999           | 11_Galaxy_A26_5G.png
+2026-09-15 13:44:54 [INFO    ] [12] Galaxy A36 5G                       | PKR 119,999          | 12_Galaxy_A36_5G.png
+2026-09-15 13:44:56 [INFO    ] [13] Galaxy A56 5G                       | PKR 137,999          | 13_Galaxy_A56_5G.png
+2026-09-15 13:44:59 [INFO    ] [14] Galaxy S25 Ultra                    | PKR 459,999          | 14_Galaxy_S25_Ultra.png
+2026-09-15 13:45:02 [INFO    ] [15] Galaxy S24 FE                       | PKR 219,999          | 15_Galaxy_S24_FE.png
+2026-09-15 13:45:05 [INFO    ] [16] Galaxy S24 Ultra (Online Exclusive) | PKR 541,999          | 16_Galaxy_S24_Ultra__Online_Exclusive_.png
+2026-09-15 13:45:07 [INFO    ] [17] Galaxy Z Flip6                      | PKR 384,999          | 17_Galaxy_Z_Flip6.png
+2026-09-15 13:45:10 [INFO    ] [18] Galaxy A55 5G                       | PKR 139,999          | 18_Galaxy_A55_5G.png
+2026-09-15 13:45:14 [INFO    ] [19] Galaxy A25 5G                       | PKR 98,500           | 19_Galaxy_A25_5G.png
+2026-09-15 13:45:17 [INFO    ] [20] Galaxy S24 Ultra                    | PKR 541,999          | 20_Galaxy_S24_Ultra.png
+2026-09-15 13:45:20 [INFO    ] [21] Galaxy A34 5G                       | PKR 116,999          | 21_Galaxy_A34_5G.png
+2026-09-15 13:45:23 [INFO    ] [22] Galaxy Z Fold5                      | PKR 656,999          | 22_Galaxy_Z_Fold5.png
+2026-09-15 13:45:27 [INFO    ] [23] Galaxy A13                          | PKR 57,999           | 23_Galaxy_A13.png
+2026-09-15 13:45:27 [INFO    ] -----------------------------------------------------------------
+2026-09-15 13:45:27 [INFO    ] Saved JSON -> samsung_output/products.json
+2026-09-15 13:45:27 [INFO    ] Saved CSV  -> samsung_output/products.csv
+2026-09-15 13:45:27 [INFO    ] =================================================================
+2026-09-15 13:45:27 [INFO    ] Total Products  : 23
+2026-09-15 13:45:27 [INFO    ] Images Saved    : 23 -> samsung_output/images/
+2026-09-15 13:45:27 [INFO    ] JSON            : samsung_output/products.json
+2026-09-15 13:45:27 [INFO    ] CSV             : samsung_output/products.csv
+2026-09-15 13:45:27 [INFO    ] Time Elapsed    : 67s
+2026-09-15 13:45:27 [INFO    ] =================================================================
+2026-09-15 13:54:31 [INFO    ] =================================================================
+2026-09-15 13:54:31 [INFO    ] Samsung Pakistan Smartphones Scraper
+2026-09-15 13:54:31 [INFO    ] =================================================================
+2026-09-15 13:54:31 [INFO    ] [Step 1] Fetching rendered page via Crawl4AI...
+2026-09-15 13:54:31 [INFO    ] Sending crawl request to Crawl4AI at http://localhost:11235 ...
+2026-09-15 13:54:31 [WARNING ] Crawl4AI service unavailable on http://localhost:11235 (('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))).
+2026-09-15 13:54:31 [INFO    ] Falling back to direct HTTP fetch...
+2026-09-15 13:54:33 [INFO    ] Direct HTTP fetch succeeded (315226 bytes) -> samsung_output/debug_raw.html
+2026-09-15 13:54:33 [INFO    ] [Step 3] Parsing product cards from HTML...
+2026-09-15 13:54:33 [INFO    ] No DOM product cards extracted. Trying JSON-LD structured data parsing...
+2026-09-15 13:54:33 [INFO    ] Extracted 23 product records.
+2026-09-15 13:54:33 [INFO    ] [Step 4] Downloading product images...
+2026-09-15 13:54:33 [INFO    ] -----------------------------------------------------------------
+2026-09-15 13:54:33 [INFO    ] [01] Galaxy A27 5G                       | PKR 124,999          | 01_Galaxy_A27_5G.png
+2026-09-15 13:54:33 [INFO    ] [02] Galaxy A17 5G                       | PKR 99,999           | 02_Galaxy_A17_5G.png
+2026-09-15 13:54:33 [INFO    ] [03] Galaxy A37 5G                       | PKR 152,999          | 03_Galaxy_A37_5G.png
+2026-09-15 13:54:33 [INFO    ] [04] Galaxy A57 5G                       | PKR 167,999          | 04_Galaxy_A57_5G.png
+2026-09-15 13:54:33 [INFO    ] [05] Galaxy S26                          | PKR 379,999          | 05_Galaxy_S26.png
+2026-09-15 13:54:33 [INFO    ] [06] Galaxy S26+                         | PKR 444,999          | 06_Galaxy_S26_.png
+2026-09-15 13:54:33 [INFO    ] [07] Galaxy S26 Ultra                    | PKR 519,999          | 07_Galaxy_S26_Ultra.png
+2026-09-15 13:54:33 [INFO    ] [08] Galaxy A07                          | PKR 42,999           | 08_Galaxy_A07.png
+2026-09-15 13:54:33 [INFO    ] [09] Galaxy A17                          | PKR 94,999           | 09_Galaxy_A17.png
+2026-09-15 13:54:33 [INFO    ] [10] Galaxy S25 FE                       | PKR 254,999          | 10_Galaxy_S25_FE.png
+2026-09-15 13:54:33 [INFO    ] [11] Galaxy A26 5G                       | PKR 94,999           | 11_Galaxy_A26_5G.png
+2026-09-15 13:54:33 [INFO    ] [12] Galaxy A36 5G                       | PKR 119,999          | 12_Galaxy_A36_5G.png
+2026-09-15 13:54:33 [INFO    ] [13] Galaxy A56 5G                       | PKR 137,999          | 13_Galaxy_A56_5G.png
+2026-09-15 13:54:33 [INFO    ] [14] Galaxy S25 Ultra                    | PKR 459,999          | 14_Galaxy_S25_Ultra.png
+2026-09-15 13:54:33 [INFO    ] [15] Galaxy S24 FE                       | PKR 219,999          | 15_Galaxy_S24_FE.png
+2026-09-15 13:54:33 [INFO    ] [16] Galaxy S24 Ultra (Online Exclusive) | PKR 541,999          | 16_Galaxy_S24_Ultra__Online_Exclusive_.png
+2026-09-15 13:54:33 [INFO    ] [17] Galaxy Z Flip6                      | PKR 384,999          | 17_Galaxy_Z_Flip6.png
+2026-09-15 13:54:33 [INFO    ] [18] Galaxy A55 5G                       | PKR 139,999          | 18_Galaxy_A55_5G.png
+2026-09-15 13:54:33 [INFO    ] [19] Galaxy A25 5G                       | PKR 98,500           | 19_Galaxy_A25_5G.png
+2026-09-15 13:54:33 [INFO    ] [20] Galaxy S24 Ultra                    | PKR 541,999          | 20_Galaxy_S24_Ultra.png
+2026-09-15 13:54:33 [INFO    ] [21] Galaxy A34 5G                       | PKR 116,999          | 21_Galaxy_A34_5G.png
+2026-09-15 13:54:33 [INFO    ] [22] Galaxy Z Fold5                      | PKR 656,999          | 22_Galaxy_Z_Fold5.png
+2026-09-15 13:54:33 [INFO    ] [23] Galaxy A13                          | PKR 57,999           | 23_Galaxy_A13.png
+2026-09-15 13:54:33 [INFO    ] -----------------------------------------------------------------
+2026-09-15 13:54:33 [INFO    ] Saved JSON -> samsung_output/products.json
+2026-09-15 13:54:33 [INFO    ] Saved CSV  -> samsung_output/products.csv
+2026-09-15 13:54:33 [INFO    ] =================================================================
+2026-09-15 13:54:33 [INFO    ] Total Products  : 23
+2026-09-15 13:54:33 [INFO    ] Images Saved    : 23 -> samsung_output/images/
+2026-09-15 13:54:33 [INFO    ] JSON            : samsung_output/products.json
+2026-09-15 13:54:33 [INFO    ] CSV             : samsung_output/products.csv
+2026-09-15 13:54:33 [INFO    ] Time Elapsed    : 2s
+2026-09-15 13:54:33 [INFO    ] =================================================================
+2026-09-15 14:11:53 [INFO    ] =================================================================
+2026-09-15 14:11:53 [INFO    ] Samsung Pakistan Smartphones Scraper
+2026-09-15 14:11:53 [INFO    ] =================================================================
+2026-09-15 14:11:53 [INFO    ] [Step 1] Fetching rendered page via Crawl4AI...
+2026-09-15 14:11:53 [INFO    ] Sending crawl request to Crawl4AI at http://localhost:11235 ...
+2026-09-15 14:13:08 [INFO    ] Direct HTTP fetch succeeded (315226 bytes) -> samsung_output/debug_raw.html
+2026-09-15 14:13:08 [INFO    ] [Step 3] Parsing product cards from HTML...
+2026-09-15 14:13:08 [INFO    ] No DOM product cards extracted. Trying JSON-LD structured data parsing...
+2026-09-15 14:13:08 [INFO    ] Extracted 23 product records.
+2026-09-15 14:13:08 [INFO    ] [Step 4] Downloading product images...
+2026-09-15 14:13:08 [INFO    ] -----------------------------------------------------------------
+2026-09-15 14:13:08 [INFO    ] [01] Galaxy A27 5G                       | PKR 124,999          | 01_Galaxy_A27_5G.png
+2026-09-15 14:13:08 [INFO    ] [02] Galaxy A17 5G                       | PKR 99,999           | 02_Galaxy_A17_5G.png
+2026-09-15 14:13:08 [INFO    ] [03] Galaxy A37 5G                       | PKR 152,999          | 03_Galaxy_A37_5G.png
+2026-09-15 14:13:08 [INFO    ] [04] Galaxy A57 5G                       | PKR 167,999          | 04_Galaxy_A57_5G.png
+2026-09-15 14:13:08 [INFO    ] [05] Galaxy S26                          | PKR 379,999          | 05_Galaxy_S26.png
+2026-09-15 14:13:08 [INFO    ] [06] Galaxy S26+                         | PKR 444,999          | 06_Galaxy_S26_.png
+2026-09-15 14:13:08 [INFO    ] [07] Galaxy S26 Ultra                    | PKR 519,999          | 07_Galaxy_S26_Ultra.png
+2026-09-15 14:13:08 [INFO    ] [08] Galaxy A07                          | PKR 42,999           | 08_Galaxy_A07.png
+2026-09-15 14:13:08 [INFO    ] [09] Galaxy A17                          | PKR 94,999           | 09_Galaxy_A17.png
+2026-09-15 14:13:08 [INFO    ] [10] Galaxy S25 FE                       | PKR 254,999          | 10_Galaxy_S25_FE.png
+2026-09-15 14:13:08 [INFO    ] [11] Galaxy A26 5G                       | PKR 94,999           | 11_Galaxy_A26_5G.png
+2026-09-15 14:13:08 [INFO    ] [12] Galaxy A36 5G                       | PKR 119,999          | 12_Galaxy_A36_5G.png
+2026-09-15 14:13:08 [INFO    ] [13] Galaxy A56 5G                       | PKR 137,999          | 13_Galaxy_A56_5G.png
+2026-09-15 14:13:08 [INFO    ] [14] Galaxy S25 Ultra                    | PKR 459,999          | 14_Galaxy_S25_Ultra.png
+2026-09-15 14:13:08 [INFO    ] [15] Galaxy S24 FE                       | PKR 219,999          | 15_Galaxy_S24_FE.png
+2026-09-15 14:13:08 [INFO    ] [16] Galaxy S24 Ultra (Online Exclusive) | PKR 541,999          | 16_Galaxy_S24_Ultra__Online_Exclusive_.png
+2026-09-15 14:13:08 [INFO    ] [17] Galaxy Z Flip6                      | PKR 384,999          | 17_Galaxy_Z_Flip6.png
+2026-09-15 14:13:08 [INFO    ] [18] Galaxy A55 5G                       | PKR 139,999          | 18_Galaxy_A55_5G.png
+2026-09-15 14:13:08 [INFO    ] [19] Galaxy A25 5G                       | PKR 98,500           | 19_Galaxy_A25_5G.png
+2026-09-15 14:13:08 [INFO    ] [20] Galaxy S24 Ultra                    | PKR 541,999          | 20_Galaxy_S24_Ultra.png
+2026-09-15 14:13:08 [INFO    ] [21] Galaxy A34 5G                       | PKR 116,999          | 21_Galaxy_A34_5G.png
+2026-09-15 14:13:08 [INFO    ] [22] Galaxy Z Fold5                      | PKR 656,999          | 22_Galaxy_Z_Fold5.png
+2026-09-15 14:13:08 [INFO    ] [23] Galaxy A13                          | PKR 57,999           | 23_Galaxy_A13.png
+2026-09-15 14:13:08 [INFO    ] -----------------------------------------------------------------
+2026-09-15 14:13:08 [INFO    ] Saved JSON -> samsung_output/products.json
+2026-09-15 14:13:08 [INFO    ] Saved CSV  -> samsung_output/products.csv
+2026-09-15 14:13:08 [INFO    ] =================================================================
+2026-09-15 14:13:08 [INFO    ] Total Products  : 23
+2026-09-15 14:13:08 [INFO    ] Images Saved    : 23 -> samsung_output/images/
+2026-09-15 14:13:08 [INFO    ] JSON            : samsung_output/products.json
+2026-09-15 14:13:08 [INFO    ] CSV             : samsung_output/products.csv
+2026-09-15 14:13:08 [INFO    ] Time Elapsed    : 75s
+2026-09-15 14:13:08 [INFO    ] =================================================================
+2026-09-15 14:16:19 [INFO    ] =================================================================
+2026-09-15 14:16:19 [INFO    ] Samsung Pakistan Smartphones Scraper
+2026-09-15 14:16:19 [INFO    ] =================================================================
+2026-09-15 14:16:19 [INFO    ] [Step 1] Fetching rendered page via Crawl4AI...
+2026-09-15 14:16:19 [INFO    ] Sending crawl request to Crawl4AI at http://localhost:11235 ...
+2026-09-15 14:16:40 [INFO    ] Saved Crawl4AI HTML snapshot (1034340 bytes) -> samsung_output/debug_raw.html
+2026-09-15 14:16:40 [INFO    ] [Step 3] Parsing product cards from HTML...
+2026-09-15 14:16:41 [INFO    ] No DOM product cards extracted. Trying JSON-LD structured data parsing...
+2026-09-15 14:16:41 [INFO    ] Extracted 23 product records.
+2026-09-15 14:16:41 [INFO    ] [Step 4] Downloading product images...
+2026-09-15 14:16:41 [INFO    ] -----------------------------------------------------------------
+2026-09-15 14:16:41 [INFO    ] [01] Galaxy A27 5G                       | PKR 124,999          | 01_Galaxy_A27_5G.png
+2026-09-15 14:16:41 [INFO    ] [02] Galaxy A17 5G                       | PKR 99,999           | 02_Galaxy_A17_5G.png
+2026-09-15 14:16:41 [INFO    ] [03] Galaxy A37 5G                       | PKR 152,999          | 03_Galaxy_A37_5G.png
+2026-09-15 14:16:41 [INFO    ] [04] Galaxy A57 5G                       | PKR 167,999          | 04_Galaxy_A57_5G.png
+2026-09-15 14:16:41 [INFO    ] [05] Galaxy S26                          | PKR 379,999          | 05_Galaxy_S26.png
+2026-09-15 14:16:41 [INFO    ] [06] Galaxy S26+                         | PKR 444,999          | 06_Galaxy_S26_.png
+2026-09-15 14:16:41 [INFO    ] [07] Galaxy S26 Ultra                    | PKR 519,999          | 07_Galaxy_S26_Ultra.png
+2026-09-15 14:16:41 [INFO    ] [08] Galaxy A07                          | PKR 42,999           | 08_Galaxy_A07.png
+2026-09-15 14:16:41 [INFO    ] [09] Galaxy A17                          | PKR 94,999           | 09_Galaxy_A17.png
+2026-09-15 14:16:41 [INFO    ] [10] Galaxy S25 FE                       | PKR 254,999          | 10_Galaxy_S25_FE.png
+2026-09-15 14:16:41 [INFO    ] [11] Galaxy A26 5G                       | PKR 94,999           | 11_Galaxy_A26_5G.png
+2026-09-15 14:16:41 [INFO    ] [12] Galaxy A36 5G                       | PKR 119,999          | 12_Galaxy_A36_5G.png
+2026-09-15 14:16:41 [INFO    ] [13] Galaxy A56 5G                       | PKR 137,999          | 13_Galaxy_A56_5G.png
+2026-09-15 14:16:41 [INFO    ] [14] Galaxy S25 Ultra                    | PKR 459,999          | 14_Galaxy_S25_Ultra.png
+2026-09-15 14:16:41 [INFO    ] [15] Galaxy S24 FE                       | PKR 219,999          | 15_Galaxy_S24_FE.png
+2026-09-15 14:16:41 [INFO    ] [16] Galaxy S24 Ultra (Online Exclusive) | PKR 541,999          | 16_Galaxy_S24_Ultra__Online_Exclusive_.png
+2026-09-15 14:16:41 [INFO    ] [17] Galaxy Z Flip6                      | PKR 384,999          | 17_Galaxy_Z_Flip6.png
+2026-09-15 14:16:41 [INFO    ] [18] Galaxy A55 5G                       | PKR 139,999          | 18_Galaxy_A55_5G.png
+2026-09-15 14:16:41 [INFO    ] [19] Galaxy A25 5G                       | PKR 98,500           | 19_Galaxy_A25_5G.png
+2026-09-15 14:16:41 [INFO    ] [20] Galaxy S24 Ultra                    | PKR 541,999          | 20_Galaxy_S24_Ultra.png
+2026-09-15 14:16:41 [INFO    ] [21] Galaxy A34 5G                       | PKR 116,999          | 21_Galaxy_A34_5G.png
+2026-09-15 14:16:41 [INFO    ] [22] Galaxy Z Fold5                      | PKR 656,999          | 22_Galaxy_Z_Fold5.png
+2026-09-15 14:16:41 [INFO    ] [23] Galaxy A13                          | PKR 57,999           | 23_Galaxy_A13.png
+2026-09-15 14:16:41 [INFO    ] -----------------------------------------------------------------
+2026-09-15 14:16:41 [INFO    ] Saved JSON -> samsung_output/products.json
+2026-09-15 14:16:41 [INFO    ] Saved CSV  -> samsung_output/products.csv
+2026-09-15 14:16:41 [INFO    ] =================================================================
+2026-09-15 14:16:41 [INFO    ] Total Products  : 23
+2026-09-15 14:16:41 [INFO    ] Images Saved    : 23 -> samsung_output/images/
+2026-09-15 14:16:41 [INFO    ] JSON            : samsung_output/products.json
+2026-09-15 14:16:41 [INFO    ] CSV             : samsung_output/products.csv
+2026-09-15 14:16:41 [INFO    ] Time Elapsed    : 22s
+2026-09-15 14:16:41 [INFO    ] =================================================================
+2026-09-15 14:17:02 [INFO    ] =================================================================
+2026-09-15 14:17:02 [INFO    ] Samsung Pakistan Smartphones Scraper
+2026-09-15 14:17:02 [INFO    ] =================================================================
+2026-09-15 14:17:02 [INFO    ] [Step 1] Fetching rendered page via Crawl4AI...
+2026-09-15 14:17:02 [INFO    ] Sending crawl request to Crawl4AI at http://localhost:11235 ...
+2026-09-15 14:17:20 [INFO    ] Saved Crawl4AI HTML snapshot (976433 bytes) -> samsung_output/debug_raw.html
+2026-09-15 14:17:20 [INFO    ] [Step 3] Parsing product cards from HTML...
+2026-09-15 14:17:20 [INFO    ] No DOM product cards extracted. Trying JSON-LD structured data parsing...
+2026-09-15 14:17:20 [INFO    ] Extracted 23 product records.
+2026-09-15 14:17:20 [INFO    ] [Step 4] Downloading product images...
+2026-09-15 14:17:20 [INFO    ] -----------------------------------------------------------------
+2026-09-15 14:17:20 [INFO    ] [01] Galaxy A27 5G                       | PKR 124,999          | 01_Galaxy_A27_5G.png
+2026-09-15 14:17:20 [INFO    ] [02] Galaxy A17 5G                       | PKR 99,999           | 02_Galaxy_A17_5G.png
+2026-09-15 14:17:20 [INFO    ] [03] Galaxy A37 5G                       | PKR 152,999          | 03_Galaxy_A37_5G.png
+2026-09-15 14:17:20 [INFO    ] [04] Galaxy A57 5G                       | PKR 167,999          | 04_Galaxy_A57_5G.png
+2026-09-15 14:17:20 [INFO    ] [05] Galaxy S26                          | PKR 379,999          | 05_Galaxy_S26.png
+2026-09-15 14:17:20 [INFO    ] [06] Galaxy S26+                         | PKR 444,999          | 06_Galaxy_S26_.png
+2026-09-15 14:17:20 [INFO    ] [07] Galaxy S26 Ultra                    | PKR 519,999          | 07_Galaxy_S26_Ultra.png
+2026-09-15 14:17:20 [INFO    ] [08] Galaxy A07                          | PKR 42,999           | 08_Galaxy_A07.png
+2026-09-15 14:17:20 [INFO    ] [09] Galaxy A17                          | PKR 94,999           | 09_Galaxy_A17.png
+2026-09-15 14:17:20 [INFO    ] [10] Galaxy S25 FE                       | PKR 254,999          | 10_Galaxy_S25_FE.png
+2026-09-15 14:17:20 [INFO    ] [11] Galaxy A26 5G                       | PKR 94,999           | 11_Galaxy_A26_5G.png
+2026-09-15 14:17:20 [INFO    ] [12] Galaxy A36 5G                       | PKR 119,999          | 12_Galaxy_A36_5G.png
+2026-09-15 14:17:20 [INFO    ] [13] Galaxy A56 5G                       | PKR 137,999          | 13_Galaxy_A56_5G.png
+2026-09-15 14:17:20 [INFO    ] [14] Galaxy S25 Ultra                    | PKR 459,999          | 14_Galaxy_S25_Ultra.png
+2026-09-15 14:17:20 [INFO    ] [15] Galaxy S24 FE                       | PKR 219,999          | 15_Galaxy_S24_FE.png
+2026-09-15 14:17:20 [INFO    ] [16] Galaxy S24 Ultra (Online Exclusive) | PKR 541,999          | 16_Galaxy_S24_Ultra__Online_Exclusive_.png
+2026-09-15 14:17:20 [INFO    ] [17] Galaxy Z Flip6                      | PKR 384,999          | 17_Galaxy_Z_Flip6.png
+2026-09-15 14:17:20 [INFO    ] [18] Galaxy A55 5G                       | PKR 139,999          | 18_Galaxy_A55_5G.png
+2026-09-15 14:17:20 [INFO    ] [19] Galaxy A25 5G                       | PKR 98,500           | 19_Galaxy_A25_5G.png
+2026-09-15 14:17:20 [INFO    ] [20] Galaxy S24 Ultra                    | PKR 541,999          | 20_Galaxy_S24_Ultra.png
+2026-09-15 14:17:20 [INFO    ] [21] Galaxy A34 5G                       | PKR 116,999          | 21_Galaxy_A34_5G.png
+2026-09-15 14:17:20 [INFO    ] [22] Galaxy Z Fold5                      | PKR 656,999          | 22_Galaxy_Z_Fold5.png
+2026-09-15 14:17:20 [INFO    ] [23] Galaxy A13                          | PKR 57,999           | 23_Galaxy_A13.png
+2026-09-15 14:17:20 [INFO    ] -----------------------------------------------------------------
+2026-09-15 14:17:20 [INFO    ] Saved JSON -> samsung_output/products.json
+2026-09-15 14:17:20 [INFO    ] Saved CSV  -> samsung_output/products.csv
+2026-09-15 14:17:20 [INFO    ] =================================================================
+2026-09-15 14:17:20 [INFO    ] Total Products  : 23
+2026-09-15 14:17:20 [INFO    ] Images Saved    : 23 -> samsung_output/images/
+2026-09-15 14:17:20 [INFO    ] JSON            : samsung_output/products.json
+2026-09-15 14:17:20 [INFO    ] CSV             : samsung_output/products.csv
+2026-09-15 14:17:20 [INFO    ] Time Elapsed    : 18s
+2026-09-15 14:17:20 [INFO    ] =================================================================
+2026-09-15 14:19:36 [INFO    ] =================================================================
+2026-09-15 14:19:36 [INFO    ] Samsung Pakistan Smartphones Scraper
+2026-09-15 14:19:36 [INFO    ] =================================================================
+2026-09-15 14:19:36 [INFO    ] [Step 1] Fetching rendered page via Crawl4AI...
+2026-09-15 14:19:36 [INFO    ] Sending crawl request to Crawl4AI at http://localhost:11235 ...
+2026-09-15 14:20:00 [INFO    ] Saved Crawl4AI HTML snapshot (1125877 bytes) -> samsung_output/debug_raw.html
+2026-09-15 14:20:00 [INFO    ] [Step 3] Parsing product cards from HTML...
+2026-09-15 14:20:00 [INFO    ] No DOM product cards extracted. Trying JSON-LD structured data parsing...
+2026-09-15 14:20:00 [INFO    ] Extracted 23 product records.
+2026-09-15 14:20:00 [INFO    ] [Step 4] Downloading product images...
+2026-09-15 14:20:00 [INFO    ] -----------------------------------------------------------------
+2026-09-15 14:20:00 [INFO    ] [01] Galaxy A27 5G                       | PKR 124,999          | 01_Galaxy_A27_5G.png
+2026-09-15 14:20:00 [INFO    ] [02] Galaxy A17 5G                       | PKR 99,999           | 02_Galaxy_A17_5G.png
+2026-09-15 14:20:00 [INFO    ] [03] Galaxy A37 5G                       | PKR 152,999          | 03_Galaxy_A37_5G.png
+2026-09-15 14:20:00 [INFO    ] [04] Galaxy A57 5G                       | PKR 167,999          | 04_Galaxy_A57_5G.png
+2026-09-15 14:20:00 [INFO    ] [05] Galaxy S26                          | PKR 379,999          | 05_Galaxy_S26.png
+2026-09-15 14:20:00 [INFO    ] [06] Galaxy S26+                         | PKR 444,999          | 06_Galaxy_S26_.png
+2026-09-15 14:20:00 [INFO    ] [07] Galaxy S26 Ultra                    | PKR 519,999          | 07_Galaxy_S26_Ultra.png
+2026-09-15 14:20:00 [INFO    ] [08] Galaxy A07                          | PKR 42,999           | 08_Galaxy_A07.png
+2026-09-15 14:20:00 [INFO    ] [09] Galaxy A17                          | PKR 94,999           | 09_Galaxy_A17.png
+2026-09-15 14:20:00 [INFO    ] [10] Galaxy S25 FE                       | PKR 254,999          | 10_Galaxy_S25_FE.png
+2026-09-15 14:20:00 [INFO    ] [11] Galaxy A26 5G                       | PKR 94,999           | 11_Galaxy_A26_5G.png
+2026-09-15 14:20:00 [INFO    ] [12] Galaxy A36 5G                       | PKR 119,999          | 12_Galaxy_A36_5G.png
+2026-09-15 14:20:00 [INFO    ] [13] Galaxy A56 5G                       | PKR 137,999          | 13_Galaxy_A56_5G.png
+2026-09-15 14:20:00 [INFO    ] [14] Galaxy S25 Ultra                    | PKR 459,999          | 14_Galaxy_S25_Ultra.png
+2026-09-15 14:20:00 [INFO    ] [15] Galaxy S24 FE                       | PKR 219,999          | 15_Galaxy_S24_FE.png
+2026-09-15 14:20:00 [INFO    ] [16] Galaxy S24 Ultra (Online Exclusive) | PKR 541,999          | 16_Galaxy_S24_Ultra__Online_Exclusive_.png
+2026-09-15 14:20:00 [INFO    ] [17] Galaxy Z Flip6                      | PKR 384,999          | 17_Galaxy_Z_Flip6.png
+2026-09-15 14:20:00 [INFO    ] [18] Galaxy A55 5G                       | PKR 139,999          | 18_Galaxy_A55_5G.png
+2026-09-15 14:20:00 [INFO    ] [19] Galaxy A25 5G                       | PKR 98,500           | 19_Galaxy_A25_5G.png
+2026-09-15 14:20:00 [INFO    ] [20] Galaxy S24 Ultra                    | PKR 541,999          | 20_Galaxy_S24_Ultra.png
+2026-09-15 14:20:00 [INFO    ] [21] Galaxy A34 5G                       | PKR 116,999          | 21_Galaxy_A34_5G.png
+2026-09-15 14:20:00 [INFO    ] [22] Galaxy Z Fold5                      | PKR 656,999          | 22_Galaxy_Z_Fold5.png
+2026-09-15 14:20:00 [INFO    ] [23] Galaxy A13                          | PKR 57,999           | 23_Galaxy_A13.png
+2026-09-15 14:20:00 [INFO    ] -----------------------------------------------------------------
+2026-09-15 14:20:00 [INFO    ] Saved JSON -> samsung_output/products.json
+2026-09-15 14:20:00 [INFO    ] Saved CSV  -> samsung_output/products.csv
+2026-09-15 14:20:00 [INFO    ] =================================================================
+2026-09-15 14:20:00 [INFO    ] Total Products  : 23
+2026-09-15 14:20:00 [INFO    ] Images Saved    : 23 -> samsung_output/images/
+2026-09-15 14:20:00 [INFO    ] JSON            : samsung_output/products.json
+2026-09-15 14:20:00 [INFO    ] CSV             : samsung_output/products.csv
+2026-09-15 14:20:00 [INFO    ] Time Elapsed    : 24s
+2026-09-15 14:20:00 [INFO    ] =================================================================

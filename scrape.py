@@ -68,10 +68,10 @@ PRODUCT_CARD_SEL = "li.pd21-product-card__item:not(.pd21-product-card__banner)"
 
 
 # ---------------------------------------------------------------------------
-# Crawl4AI fetch with wait_for + JS scroll
+# Fetching (Crawl4AI container with automatic direct HTTP fallback)
 # ---------------------------------------------------------------------------
 def fetch_via_crawl4ai():
-    """Fetch fully rendered HTML from Crawl4AI container without custom JS."""
+    """Fetch rendered HTML from Crawl4AI container, or fallback to direct HTTP fetch."""
     logger.info("Sending crawl request to Crawl4AI at %s ...", CRAWL4AI_URL)
     payload = {
         "urls": [TARGET_URL],
@@ -89,47 +89,142 @@ def fetch_via_crawl4ai():
             "params": {
                 "cache_mode": "BYPASS",
                 "word_count_threshold": 0,
-                "wait_for": "css:li.pd21-product-card__item",
+                "wait_for": "css:body",
+                "wait_for_timeout": 5000,
                 "scan_full_page": True,
                 "scroll_delay": 0.5,
-                "delay_before_return_html": 5.0,
-                "page_timeout": 90000,
+                "delay_before_return_html": 3.0,
+                "page_timeout": 30000,
                 "remove_overlay_elements": True,
             },
         },
     }
 
+    html = None
     try:
-        resp = requests.post(f"{CRAWL4AI_URL}/crawl", json=payload, headers=HEADERS_C4AI, timeout=300)
-        if resp.status_code != 200:
-            logger.error("Crawl4AI HTTP %d: %s", resp.status_code, resp.text)
-            return None
-        data = resp.json()
-        results = data.get("results") or data.get("result") or [data]
-        if isinstance(results, dict):
-            results = [results]
-        html = results[0].get("html") or ""
-        if html:
+        resp = requests.post(f"{CRAWL4AI_URL}/crawl", json=payload, headers=HEADERS_C4AI, timeout=(5, 300))
+        if resp.status_code == 200:
+            data = resp.json()
+            results = data.get("results") or data.get("result") or [data]
+            if isinstance(results, dict):
+                results = [results]
+            html = results[0].get("html") or ""
+            if html and len(html) > 500:
+                debug_path = os.path.join(OUTPUT_DIR, "debug_raw.html")
+                with open(debug_path, "w", encoding="utf-8") as f:
+                    f.write(html)
+                logger.info("Saved Crawl4AI HTML snapshot (%d bytes) -> %s", len(html), debug_path)
+                return html
+        else:
+            logger.warning("Crawl4AI HTTP %d: %s", resp.status_code, resp.text[:200])
+    except Exception as e:
+        logger.warning("Crawl4AI service unavailable on %s (%s).", CRAWL4AI_URL, e)
+        logger.info("Falling back to direct HTTP fetch...")
+
+    # Fallback: Direct HTTP fetch
+    try:
+        headers = {
+            "User-Agent": (
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/124.0.0.0 Safari/537.36"
+            ),
+            "Accept-Language": "en-US,en;q=0.9",
+        }
+        resp = requests.get(TARGET_URL, headers=headers, timeout=30)
+        if resp.status_code == 200 and resp.text:
+            html = resp.text
             debug_path = os.path.join(OUTPUT_DIR, "debug_raw.html")
             with open(debug_path, "w", encoding="utf-8") as f:
                 f.write(html)
-            logger.info("Saved HTML snapshot (%d bytes) -> %s", len(html), debug_path)
-        return html
+            logger.info("Direct HTTP fetch succeeded (%d bytes) -> %s", len(html), debug_path)
+            return html
+        else:
+            logger.error("Direct HTTP request failed with status code %d", resp.status_code)
     except Exception as e:
-        logger.error("Crawl4AI request failed: %s", e)
-        return None
+        logger.error("Direct HTTP request failed: %s", e)
+
+    return None
 
 
 def parse_products(html):
-    """Parse Samsung product cards from the fully-rendered page HTML."""
+    """Parse Samsung product cards from HTML (DOM elements & JSON-LD fallback)."""
     soup = BeautifulSoup(html, "html.parser")
+    
+    # Strategy 1: DOM product card elements
     cards = soup.select(PRODUCT_CARD_SEL) or [
         c for c in soup.select("li.pd21-product-card__item")
         if "pd21-product-card__banner" not in c.get("class", [])
     ]
-    logger.info("Found %d product cards.", len(cards))
-    products = [p for p in (_extract_card(c) for c in cards) if p]
+    
+    products = []
+    if cards:
+        logger.info("Found %d product cards in DOM.", len(cards))
+        products = [p for p in (_extract_card(c) for c in cards) if p]
+
+    # Strategy 2: Fallback to JSON-LD structured data if no DOM products found
+    if not products:
+        logger.info("No DOM product cards extracted. Trying JSON-LD structured data parsing...")
+        products = _parse_json_ld(soup)
+
     logger.info("Extracted %d product records.", len(products))
+    return products
+
+
+def _parse_json_ld(soup):
+    """Extract product list from JSON-LD schema tags."""
+    products = []
+    ld_scripts = soup.find_all("script", type="application/ld+json")
+    for s in ld_scripts:
+        if not s.string:
+            continue
+        try:
+            data = json.loads(s.string)
+            items = []
+            if isinstance(data, dict):
+                if data.get("@type") == "ItemList":
+                    items = [pos.get("item") for pos in data.get("itemListElement", []) if isinstance(pos, dict) and pos.get("item")]
+                elif data.get("@type") == "Product":
+                    items = [data]
+            
+            for item in items:
+                if not isinstance(item, dict) or item.get("@type") != "Product":
+                    continue
+                
+                title = item.get("name", "").strip()
+                url = item.get("url") or item.get("@id") or ""
+                img = item.get("image", "")
+                if isinstance(img, list) and img:
+                    img = img[0]
+
+                offers = item.get("offers") or {}
+                if isinstance(offers, list) and offers:
+                    offers = offers[0]
+                
+                price_raw = str(offers.get("price", "")).strip()
+                currency = offers.get("priceCurrency", "PKR")
+                if price_raw and price_raw.isdigit():
+                    price = f"{currency} {int(price_raw):,}"
+                elif price_raw:
+                    price = f"{currency} {price_raw}"
+                else:
+                    price = "Coming Soon"
+
+                model_match = re.search(r"sm-[a-z0-9]+", url, re.I)
+                model_code = model_match.group(0).upper() if model_match else ""
+
+                if title or url:
+                    products.append({
+                        "title": title,
+                        "model_code": model_code,
+                        "price": price,
+                        "product_url": url,
+                        "image_url": img,
+                    })
+        except Exception as e:
+            logger.debug("Error parsing JSON-LD snippet: %s", e)
+            continue
+
     return products
 
 
@@ -201,6 +296,11 @@ def download_image(img_url, title, idx):
     """Download image from Samsung CDN and return local path."""
     if not img_url or img_url.startswith("data:"):
         return None
+
+    if img_url.startswith("//"):
+        img_url = "https:" + img_url
+    elif img_url.startswith("/"):
+        img_url = IMAGE_CDN + img_url
 
     ext = os.path.splitext(urllib.parse.urlparse(img_url).path)[-1] or ".png"
     if ext.lower() not in (".jpg", ".jpeg", ".png", ".webp", ".gif"):

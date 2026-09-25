@@ -1,0 +1,569 @@
+2026-09-15 19:39:34 [INFO    ] =================================================================
+2026-09-15 19:39:34 [INFO    ] Telex.pk Mobiles & Tablets Scraper
+2026-09-15 19:39:34 [INFO    ] =================================================================
+2026-09-15 19:39:34 [INFO    ] [Step 1] Triggering Crawl4AI browser snapshot for Telex.pk...
+2026-09-15 19:39:34 [INFO    ] Sending crawl request to Crawl4AI at http://localhost:11235 ...
+2026-09-15 19:39:34 [WARNING ] Crawl4AI HTTP 400: {"detail":"Rejected config: field 'js_code' is not permitted on CrawlerRunConfig from an untrusted request"}
+2026-09-15 19:39:34 [INFO    ] [Step 2] Fetching complete product records...
+2026-09-15 19:39:34 [INFO    ] Fetching complete product catalog from Telex.pk...
+2026-09-15 19:39:34 [INFO    ] Fetching page 1: https://telex.pk/collections/mobiles-tablets/products.json?limit=250&page=1
+2026-09-15 19:39:35 [INFO    ] Fetching page 2: https://telex.pk/collections/mobiles-tablets/products.json?limit=250&page=2
+2026-09-15 19:39:36 [INFO    ] Fetching page 3: https://telex.pk/collections/mobiles-tablets/products.json?limit=250&page=3
+2026-09-15 19:39:37 [INFO    ] Fetching page 4: https://telex.pk/collections/mobiles-tablets/products.json?limit=250&page=4
+2026-09-15 19:39:38 [INFO    ] No more products found on page 4.
+2026-09-15 19:39:38 [INFO    ] Total products collected from Telex catalog: 543
+2026-09-15 19:39:38 [INFO    ] [Step 3] Downloading product images...
+2026-09-15 19:39:38 [INFO    ] -----------------------------------------------------------------
+2026-09-15 19:39:39 [INFO    ] [001] Apple iPhone Duo 256GB PTA Approved    | Rs.999,599.0 | -9%          | 001_Apple_iPhone_Duo_256GB_PTA_Approved.jpg
+2026-09-15 19:39:45 [INFO    ] [002] Samsung Galaxy Z Fold 8 Ultra Dual Sim | Rs.487,999.0 | -4%          | 002_Samsung_Galaxy_Z_Fold_8_Ultra_Dual_Sim_Non_PTA.png
+2026-09-15 19:39:46 [INFO    ] [003] Apple iPhone 18 Pro 256GB PTA Approved | Rs.684,999.0 | -14%         | 003_Apple_iPhone_18_Pro_256GB_PTA_Approved.jpg
+2026-09-15 19:39:47 [INFO    ] [004] Tecno Spark Go 3 Dual Sim With Officia | Rs.38,499.00 | -14%         | 004_Tecno_Spark_Go_3_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:39:47 [INFO    ] [005] Apple iPhone 18 Pro Max 256GB PTA Appr | Rs.719,999.0 | -17%         | 005_Apple_iPhone_18_Pro_Max_256GB_PTA_Approved.jpg
+2026-09-15 19:39:48 [INFO    ] [006] Xiaomi Redmi A5 Dual Sim With Official | Rs.33,999.00 | -3%          | 006_Xiaomi_Redmi_A5_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:39:50 [INFO    ] [007] Samsung Galaxy Tab A11 WiFi            | Rs.53,499.00 | 0%           | 007_Samsung_Galaxy_Tab_A11_WiFi.jpg
+2026-09-15 19:39:59 [INFO    ] [008] Infinix Smart 20 Dual Sim With Officia | Rs.39,699.00 | -17%         | 008_Infinix_Smart_20_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:40:03 [INFO    ] [009] Samsung Galaxy S26 Ultra Dual Sim With | Rs.386,999.0 | -3%          | 009_Samsung_Galaxy_S26_Ultra_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:40:03 [INFO    ] [010] Apple iPhone 17 Pro PTA Approved With  | Rs.519,999.0 | -27%         | 010_Apple_iPhone_17_Pro_PTA_Approved_With_Official_Warranty.jpg
+2026-09-15 19:40:05 [INFO    ] [011] Samsung Galaxy A27 5G Dual Sim with Of | Rs.114,999.0 | -12%         | 011_Samsung_Galaxy_A27_5G_Dual_Sim_with_Official_Warranty.webp
+2026-09-15 19:40:06 [INFO    ] [012] ZTE Nubia A56 Dual Sim With Official W | Rs.31,749.00 | -1%          | 012_ZTE_Nubia_A56_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:40:14 [INFO    ] [013] Xiaomi Redmi Note 14 Pro Dual Sim With | Rs.76,499.00 | -4%          | 013_Xiaomi_Redmi_Note_14_Pro_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:40:15 [INFO    ] [014] Oppo A6S Dual Sim With Official Warran | Rs.85,199.00 | -10%         | 014_Oppo_A6S_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:40:17 [INFO    ] [015] Apple iPhone Duo 512GB PTA Approved    | Rs.1,079,599 | -10%         | 015_Apple_iPhone_Duo_512GB_PTA_Approved.jpg
+2026-09-15 19:40:18 [INFO    ] [016] Apple iPhone Duo 1TB PTA Approved      | Rs.1,239,599 | -11%         | 016_Apple_iPhone_Duo_1TB_PTA_Approved.jpg
+2026-09-15 19:40:18 [INFO    ] [017] Apple iPhone Duo 2TB PTA Approved      | Rs.1,479,599 | -10%         | 017_Apple_iPhone_Duo_2TB_PTA_Approved.jpg
+2026-09-15 19:40:20 [INFO    ] [018] Apple iPhone 18 Pro 512GB PTA Approved | Rs.759,999.0 | -16%         | 018_Apple_iPhone_18_Pro_512GB_PTA_Approved.jpg
+2026-09-15 19:40:26 [INFO    ] [019] Apple iPhone 18 Pro 1TB PTA Approved   | Rs.709,999.0 | -38%         | 019_Apple_iPhone_18_Pro_1TB_PTA_Approved.webp
+2026-09-15 19:40:28 [INFO    ] [020] Apple iPhone 18 Pro 2TB PTA Approved   | Rs.1,099,999 | -19%         | 020_Apple_iPhone_18_Pro_2TB_PTA_Approved.jpg
+2026-09-15 19:40:28 [INFO    ] [021] Apple iPhone 18 Pro Max 512GB PTA Appr | Rs.789,999.0 | -19%         | 021_Apple_iPhone_18_Pro_Max_512GB_PTA_Approved.jpg
+2026-09-15 19:40:29 [INFO    ] [022] Apple iPhone 18 Pro Max 1TB PTA Approv | Rs.929,999.0 | -21%         | 022_Apple_iPhone_18_Pro_Max_1TB_PTA_Approved.webp
+2026-09-15 19:40:29 [INFO    ] [023] Apple iPhone 18 Pro Max 2TB PTA Approv | Rs.1,144,999 | -18%         | 023_Apple_iPhone_18_Pro_Max_2TB_PTA_Approved.jpg
+2026-09-15 19:40:30 [INFO    ] [024] Realme Note 60x Dual Sim With Official | Rs.30,399.00 | -5%          | 024_Realme_Note_60x_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:40:30 [INFO    ] [025] Vivo Y05 Dual Sim With Official Warran | Rs.41,899.00 | -0%          | 025_Vivo_Y05_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:40:33 [INFO    ] [026] Realme 16 5G Dual Sim With Official Wa | Rs.118,999.0 | -5%          | 026_Realme_16_5G_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:40:36 [INFO    ] [027] Apple iPhone 17 Pro Max PTA Approved W | Rs.554,999.0 | -26%         | 027_Apple_iPhone_17_Pro_Max_PTA_Approved_With_Official_Warranty.jpg
+2026-09-15 19:40:36 [INFO    ] [028] Apple iPhone 17 PTA Approved With Offi | Rs.397,999.0 | -18%         | 028_Apple_iPhone_17_PTA_Approved_With_Official_Warranty.jpg
+2026-09-15 19:40:37 [INFO    ] [029] Nothing Phone 4a Pro Dual Sim With Off | Rs.236,999.0 | -4%          | 029_Nothing_Phone_4a_Pro_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:40:43 [INFO    ] [030] Honor X5c Plus Dual Sim With Official  | Rs.35,499.00 | -8%          | 030_Honor_X5c_Plus_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:40:43 [INFO    ] [031] ZTE Nubia V80 Max Dual Sim With Offici | Rs.41,999.00 | -7%          | 031_ZTE_Nubia_V80_Max_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:40:48 [INFO    ] [032] Samsung Galaxy Flip 5 Dual Sim With Of | Rs.224,999.0 | -4%          | 032_Samsung_Galaxy_Flip_5_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:40:49 [INFO    ] [033] Infinix GT 50 Pro Dual Sim With Offici | Rs.159,999.0 | -11%         | 033_Infinix_GT_50_Pro_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:40:51 [INFO    ] [034] Samsung Galaxy A57 5G Dual Sim With Of | Rs.150,999.0 | -8%          | 034_Samsung_Galaxy_A57_5G_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:40:54 [INFO    ] [035] Vivo Y31d Dual Sim With Official Warra | Rs.75,999.00 | -3%          | 035_Vivo_Y31d_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:40:55 [INFO    ] [036] Nothing Phone 3A Dual Sim With Officia | Rs.154,999.0 | -0%          | 036_Nothing_Phone_3A_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:40:56 [INFO    ] [037] Xiaomi Poco C85 Dual Sim With Official | Rs.51,499.00 | -21%         | 037_Xiaomi_Poco_C85_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:40:57 [INFO    ] [038] Oppo A6s Pro Dual Sim With Official Wa | Rs.99,499.00 | -10%         | 038_Oppo_A6s_Pro_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:40:58 [INFO    ] [039] Oppo A6K Dual Sim With Official Warran | Rs.55,399.00 | -8%          | 039_Oppo_A6K_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:40:59 [INFO    ] [040] Nothing Phone 2a Dual Sim With Officia | Rs.115,499.0 | -90%         | 040_Nothing_Phone_2a_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:41:00 [INFO    ] [041] Samsung Galaxy Flip 6 Dual Sim with Of | Rs.305,499.0 | -5%          | 041_Samsung_Galaxy_Flip_6_Dual_Sim_with_Official_Warranty.jpg
+2026-09-15 19:41:00 [INFO    ] [042] Nothing Phone 3A Pro Dual Sim With Off | Rs.181,999.0 | -7%          | 042_Nothing_Phone_3A_Pro_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:41:03 [INFO    ] [043] Tecno Spark 50 Dual Sim With Official  | Rs.58,499.00 | 0%           | 043_Tecno_Spark_50_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:41:04 [INFO    ] [044] Itel City 200 Dual Sim With Official W | Rs.36,999.00 | -18%         | 044_Itel_City_200_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:41:05 [INFO    ] [045] Infinix Hot 60i Dual Sim With Official | Rs.54,499.00 | -8%          | 045_Infinix_Hot_60i_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:41:06 [INFO    ] [046] Realme Note 70 Dual Sim With Official  | Rs.43,999.00 | -12%         | 046_Realme_Note_70_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:41:08 [INFO    ] [047] Honor X5c Dual Sim With Official Warra | Rs.31,999.00 | -0%          | 047_Honor_X5c_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:41:09 [INFO    ] [048] Vgotel  Smart 9 Pro Dual SIm With Offi | Rs.27,499.00 | -14%         | 048_Vgotel__Smart_9_Pro_Dual_SIm_With_Official_Warranty.jpg
+2026-09-15 19:41:10 [INFO    ] [049] Xiaomi Redmi 15 Dual Sim With official | Rs.55,299.00 | -11%         | 049_Xiaomi_Redmi_15_Dual_Sim_With_official_warranty.jpg
+2026-09-15 19:41:11 [INFO    ] [050] Xiaomi Redmi A7 Pro  Dual Sim With Off | Rs.35,699.00 | -21%         | 050_Xiaomi_Redmi_A7_Pro__Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:41:13 [INFO    ] [051] Nothing CMF Phone 1 Dual Sim With Offi | Rs.75,999.00 | -5%          | 051_Nothing_CMF_Phone_1_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:41:14 [INFO    ] [052] Nothing Phone 3A Lite Dual Sim With Of | Rs.107,999.0 | -10%         | 052_Nothing_Phone_3A_Lite_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:41:14 [INFO    ] [053] Nothing Phone 2 Pro Dual Sim With Offi | Rs.101,999.0 | -7%          | 053_Nothing_Phone_2_Pro_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:41:16 [INFO    ] [054] Nokia 105 Classic Dual Sim With Offici | Rs.3,599.00  | -28%         | 054_Nokia_105_Classic_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:41:16 [INFO    ] [055] Nokia 106 (2023) Dual Sim With Officia | Rs.4,499.00  | -36%         | 055_Nokia_106__2023__Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:41:18 [INFO    ] [056] Nokia 5710 Dual Sim with Official Warr | Rs.15,299.00 | -24%         | 056_Nokia_5710_Dual_Sim_with_Official_Warranty.jpg
+2026-09-15 19:41:21 [INFO    ] [057] Honor X6c Dual Sim With Official Warra | Rs.44,499.00 | 0%           | 057_Honor_X6c_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:41:21 [INFO    ] [058] Honor X8D Dual Sim With Official Warra | Rs.77,499.00 | 0%           | 058_Honor_X8D_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:41:25 [INFO    ] [059] Itel A100c Dual Sim With Official Warr | Rs.24,699.00 | -3%          | 059_Itel_A100c_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:41:26 [INFO    ] [060] ZTE Nubia V80 Pro Dual Sim With Offici | Rs.46,999.00 | -2%          | 060_ZTE_Nubia_V80_Pro_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:41:27 [INFO    ] [061] ZTE Nubia A36 Dual Sim With Official W | Rs.28,699.00 | -12%         | 061_ZTE_Nubia_A36_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:41:28 [INFO    ] [062] Vivo Y11D Dual Sim With Official Warra | Rs.63,699.00 | 0%           | 062_Vivo_Y11D_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:41:29 [INFO    ] [063] Oppo Reno 15 5G Dual Sim With Official | Rs.160,999.0 | -2%          | 063_Oppo_Reno_15_5G_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:41:30 [INFO    ] [064] Oppo A6 Dual Sim With Official Warrant | Rs.71,499.00 | 0%           | 064_Oppo_A6_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:41:33 [INFO    ] [065] Tecno Camon 50 Dual Sim With Official  | Rs.94,499.00 | -1%          | 065_Tecno_Camon_50_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:41:35 [INFO    ] [066] Tecno Camon 50 Pro Dual Sim With Offic | Rs.104,499.0 | 0%           | 066_Tecno_Camon_50_Pro_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:41:36 [INFO    ] [067] Tecno Camon 50 Ultra 5G Dual Sim With  | Rs.120,999.0 | -3%          | 067_Tecno_Camon_50_Ultra_5G_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:41:38 [INFO    ] [068] Xiaomi Redmi Note 15 Pro Dual Sim With | Rs.92,499.00 | -16%         | 068_Xiaomi_Redmi_Note_15_Pro_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:41:40 [INFO    ] [069] Xiaomi Redmi Note 15 Dual Sim With Off | Rs.70,499.00 | -10%         | 069_Xiaomi_Redmi_Note_15_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:41:41 [INFO    ] [070] Realme 15 Pro 5G Dual Sim With Officia | Rs.144,999.0 | -6%          | 070_Realme_15_Pro_5G_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:41:42 [INFO    ] [071] Samsung Galaxy Z Fold 6 Dual SIm with  | Rs.490,499.0 | -2%          | 071_Samsung_Galaxy_Z_Fold_6_Dual_SIm_with_Official_Warranty.jpg
+2026-09-15 19:41:42 [INFO    ] [072] Samsung Galaxy A17 Dual Sim With Offic | Rs.68,499.00 | -9%          | 072_Samsung_Galaxy_A17_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:41:43 [INFO    ] [073] Samsung Galaxy S26 Dual Sim With Offic | Rs.286,999.0 | -4%          | 073_Samsung_Galaxy_S26_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:41:44 [INFO    ] [074] Samsung Galaxy A56 Dual Sim with Offic | Rs.117,999.0 | -6%          | 074_Samsung_Galaxy_A56_Dual_Sim_with_Official_Warranty.jpg
+2026-09-15 19:41:45 [INFO    ] [075] Samsung Galaxy Z Fold 5 With Official  | Rs.329,999.0 | -3%          | 075_Samsung_Galaxy_Z_Fold_5_With_Official_Warranty.jpg
+2026-09-15 19:41:47 [INFO    ] [076] Infinix Note 60 Pro Dual Sim with Offi | Rs.120,999.0 | -1%          | 076_Infinix_Note_60_Pro_Dual_Sim_with_Official_Warranty.jpg
+2026-09-15 19:41:48 [INFO    ] [077] Apple iPhone 17 Air  PTA Approved With | Rs.426,999.0 | -45%         | 077_Apple_iPhone_17_Air__PTA_Approved_With_Official_Warranty.jpg
+2026-09-15 19:41:49 [INFO    ] [078] Villaon V50s Dual Sim With Official Wa | Rs.19,399.00 | -35%         | 078_Villaon_V50s_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:41:50 [INFO    ] [079] Samsung Galaxy A37 5G Dual Sim With Of | Rs.135,999.0 | -6%          | 079_Samsung_Galaxy_A37_5G_Dual_Sim_With_Official_Warranty.webp
+2026-09-15 19:41:51 [INFO    ] [080] Samsung Galaxy S26 Plus Dual Sim With  | Rs.331,499.0 | -19%         | 080_Samsung_Galaxy_S26_Plus_Dual_Sim_With_Official_Warranty.webp
+2026-09-15 19:41:52 [INFO    ] [081] Realme C100i Dual Sim With Official Wa | Rs.38,799.00 | -8%          | 081_Realme_C100i_Dual_Sim_With_Official_Warranty.webp
+2026-09-15 19:41:56 [INFO    ] [082] Itel A100C Special Edition Dual Sim Wi | Rs.27,999.00 | -13%         | 082_Itel_A100C_Special_Edition_Dual_Sim_With_Official_Warranty.webp
+2026-09-15 19:41:59 [INFO    ] [083] Itel A200 Plus Dual Sim With Official  | Rs.31,999.00 | -9%          | 083_Itel_A200_Plus_Dual_Sim_With_Official_Warranty.webp
+2026-09-15 19:42:02 [INFO    ] [084] Vivo Y500 Dual Sim With Official Warra | Rs.80,399.00 | -20%         | 084_Vivo_Y500_Dual_Sim_With_Official_Warranty.webp
+2026-09-15 19:42:03 [INFO    ] [085] Xiaomi Redmi Note 15 Pro Plus 5G Dual  | Rs.160,999.0 | -6%          | 085_Xiaomi_Redmi_Note_15_Pro_Plus_5G_Dual_Sim_With_Official_Warranty.webp
+2026-09-15 19:42:05 [INFO    ] [086] Apple iPad Pro 13-inch 7th Gen M4 512G | Rs.367,499.0 | -8%          | 086_Apple_iPad_Pro_13-inch_7th_Gen_M4_512GB_WiFi.webp
+2026-09-15 19:42:06 [INFO    ] [087] Apple iPad Pro 13 inch M4 256GB Wifi   | Rs.338,999.0 | -5%          | 087_Apple_iPad_Pro_13_inch_M4_256GB_Wifi.webp
+2026-09-15 19:42:07 [INFO    ] [088] Apple iPad Pro 11inch M5 Chip WiFi     | Rs.352,999.0 | -5%          | 088_Apple_iPad_Pro_11inch_M5_Chip_WiFi.webp
+2026-09-15 19:42:08 [INFO    ] [089] Apple iPad Pro 11 inch M5 512GB Wifi   | Rs.413,999.0 | -8%          | 089_Apple_iPad_Pro_11_inch_M5_512GB_Wifi.webp
+2026-09-15 19:42:10 [INFO    ] [090] Apple iPad Air 7 11" 256GB M3 Chip Wi- | Rs.214,999.0 | -10%         | 090_Apple_iPad_Air_7_11__256GB_M3_Chip_Wi-Fi.jpg
+2026-09-15 19:42:13 [INFO    ] [091] Xiaomi Pad 2 Wifi 9.7 Inch Tablet      | Rs.56,999.00 | -19%         | 091_Xiaomi_Pad_2_Wifi_9.7_Inch_Tablet.webp
+2026-09-15 19:42:16 [INFO    ] [092] Xiaomi Redmi Pad 2 4G Tablet           | Rs.79,999.00 | -6%          | 092_Xiaomi_Redmi_Pad_2_4G_Tablet.webp
+2026-09-15 19:42:36 [INFO    ] [093] Nokia 110 2023 Dual Sim With Official  | Rs.5,449.00  | -9%          | 093_Nokia_110_2023_Dual_Sim_With_Official_Warranty.jpg
+2026-09-15 19:42:43 [INFO    ] [094] Nothing Phone 4a Dual Sim With Officia | Rs.202,999.0 | -8%          | 094_Nothing_Phone_4a_Dual_Sim_With_Official_Warranty.webp
+2026-09-15 19:42:44 [INFO    ] [095] Honor X9D Dual Sim With Official Warra | Rs.140,499.0 | -3%          | 095_Honor_X9D_Dual_Sim_With_Official_Warranty.webp
+2026-09-15 19:42:45 [INFO    ] [096] Vgo Tel Onyx Dual SIm With Official Wa | Rs.15,099.00 | -18%         | 096_Vgo_Tel_Onyx_Dual_SIm_With_Official_Warranty.webp
+2026-09-15 19:42:46 [INFO    ] [097] Infinix Hot 70 Dual Sim with Official  | Rs.63,199.00 | -68%         | 097_Infinix_Hot_70_Dual_Sim_with_Official_Warranty.webp
+2026-09-15 19:42:47 [INFO    ] [098] Vivo Y05e Dual Sim With Official Warra | Rs.37,649.00 | -16%         | 098_Vivo_Y05e_Dual_Sim_With_Official_Warranty.webp
+2026-09-15 19:42:49 [INFO    ] [099] Vivo V80 Lite 5G Dual Sim with Officia | Rs.113,499.0 | -29%         | 099_Vivo_V80_Lite_5G_Dual_Sim_with_Official_Warranty.jpg
+2026-09-15 19:42:50 [INFO    ] [100] Vivo V70 FE Dual Sim with Official War | Rs.122,499.0 | -23%         | 100_Vivo_V70_FE_Dual_Sim_with_Official_Warranty.jpg
+2026-09-15 19:42:51 [INFO    ] [101] Oppo Reno 16 F 5G Dual Sim with Offici | Rs.134,499.0 | -13%         | 101_Oppo_Reno_16_F_5G_Dual_Sim_with_Official_Warranty.jpg
+2026-09-15 19:42:56 [INFO    ] [102] Oppo Reno 16 5G Dual Sim with Official | Rs.179,999.0 | -11%         | 102_Oppo_Reno_16_5G_Dual_Sim_with_Official_Warranty.jpg
+2026-09-15 19:42:59 [INFO    ] [103] Realme C100x Dual Sim with Official Wa | Rs.60,499.00 | -36%         | 103_Realme_C100x_Dual_Sim_with_Official_Warranty.webp
+2026-09-15 19:43:07 [INFO    ] [104] Realme C100 4G Dual Sim with Official  | Rs.83,249.00 | -17%         | 104_Realme_C100_4G_Dual_Sim_with_Official_Warranty.webp
+2026-09-15 19:43:08 [INFO    ] [105] Nokia HMD 105 Pure Feature Phone       | Rs.3,369.00  | -33%         | 105_Nokia_HMD_105_Pure_Feature_Phone.webp
+2026-09-15 19:43:09 [INFO    ] [106] HMD 102 4G Dual Sim Feature Phone      | Rs.4,049.00  | -33%         | 106_HMD_102_4G_Dual_Sim_Feature_Phone.webp
+2026-09-15 19:43:11 [INFO    ] [107] Nokia HMD 130 Music Feature Phone      | Rs.6,849.00  | -32%         | 107_Nokia_HMD_130_Music_Feature_Phone.webp
+2026-09-15 19:43:19 [INFO    ] [108] Nokia HMD 150 Music Feature Phone      | Rs.6,649.00  | -34%         | 108_Nokia_HMD_150_Music_Feature_Phone.jpg
+2026-09-15 19:43:19 [INFO    ] [109] Nokia 130 (2023) Feature Phone         | Rs.6,399.00  | -36%         | 109_Nokia_130__2023__Feature_Phone.webp
+2026-09-15 19:43:22 [INFO    ] [110] Nokia 6310 Feature Phone               | Rs.12,199.00 | -21%         | 110_Nokia_6310_Feature_Phone.jpg
+2026-09-15 19:43:24 [INFO    ] [111] JoyroomJR-W020 Mini Magnetic Power Ban | Rs.7,199.00  | -28%         | 111_JoyroomJR-W020_Mini_Magnetic_Power_Bank_10000mAh.jpg
+2026-09-15 19:43:25 [INFO    ] [112] Joyroom JR-PBF14 20000mAh 2.4A LED Pow | Rs.6,225.00  | -22%         | 112_Joyroom_JR-PBF14_20000mAh_2.4A_LED_Power_Bank.jpg
+2026-09-15 19:43:29 [INFO    ] [113] Joyroom JR-QP193 22.5W Power Bank 3000 | Rs.7,925.00  | -21%         | 113_Joyroom_JR-QP193_22.5W_Power_Bank_30000mAh.jpg
+2026-09-15 19:43:30 [INFO    ] [114] Yolo Y-201C Dual Port 20W Fast Charger | Rs.1,149.00  | -38%         | 114_Yolo_Y-201C_Dual_Port_20W_Fast_Charger_With_100_CM_Type_C_to_Type_C_Cable.jpg
+2026-09-15 19:43:31 [INFO    ] [115] Yolo Y-203 Hyper Volt Series 20W Dual  | Rs.1,199.00  | -35%         | 115_Yolo_Y-203_Hyper_Volt_Series_20W_Dual_Port_Fast_Charger_With_Cable.jpg
+2026-09-15 19:43:31 [INFO    ] [116] Yolo Y-103 Hyper 10W  Charger with Mic | Rs.649.00    | -38%         | 116_Yolo_Y-103_Hyper_10W__Charger_with_Micro_USB_Cable.jpg
+2026-09-15 19:43:32 [INFO    ] [117] LRB-302 Juicaro 45W Dual Port Car Char | Rs.849.00    | -30%         | 117_LRB-302_Juicaro_45W_Dual_Port_Car_Charger.png
+2026-09-15 19:43:32 [INFO    ] [118] Lenovo HE05X Wireless Headset Magnetic | Rs.849.00    | -29%         | 118_Lenovo_HE05X_Wireless_Headset_Magnetic_Neckband.jpg
+2026-09-15 19:43:33 [INFO    ] [119] Faster FAC-900 IQ Series 2.1A Quick &  | Rs.1,199.00  | -35%         | 119_Faster_FAC-900_IQ_Series_2.1A_Quick___Fast_Wall_Charger.jpg
+2026-09-15 19:43:33 [INFO    ] [120] Faster F9 Pro In-Ear Headphones        | Rs.499.00    | -41%         | 120_Faster_F9_Pro_In-Ear_Headphones.jpg
+2026-09-15 19:43:39 [INFO    ] [121] Faster 60W USB-C To USB-C Digital Data | Rs.1,299.00  | -35%         | 121_Faster_60W_USB-C_To_USB-C_Digital_Data_Cable.jpg
+2026-09-15 19:43:41 [INFO    ] [122] Faster O3 Ampere 2.4 Micro USB Cable   | Rs.399.00    | -34%         | 122_Faster_O3_Ampere_2.4_Micro_USB_Cable.jpg
+2026-09-15 19:43:43 [INFO    ] [123] Faster L1-PD Type-C To Lightning Fast  | Rs.1,499.00  | -25%         | 123_Faster_L1-PD_Type-C_To_Lightning_Fast_Charging_Cable.jpg
+2026-09-15 19:43:44 [INFO    ] [124] Faster VL-100 USB-C To USB-C 100W PD B | Rs.1,699.00  | -19%         | 124_Faster_VL-100_USB-C_To_USB-C_100W_PD_Braider_Cable.jpg
+2026-09-15 19:43:45 [INFO    ] [125] Faster Vl-50 27W USB-C To Lightning Da | Rs.1,599.00  | -20%         | 125_Faster_Vl-50_27W_USB-C_To_Lightning_Data_Cable.jpg
+2026-09-15 19:43:46 [INFO    ] [126] Faster FC-100W Type-C to Type-C 100W P | Rs.2,199.00  | -27%         | 126_Faster_FC-100W_Type-C_to_Type-C_100W_PD_Fast_Charging_Cable.jpg
+2026-09-15 19:43:47 [INFO    ] [127] Faster PD-65W Power Bank 20000mAh      | Rs.11,699.00 | -27%         | 127_Faster_PD-65W_Power_Bank_20000mAh.jpg
+2026-09-15 19:43:48 [INFO    ] [128] Faster PF-30K Power Bank 30000mAh      | Rs.8,699.00  | -13%         | 128_Faster_PF-30K_Power_Bank_30000mAh.jpg
+2026-09-15 19:43:48 [INFO    ] [129] Faster PD-45W Power Bank 20000mAh      | Rs.9,499.00  | -21%         | 129_Faster_PD-45W_Power_Bank_20000mAh.jpg
+2026-09-15 19:43:50 [INFO    ] [130] Faster F5 Super Bass Wonderfull Sound  | Rs.1,999.00  | -33%         | 130_Faster_F5_Super_Bass_Wonderfull_Sound_Earphones_Pack_of_3.jpg
+2026-09-15 19:43:51 [INFO    ] [131] Faster FAC-30C GaN 30W Smallest PD Sup | Rs.2,899.00  | -24%         | 131_Faster_FAC-30C_GaN_30W_Smallest_PD_Super_Fast_Charger.jpg
+2026-09-15 19:43:52 [INFO    ] [132] Faster PD-67W Triple Port Fast Charger | Rs.7,499.00  | -17%         | 132_Faster_PD-67W_Triple_Port_Fast_Charger.jpg
+2026-09-15 19:43:54 [INFO    ] [133] Faster FAC-65C Gan 65W PD Triple Port  | Rs.6,499.00  | -19%         | 133_Faster_FAC-65C_Gan_65W_PD_Triple_Port_Super_Fast_Charger.jpg
+2026-09-15 19:43:56 [INFO    ] [134] Faster FUC-670 20W PD Charger          | Rs.4,399.00  | -20%         | 134_Faster_FUC-670_20W_PD_Charger.jpg
+2026-09-15 19:43:58 [INFO    ] [135] Oraimo OCD-114 M2/C2/L2 RobustLine 2.4 | Rs.499.00    | -41%         | 135_Oraimo_OCD-114_M2_C2_L2_RobustLine_2.4A_Fast_Charging_Cable_2M.jpg
+2026-09-15 19:43:59 [INFO    ] [136] Oraimo OCD-114CC 60W Type-C to Type-C  | Rs.499.00    | -41%         | 136_Oraimo_OCD-114CC_60W_Type-C_to_Type-C_Data_Cable.jpg
+2026-09-15 19:44:05 [INFO    ] [137] Oraimo OCD-115CC SilkLine 60W Type-C t | Rs.599.00    | -30%         | 137_Oraimo_OCD-115CC_SilkLine_60W_Type-C_to_Type-C_Fast_Charging_Data_Cable_1M.png
+2026-09-15 19:44:07 [INFO    ] [138] Oraimo OCW-1111E+L53 Compact 10W Charg | Rs.649.00    | -35%         | 138_Oraimo_OCW-1111E_L53_Compact_10W_Charger_Kit_USB-Lightning_Cable.jpg
+2026-09-15 19:44:08 [INFO    ] [139] Xzone X-4020G4 3-in-1 USB to Lightning | Rs.999.00    | -33%         | 139_Xzone_X-4020G4_3-in-1_USB_to_Lightning___Type-C___Micro_Cable__1.2M_.jpg
+2026-09-15 19:44:09 [INFO    ] [140] XZone X-3020M3 20W Type-C to Lightning | Rs.779.00    | -35%         | 140_XZone_X-3020M3_20W_Type-C_to_Lightning_Fast_Charging_Data_Cable_1M.jpg
+2026-09-15 19:44:11 [INFO    ] [141] XZone X-3010M3 Type-C to Type-C Fast C | Rs.749.00    | -38%         | 141_XZone_X-3010M3_Type-C_to_Type-C_Fast_Charging_Data_Cable_1M.jpg
+2026-09-15 19:44:12 [INFO    ] [142] XZone X-2020M8 USB-A to Type-C Fast Ch | Rs.549.00    | -35%         | 142_XZone_X-2020M8_USB-A_to_Type-C_Fast_Charging_Data_Cable_1M.jpg
+2026-09-15 19:44:13 [INFO    ] [143] XZone X-2010M8 USB to Lightning Fast C | Rs.549.00    | -35%         | 143_XZone_X-2010M8_USB_to_Lightning_Fast_Charging_Data_Cable_1M.jpg
+2026-09-15 19:44:14 [INFO    ] [144] XZone X-1010M8 USB to Micro USB Fast C | Rs.449.00    | -31%         | 144_XZone_X-1010M8_USB_to_Micro_USB_Fast_Charging_Data_Cable_1M.jpg
+2026-09-15 19:44:15 [INFO    ] [145] XZone X-TA20 45W Universal Travel Conv | Rs.4,999.00  | -23%         | 145_XZone_X-TA20_45W_Universal_Travel_Converter_Adapter_Fast_Charging.jpg
+2026-09-15 19:44:16 [INFO    ] [146] XZone X-A25 60W PD Type-C to Type-C Fa | Rs.1,049.00  | -34%         | 146_XZone_X-A25_60W_PD_Type-C_to_Type-C_Fast_Charging_Cable_2M.jpg
+2026-09-15 19:44:17 [INFO    ] [147] XZone X-A24 30W PD Type-C to Lightning | Rs.1,049.00  | -34%         | 147_XZone_X-A24_30W_PD_Type-C_to_Lightning_Fast_Charging_Cable_2M.jpg
+2026-09-15 19:44:18 [INFO    ] [148] XZone X-A15 60W PD Type-C to Type-C Fa | Rs.849.00    | -37%         | 148_XZone_X-A15_60W_PD_Type-C_to_Type-C_Fast_Charging_Cable_1.2M.jpg
+2026-09-15 19:44:19 [INFO    ] [149] XZone X-A14 30W PD Type-C to Lightning | Rs.849.00    | -32%         | 149_XZone_X-A14_30W_PD_Type-C_to_Lightning_Fast_Charging_Cable_1.2M.jpg
+2026-09-15 19:44:19 [INFO    ] [150] XZone X-QP198 22.5W 10000mAh Power Ban | Rs.3,999.00  | -20%         | 150_XZone_X-QP198_22.5W_10000mAh_Power_Bank_with_Built-in_Type-C___Lightning_Cables.jpg
+2026-09-15 19:44:21 [INFO    ] [151] XZone X-QP190 Mini 22.5W 10000mAh Powe | Rs.4,499.00  | -18%         | 151_XZone_X-QP190_Mini_22.5W_10000mAh_Power_Bank_with_Built-in_Type-C_Cable.jpg
+2026-09-15 19:44:24 [INFO    ] [152] XZone X-W34 25W PD Wireless 10000mAh F | Rs.5,299.00  | -24%         | 152_XZone_X-W34_25W_PD_Wireless_10000mAh_Fast_Charging_Power_Bank.jpg
+2026-09-15 19:44:25 [INFO    ] [153] Xzone X-HF16 HiFi Sound Type C Handsfr | Rs.999.00    | -26%         | 153_Xzone_X-HF16_HiFi_Sound_Type_C_Handsfree.jpg
+2026-09-15 19:44:26 [INFO    ] [154] Xzone X-HF15 HiFi Sound Lightning Hand | Rs.999.00    | -26%         | 154_Xzone_X-HF15_HiFi_Sound_Lightning_Handsfree.jpg
+2026-09-15 19:44:27 [INFO    ] [155] XZone X-TCN4 15W Dual USB Wall Charger | Rs.899.00    | -33%         | 155_XZone_X-TCN4_15W_Dual_USB_Wall_Charger.jpg
+2026-09-15 19:44:29 [INFO    ] [156] Xzone X-TCF100 45W 2PD + QC Triple Por | Rs.2,099.00  | -26%         | 156_Xzone_X-TCF100_45W_2PD___QC_Triple_Port_Fast_Charger.jpg
+2026-09-15 19:44:33 [INFO    ] [157] XZone X-CH45 38W PD + QC Dual Port Car | Rs.999.00    | -33%         | 157_XZone_X-CH45_38W_PD___QC_Dual_Port_Car_Charger.jpg
+2026-09-15 19:44:34 [INFO    ] [158] XZone X-4010G3 2-in-1 USB-A to Lightni | Rs.849.00    | -29%         | 158_XZone_X-4010G3_2-in-1_USB-A_to_Lightning___Type-C_Fast_Charging_Cable.jpg
+2026-09-15 19:44:36 [INFO    ] [159] Xzone X-HF20 HiFi Sound Type-C Handsfr | Rs.999.00    | -17%         | 159_Xzone_X-HF20_HiFi_Sound_Type-C_Handsfree.jpg
+2026-09-15 19:44:37 [INFO    ] [160] Xzone X-HF21 HiFi Sound Aux Handsfree  | Rs.799.00    | -33%         | 160_Xzone_X-HF21_HiFi_Sound_Aux_Handsfree.jpg
+2026-09-15 19:44:37 [INFO    ] [161] Infinix XH01 Stereo Wired Earphones    | Rs.569.00    | -53%         | 161_Infinix_XH01_Stereo_Wired_Earphones.webp
+2026-09-15 19:44:39 [INFO    ] [162] Xiaomi 3A Braided USB-C to USB-C Fast  | Rs.1,549.00  | -16%         | 162_Xiaomi_3A_Braided_USB-C_to_USB-C_Fast_Charging_Cable_1m.jpg
+2026-09-15 19:44:41 [INFO    ] [163] Xiaomi 3A USB-A to USB-C Cable         | Rs.1,349.00  | 0%           | 163_Xiaomi_3A_USB-A_to_USB-C_Cable.jpg
+2026-09-15 19:44:41 [INFO    ] [164] Xiaomi Mi USB-C to Lightning Fast Char | Rs.3,099.00  | -23%         | 164_Xiaomi_Mi_USB-C_to_Lightning_Fast_Charging_Cable.jpg
+2026-09-15 19:44:43 [INFO    ] [165] Xiaomi Mi 67W Dual Port Car Charger US | Rs.6,499.00  | -13%         | 165_Xiaomi_Mi_67W_Dual_Port_Car_Charger_USB-A___Type-C.jpg
+2026-09-15 19:44:45 [INFO    ] [166] Xiaomi Mi 37W Dual Port Car Charger    | Rs.3,299.00  | -18%         | 166_Xiaomi_Mi_37W_Dual_Port_Car_Charger.jpg
+2026-09-15 19:44:46 [INFO    ] [167] Xiaomi 45W Nano Turbo Charging Power A | Rs.5,849.00  | -16%         | 167_Xiaomi_45W_Nano_Turbo_Charging_Power_Adapter__2-Port_.jpg
+2026-09-15 19:44:46 [INFO    ] [168] Xiaomi 20W Fast Charging Power Adapter | Rs.2,699.00  | -23%         | 168_Xiaomi_20W_Fast_Charging_Power_Adapter__Type-C_.jpg
+2026-09-15 19:44:48 [INFO    ] [169] Xiaomi 80W Adaptive Wireless Charging  | Rs.17,799.00 | -15%         | 169_Xiaomi_80W_Adaptive_Wireless_Charging_Stand.jpg
+2026-09-15 19:44:51 [INFO    ] [170] Xiaomi Redmi Buds 8 Pro True Wireless  | Rs.18,499.00 | -16%         | 170_Xiaomi_Redmi_Buds_8_Pro_True_Wireless_Earbuds.jpg
+2026-09-15 19:44:51 [INFO    ] [171] Xiaomi Piston Basic Wired In-Ear Earph | Rs.1,999.00  | -29%         | 171_Xiaomi_Piston_Basic_Wired_In-Ear_Earphones.jpg
+2026-09-15 19:44:53 [INFO    ] [172] Xiaomi Type-C Earphones                | Rs.1,899.00  | -24%         | 172_Xiaomi_Type-C_Earphones.jpg
+2026-09-15 19:44:53 [INFO    ] [173] Samsung 45W Adapter 3 Pin Without Cabl | Rs.4,499.00  | -0%          | 173_Samsung_45W_Adapter_3_Pin_Without_Cable.jpg
+2026-09-15 19:44:55 [INFO    ] [174] Samsung 3A USB-C to USB-C Cable 1.8m   | Rs.1,499.00  | -32%         | 174_Samsung_3A_USB-C_to_USB-C_Cable_1.8m.jpg
+2026-09-15 19:44:55 [INFO    ] [175] Samsung 25W Power Adapter Without Cabl | Rs.3,199.00  | -20%         | 175_Samsung_25W_Power_Adapter_Without_Cable_2_Pin_EU_Plug_New_Version.jpg
+2026-09-15 19:44:56 [INFO    ] [176] Samsung 25W Adapter 3 Pin Without Cabl | Rs.3,299.00  | -27%         | 176_Samsung_25W_Adapter_3_Pin_Without_Cable.jpg
+2026-09-15 19:44:58 [INFO    ] [177] Vizo V1000 Clamp USB Charger           | Rs.699.00    | -42%         | 177_Vizo_V1000_Clamp_USB_Charger.jpg
+2026-09-15 19:44:59 [INFO    ] [178] Vizo Va1 Fast Charger With Micro Cable | Rs.589.00    | -31%         | 178_Vizo_Va1_Fast_Charger_With_Micro_Cable.jpg
+2026-09-15 19:45:00 [INFO    ] [179] Vizo VS700 Surround Sound Handsfree    | Rs.419.00    | -30%         | 179_Vizo_VS700_Surround_Sound_Handsfree.jpg
+2026-09-15 19:45:05 [INFO    ] [180] Vizo V3A Charger with Built-In Micro C | Rs.399.00    | -34%         | 180_Vizo_V3A_Charger_with_Built-In_Micro_Cable.jpg
+2026-09-15 19:45:09 [INFO    ] [181] Vizo KW300 Dual Port Wall Charger With | Rs.599.00    | -25%         | 181_Vizo_KW300_Dual_Port_Wall_Charger_With_Built-in_Micro_Cable.jpg
+2026-09-15 19:45:10 [INFO    ] [182] Vizo V23 Simple USB Charger with Built | Rs.329.00    | 0%           | 182_Vizo_V23_Simple_USB_Charger_with_Built-in_Micro_Cable.jpg
+2026-09-15 19:45:11 [INFO    ] [183] Vizo V16 Triple Port 18W  Fast Charger | Rs.819.00    | -34%         | 183_Vizo_V16_Triple_Port_18W__Fast_Charger_With_Built-In_Cable.jpg
+2026-09-15 19:45:12 [INFO    ] [184] Vizo VHT-12 10000mAh Power Bank With B | Rs.2,559.00  | -27%         | 184_Vizo_VHT-12_10000mAh_Power_Bank_With_Built-In_Cables.jpg
+2026-09-15 19:45:12 [INFO    ] [185] Vizo Kung Fu X2 Wireless Neckband      | Rs.1,379.00  | -25%         | 185_Vizo_Kung_Fu_X2_Wireless_Neckband.jpg
+2026-09-15 19:45:13 [INFO    ] [186] Vizo V606 Type-C 67W Fast Charging Cab | Rs.349.00    | -37%         | 186_Vizo_V606_Type-C_67W_Fast_Charging_Cable.jpg
+2026-09-15 19:45:14 [INFO    ] [187] Vizo Airgrove AKG HandsFree            | Rs.429.00    | -34%         | 187_Vizo_Airgrove_AKG_HandsFree.jpg
+2026-09-15 19:45:16 [INFO    ] [188] Vizo Apple Handsfree Lightning Connect | Rs.2,299.00  | -23%         | 188_Vizo_Apple_Handsfree_Lightning_Connector.jpg
+2026-09-15 19:45:17 [INFO    ] [189] Vizo Selfi HandsFree                   | Rs.439.00    | -32%         | 189_Vizo_Selfi_HandsFree.jpg
+2026-09-15 19:45:18 [INFO    ] [190] Vizo V999 5-in-1 65W Ultra Fast Multi- | Rs.499.00    | -23%         | 190_Vizo_V999_5-in-1_65W_Ultra_Fast_Multi-Mode_Cable.jpg
+2026-09-15 19:45:19 [INFO    ] [191] Vizo V4A Micro / Type-C 120W Fast Char | Rs.409.00    | -37%         | 191_Vizo_V4A_Micro___Type-C_120W_Fast_Charging_Cable.jpg
+2026-09-15 19:45:19 [INFO    ] [192] Vizo 5 in 1 Dual Port Fast Charging Ca | Rs.449.00    | -31%         | 192_Vizo_5_in_1_Dual_Port_Fast_Charging_Cable___Multi-Connector_High-Speed_Charging_.jpg
+2026-09-15 19:45:20 [INFO    ] [193] Vizo V5A Micro Cable                   | Rs.369.00    | -26%         | 193_Vizo_V5A_Micro_Cable.jpg
+2026-09-15 19:45:21 [INFO    ] [194] Vizo V Go 22W Fast Charging Type-C Dat | Rs.299.00    | -34%         | 194_Vizo_V_Go_22W_Fast_Charging_Type-C_Data_Cable.jpg
+2026-09-15 19:45:22 [INFO    ] [195] Vizo iCore Pro Premium 3-Pin iPhone Ch | Rs.2,759.00  | -21%         | 195_Vizo_iCore_Pro_Premium_3-Pin_iPhone_Charger_Wiht_USB-C_to_Lightning_Cable.jpg
+2026-09-15 19:45:22 [INFO    ] [196] Vizo 3A Light Change Charger with 2 US | Rs.799.00    | -33%         | 196_Vizo_3A_Light_Change_Charger_with_2_USB_Ports___Built-in_Micro_USB_Cable.jpg
+2026-09-15 19:45:23 [INFO    ] [197] Vizo OXY80 80W Dynamic Fast Wall Charg | Rs.1,229.00  | -23%         | 197_Vizo_OXY80_80W_Dynamic_Fast_Wall_Charger_Adapter.jpg
+2026-09-15 19:45:26 [INFO    ] [198] Vizo BL-5C 1050mAh Rechargeable Lithiu | Rs.559.00    | -25%         | 198_Vizo_BL-5C_1050mAh_Rechargeable_Lithium-Ion_Battery__Feature_Phone_Replacement_C.jpg
+2026-09-15 19:45:28 [INFO    ] [199] Vizo BL-5C 950mAh Lithium-ion Recharge | Rs.389.00    | -35%         | 199_Vizo_BL-5C_950mAh_Lithium-ion_Rechargeable_Battery.jpg
+2026-09-15 19:45:29 [INFO    ] [200] Vizo VR9-C Stereo Sound Type-C Handsfr | Rs.699.00    | -36%         | 200_Vizo_VR9-C_Stereo_Sound_Type-C_Handsfree.jpg
+2026-09-15 19:45:30 [INFO    ] [201] Vizo V007 18W Fast Wall Charger with T | Rs.459.00    | -34%         | 201_Vizo_V007_18W_Fast_Wall_Charger_with_Type-C_Cable.jpg
+2026-09-15 19:45:31 [INFO    ] [202] Vizo CAR45 Volt Series 45W Dual-Port S | Rs.1,449.00  | -28%         | 202_Vizo_CAR45_Volt_Series_45W_Dual-Port_Smart_Car_Charger_with_V999_4-in-1_Cable.jpg
+2026-09-15 19:45:37 [INFO    ] [203] Vizo Diamond 3A Fast Car Charger with  | Rs.769.00    | -36%         | 203_Vizo_Diamond_3A_Fast_Car_Charger_with_Built-in_Micro_USB_Cable.jpg
+2026-09-15 19:45:39 [INFO    ] [204] Vizo VR9 Micro Premium Wired Earphones | Rs.549.00    | -35%         | 204_Vizo_VR9_Micro_Premium_Wired_Earphones.jpg
+2026-09-15 19:45:40 [INFO    ] [205] Vizo V65 BlazePro Wired Stereo Earphon | Rs.399.00    | -34%         | 205_Vizo_V65_BlazePro_Wired_Stereo_Earphones.jpg
+2026-09-15 19:45:41 [INFO    ] [206] Vizo VW45 Volt Series 45W Dual-Port Fa | Rs.1,849.00  | -26%         | 206_Vizo_VW45_Volt_Series_45W_Dual-Port_Fast_Wall_Charger.jpg
+2026-09-15 19:45:45 [INFO    ] [207] Vizo VHT-07 10,000mAh Power Bank       | Rs.2,659.00  | -24%         | 207_Vizo_VHT-07_10_000mAh_Power_Bank.jpg
+2026-09-15 19:45:45 [INFO    ] [208] Vizo VC202 Type-C 80W Super Fast Charg | Rs.229.00    | -43%         | 208_Vizo_VC202_Type-C_80W_Super_Fast_Charging_Cable.jpg
+2026-09-15 19:45:46 [INFO    ] [209] Vizo V Go Pro 85W USB To Type C Chargi | Rs.229.00    | -43%         | 209_Vizo_V_Go_Pro_85W_USB_To_Type_C_Charging_Cable.jpg
+2026-09-15 19:45:47 [INFO    ] [210] Vizo Magnus 30 30000mAh Fast Charging  | Rs.5,329.00  | -24%         | 210_Vizo_Magnus_30_30000mAh_Fast_Charging_Power_Bank_With_Built-In_Cables.jpg
+2026-09-15 19:45:48 [INFO    ] [211] Vizo VPB-P20 PowerX 20 20000mAh 22.5W  | Rs.4,299.00  | -22%         | 211_Vizo_VPB-P20_PowerX_20_20000mAh_22.5W_Super_Fast_Charging_Power_Bank_With_Built-.jpg
+2026-09-15 19:45:50 [INFO    ] [212] Vizo VPB-T10 Titan 10 10000mAh 22.5W F | Rs.3,099.00  | -31%         | 212_Vizo_VPB-T10_Titan_10_10000mAh_22.5W_Fast_Charging_Power_Bank_With_Built-In_Cabl.jpg
+2026-09-15 19:45:53 [INFO    ] [213] Vizo Plug Pro VPC 12 USB + PD Fast Cha | Rs.799.00    | -33%         | 213_Vizo_Plug_Pro_VPC_12_USB___PD_Fast_Charger_with_Charging_Cable.jpg
+2026-09-15 19:45:53 [INFO    ] [214] Vizo VC101 Micro 80W Super Fast Chargi | Rs.259.00    | -35%         | 214_Vizo_VC101_Micro_80W_Super_Fast_Charging_Cable.jpg
+2026-09-15 19:45:54 [INFO    ] [215] Vizo VMC120 120W Super Fast Charger    | Rs.1,399.00  | -24%         | 215_Vizo_VMC120_120W_Super_Fast_Charger.jpg
+2026-09-15 19:45:55 [INFO    ] [216] Vizo Hyper 45W PD Super Fast charger   | Rs.1,249.00  | -32%         | 216_Vizo_Hyper_45W_PD_Super_Fast_charger.jpg
+2026-09-15 19:45:55 [INFO    ] [217] Pitaka Ultra-Slim Protective Case for  | Rs.16,999.00 | -15%         | 217_Pitaka_Ultra-Slim_Protective_Case_for_Samsung_Galaxy_Flip_7_-_Black.jpg
+2026-09-15 19:45:57 [INFO    ] [218] Pitaka X Aries MagEZ Compatible Lumino | Rs.19,499.00 | -22%         | 218_Pitaka_X_Aries_MagEZ_Compatible_Luminous_Case_for_Samsung_Galaxy_S25_Ultra_-_Bla.jpg
+2026-09-15 19:45:58 [INFO    ] [219] Pitaka Ultra Slim Case with MagSafe Gr | Rs.17,999.00 | -14%         | 219_Pitaka_Ultra_Slim_Case_with_MagSafe_Grip3_for_iPhone_16_Pro___Black_Grey.jpg
+2026-09-15 19:45:59 [INFO    ] [220] Pitaka Sunset Moonrise Tactile Woven C | Rs.13,999.00 | -24%         | 220_Pitaka_Sunset_Moonrise_Tactile_Woven_Case_for_iPhone_16_Pro_Max_-_Moonrise.jpg
+2026-09-15 19:46:00 [INFO    ] [221] Pitaka Sunset Moonrise Tactile Woven C | Rs.20,999.00 | -16%         | 221_Pitaka_Sunset_Moonrise_Tactile_Woven_Case_with_MagSafe_Grip3_for_iPhone_16_Pro_M.jpg
+2026-09-15 19:46:03 [INFO    ] [222] Pitaka StarPeak Tactile Woven case for | Rs.15,999.00 | -20%         | 222_Pitaka_StarPeak_Tactile_Woven_case_for_iPhone_16_Pro_Max___Over_the_horizon.jpg
+2026-09-15 19:46:06 [INFO    ] [223] Pitaka Sunset Moonrise Tactile Woven C | Rs.16,499.00 | -18%         | 223_Pitaka_Sunset_Moonrise_Tactile_Woven_Case_for_iPhone_16_-_Moonrise.jpg
+2026-09-15 19:46:08 [INFO    ] [224] Pitaka Samsung Galaxy S25 Plus MagEZ C | Rs.14,999.00 | -17%         | 224_Pitaka_Samsung_Galaxy_S25_Plus_MagEZ_Compatible_Case___Black_Grey.jpg
+2026-09-15 19:46:09 [INFO    ] [225] Pitaka StarPeak Tactile Woven case for | Rs.11,999.00 | -20%         | 225_Pitaka_StarPeak_Tactile_Woven_case_for_iPhone_16_Pro_-_Milky_way_galaxy.jpg
+2026-09-15 19:46:12 [INFO    ] [226] Pitaka Ultra-Slim Case for iPhone 16 P | Rs.13,999.00 | -24%         | 226_Pitaka_Ultra-Slim_Case_for_iPhone_16_Pro_Max___Forest_Green.jpg
+2026-09-15 19:46:13 [INFO    ] [227] Pitaka StarPeak Tactile Woven case for | Rs.16,999.00 | -15%         | 227_Pitaka_StarPeak_Tactile_Woven_case_for_iPhone_16_Pro_Max___Milky_Way_Galaxy.jpg
+2026-09-15 19:46:14 [INFO    ] [228] Pitaka StarPeak Ultra-Slim Protective  | Rs.21,999.00 | -17%         | 228_Pitaka_StarPeak_Ultra-Slim_Protective_Case_for_iPhone_17_Pro_-_Over_The_Horizon.jpg
+2026-09-15 19:46:15 [INFO    ] [229] Pitaka Ultra-Slim Protective Case for  | Rs.16,999.00 | 0%           | 229_Pitaka_Ultra-Slim_Protective_Case_for_Samsung_Galaxy_Flip_7-_Sunset-Moonrise.jpg
+2026-09-15 19:46:19 [INFO    ] [230] Pitaka Ultra-Slim Case for iPhone 16 – | Rs.14,999.00 | -25%         | 230_Pitaka_Ultra-Slim_Case_for_iPhone_16___Black_Grey.jpg
+2026-09-15 19:46:20 [INFO    ] [231] Pitaka StarPeak Tactile Woven case for | Rs.16,999.00 | -15%         | 231_Pitaka_StarPeak_Tactile_Woven_case_for_iPhone_16___Over_the_Horizon.jpg
+2026-09-15 19:46:20 [INFO    ] [232] Pitaka Ultra-Slim Protective Case for  | Rs.16,999.00 | -15%         | 232_Pitaka_Ultra-Slim_Protective_Case_for_Google_Pixel_10___10_Pro_-_Black.jpg
+2026-09-15 19:46:25 [INFO    ] [233] Pitaka Sunset Moonrise Tactile Woven C | Rs.16,399.00 | -18%         | 233_Pitaka_Sunset_Moonrise_Tactile_Woven_Case_for_iPhone_16_Plus_-_Sunset.jpg
+2026-09-15 19:46:32 [INFO    ] [234] Pitaka Samsung Galaxy S25 MagEZ Compat | Rs.14,999.00 | 0%           | 234_Pitaka_Samsung_Galaxy_S25_MagEZ_Compatible_Case___Black_Grey.jpg
+2026-09-15 19:46:33 [INFO    ] [235] Pitaka Ultra-Slim Protective Case for  | Rs.21,999.00 | -19%         | 235_Pitaka_Ultra-Slim_Protective_Case_for_iPhone_17_Pro_Max_-_Sunset___Moonrise.jpg
+2026-09-15 19:46:34 [INFO    ] [236] Pitaka Ultra-Slim Case for iPhone 16 P | Rs.12,999.00 | -21%         | 236_Pitaka_Ultra-Slim_Case_for_iPhone_16_Pro_Max___Ocean_Blue.jpg
+2026-09-15 19:46:34 [INFO    ] [237] Pitaka StarPeak Tactile Woven case for | Rs.21,999.00 | -19%         | 237_Pitaka_StarPeak_Tactile_Woven_case_for_iPhone_17_Pro___Milky_Way_Galaxy.jpg
+2026-09-15 19:46:36 [INFO    ] [238] Pitaka Ultra-Slim Protective Case for  | Rs.18,999.00 | -14%         | 238_Pitaka_Ultra-Slim_Protective_Case_for_iPhone_17_-_Black__PitaTap_.jpg
+2026-09-15 19:46:37 [INFO    ] [239] Oraimo OPN-672 OpenCirclet 2 Open Ear  | Rs.5,799.00  | -32%         | 239_Oraimo_OPN-672_OpenCirclet_2_Open_Ear_Bluetooth_Earphone.jpg
+2026-09-15 19:46:37 [INFO    ] [240] Oraimo OCW-5202ECC / LC PowerCube 202  | Rs.1,099.00  | -45%         | 240_Oraimo_OCW-5202ECC___LC_PowerCube_202_20W_Fast_Charger_With_Cable.jpg
+2026-09-15 19:46:39 [INFO    ] [241] Oraimo OCW-5184E+M53/ C53 / L53 18W Fa | Rs.999.00    | -50%         | 241_Oraimo_OCW-5184E_M53__C53___L53_18W_Fast_Charger_Kit_Fast_Charging_Cable.jpg
+2026-09-15 19:46:40 [INFO    ] [242] Oraimo OCD-114MJ/CJ/LJ RobustLine 2.4A | Rs.309.00    | -59%         | 242_Oraimo_OCD-114MJ_CJ_LJ_RobustLine_2.4A__Fast_Charging_Cable.jpg
+2026-09-15 19:46:40 [INFO    ] [243] Oraimo OCW-E106S+CC54 PowerCube 20W Fa | Rs.1,199.00  | -40%         | 243_Oraimo_OCW-E106S_CC54_PowerCube_20W_Fast_Charger_With_Type-C_To_Type-C_Cable.jpg
+2026-09-15 19:46:41 [INFO    ] [244] Oraimo OEP-320s Conch 2 Neo Superior D | Rs.389.00    | -48%         | 244_Oraimo_OEP-320s_Conch_2_Neo_Superior_Deep_Bass_3.5MM_Earphone.jpg
+2026-09-15 19:46:42 [INFO    ] [245] Oraimo OEP-320 Halo Lite Deeper Base 3 | Rs.389.00    | -44%         | 245_Oraimo_OEP-320_Halo_Lite_Deeper_Base_3.5MM_Half_In-Ear_Earphone.jpg
+2026-09-15 19:46:43 [INFO    ] [246] Oraimo OCW-1061E+M53 PowerCube 61 Char | Rs.749.00    | -29%         | 246_Oraimo_OCW-1061E_M53_PowerCube_61_Charger_With_Micro_Data_Cable.jpg
+2026-09-15 19:46:43 [INFO    ] [247] Oraimo OCD-X93 DuraLine 3-in-1 2.4A Fa | Rs.699.00    | -42%         | 247_Oraimo_OCD-X93_DuraLine_3-in-1_2.4A_Fast_Charging_Cable__USB-A_to_Type-C___Light.jpg
+2026-09-15 19:46:44 [INFO    ] [248] Oraimo OCD-118MCL DuraLine 3-in-1 2.4A | Rs.649.00    | -35%         | 248_Oraimo_OCD-118MCL_DuraLine_3-in-1_2.4A_Fast_Charging_Cable__USB-A_to_Type-C___Li.jpg
+2026-09-15 19:46:45 [INFO    ] [249] Oraimo OCD-115M/C/L SilkLine 2A Fast C | Rs.469.00    | -61%         | 249_Oraimo_OCD-115M_C_L_SilkLine_2A_Fast_Charging_Cable_1M.jpg
+2026-09-15 19:46:46 [INFO    ] [250] Oraimo OCD-M32/C32/L32 DuraLine 60W Fa | Rs.379.00    | -62%         | 250_Oraimo_OCD-M32_C32_L32_DuraLine_60W_Fast_Charging_Cable_1M.jpg
+2026-09-15 19:46:46 [INFO    ] [251] Oraimo OEP-E40 Trumpet 3 HIFI Audio In | Rs.619.00    | -38%         | 251_Oraimo_OEP-E40_Trumpet_3_HIFI_Audio_In_Ear_Earphone.jpg
+2026-09-15 19:46:47 [INFO    ] [252] Oraimo OEP-E21P Halo 2S Half In-Ear Wi | Rs.519.00    | -57%         | 252_Oraimo_OEP-E21P_Halo_2S_Half_In-Ear_Wired_Headphones.jpg
+2026-09-15 19:46:47 [INFO    ] [253] Oraimo OCW-7652E + 116CC HyperGaN 65 6 | Rs.3,599.00  | -45%         | 253_Oraimo_OCW-7652E___116CC_HyperGaN_65_65W_Triple_Port_GaN_Charger_Kit_with_100W_T.jpg
+2026-09-15 19:46:48 [INFO    ] [254] Oraimo OCW-7331E+C54 PowerGaN 33 Pro 3 | Rs.1,799.00  | -40%         | 254_Oraimo_OCW-7331E_C54_PowerGaN_33_Pro_33W_GaN_Dual_Port_Fast_Charger_With_Type-C_.jpg
+2026-09-15 19:46:49 [INFO    ] [255] Oraimo OCC-73D Bullet 48 Dual Port 48W | Rs.1,499.00  | -40%         | 255_Oraimo_OCC-73D_Bullet_48_Dual_Port_48W_Fast_Car_Charger.jpg
+2026-09-15 19:46:51 [INFO    ] [256] Oraimo OCC-1152D + X93 Highway 15 Dual | Rs.1,099.00  | -41%         | 256_Oraimo_OCC-1152D___X93_Highway_15_Dual_Port_15.5W_Ultra_Fast_Car_Charger_With_3-.jpg
+2026-09-15 19:46:52 [INFO    ] [257] Joyroom SY-104 Lightning to 3.5mm + Li | Rs.999.00    | -23%         | 257_Joyroom_SY-104_Lightning_to_3.5mm___Lightning_2-in-1_Audio_Converter_Adapter.jpg
+2026-09-15 19:46:55 [INFO    ] [258] Joyroom S-H152 USB to Type-C Female OT | Rs.759.00    | -37%         | 258_Joyroom_S-H152_USB_to_Type-C_Female_OTG_Adapter.jpg
+2026-09-15 19:46:57 [INFO    ] [259] Joyroom S-Y105 2-in-1 Audio Adapter (L | Rs.3,459.00  | -14%         | 259_Joyroom_S-Y105_2-in-1_Audio_Adapter__Lightning_to_3.5mm___Lightning_.jpg
+2026-09-15 19:46:58 [INFO    ] [260] Joyroom JR-QP192 20000mAh Power Bank w | Rs.6,299.00  | -26%         | 260_Joyroom_JR-QP192_20000mAh_Power_Bank_with_Large_Digital_Display.jpg
+2026-09-15 19:46:58 [INFO    ] [261] Joyroom JR-QP191 10000mAh 22.5W Portab | Rs.5,379.00  | -23%         | 261_Joyroom_JR-QP191_10000mAh_22.5W_Portable_Power_Bank.jpg
+2026-09-15 19:47:02 [INFO    ] [262] Joyroom S-UC027A12 USB-A to USB-C 3A F | Rs.999.00    | -33%         | 262_Joyroom_S-UC027A12_USB-A_to_USB-C_3A_Fast_Charging_Cable__1.2M_.jpg
+2026-09-15 19:47:04 [INFO    ] [263] Joyroom S-CC100A12 100W USB-C to USB-C | Rs.1,399.00  | -26%         | 263_Joyroom_S-CC100A12_100W_USB-C_to_USB-C_Fast_Charging_Cable__1.2M_.jpg
+2026-09-15 19:47:05 [INFO    ] [264] Joyroom S-A14 60W USB-C to USB-C Fast  | Rs.1,270.00  | -36%         | 264_Joyroom_S-A14_60W_USB-C_to_USB-C_Fast_Charging_Cable__1.2M_.jpg
+2026-09-15 19:47:11 [INFO    ] [265] Joyroom JR-BP005 Magnetic Braided TPU  | Rs.2,549.00  | -27%         | 265_Joyroom_JR-BP005_Magnetic_Braided_TPU_Case_for_iPhone_15_Pro_Max_6.7_.jpg
+2026-09-15 19:47:11 [INFO    ] [266] Joyroom JR-15X4 TPU Phone Case for iPh | Rs.1,629.00  | -26%         | 266_Joyroom_JR-15X4_TPU_Phone_Case_for_iPhone_15_Pro.jpg
+2026-09-15 19:47:12 [INFO    ] [267] Joyroom JR-OK2 Suction Cup T-Bracket P | Rs.1,399.00  | -30%         | 267_Joyroom_JR-OK2_Suction_Cup_T-Bracket_Phone_Holder.jpg
+2026-09-15 19:47:13 [INFO    ] [268] Joyroom JR-CL21 150W 4-in-1 Fast Car C | Rs.4,750.00  | -21%         | 268_Joyroom_JR-CL21_150W_4-in-1_Fast_Car_Charger.jpg
+2026-09-15 19:47:14 [INFO    ] [269] Joyroom S-2030K6 Lightning 3A Fast Cha | Rs.1,499.00  | -25%         | 269_Joyroom_S-2030K6_Lightning_3A_Fast_Charging_Cable__2M_.jpg
+2026-09-15 19:47:15 [INFO    ] [270] Joyroom JR-TCF24 PD30W Fast Charger    | Rs.3,050.00  | -24%         | 270_Joyroom_JR-TCF24_PD30W_Fast_Charger.jpg
+2026-09-15 19:47:16 [INFO    ] [271] Joyroom JR-TCM02 65W Multi-Port Fast C | Rs.10,350.00 | -93%         | 271_Joyroom_JR-TCM02_65W_Multi-Port_Fast_Charger.jpg
+2026-09-15 19:47:16 [INFO    ] [272] Joyroom S-A43 Coiled Type C To Type C  | Rs.1,649.00  | -34%         | 272_Joyroom_S-A43_Coiled_Type_C_To_Type_C_Fast_Charging_Data_Cable_1.5m.jpg
+2026-09-15 19:47:23 [INFO    ] [273] Joyroom S-A51 60W Type C To Type C Fas | Rs.1,529.00  | -39%         | 273_Joyroom_S-A51_60W_Type_C_To_Type_C_Fast_Charging_1.2M_Cable.jpg
+2026-09-15 19:47:25 [INFO    ] [274] Joyroom JR-EW01 Half In-Ear Wired Earp | Rs.1,189.00  | -34%         | 274_Joyroom_JR-EW01_Half_In-Ear_Wired_Earphones.jpg
+2026-09-15 19:47:26 [INFO    ] [275] Joyroom JR-DH08 Tempered Glass Screen  | Rs.2,599.00  | -26%         | 275_Joyroom_JR-DH08_Tempered_Glass_Screen_Protector_for_iPhone_14_Pro_Max_6.7___2.5D.jpg
+2026-09-15 19:47:27 [INFO    ] [276] Joyroom JR-PBF16 20000mAh 22.5W LED Fa | Rs.6,649.00  | -26%         | 276_Joyroom_JR-PBF16_20000mAh_22.5W_LED_Fast_Charging_Power_Bank.jpg
+2026-09-15 19:47:28 [INFO    ] [277] Joyroom S-A28 Braided USB-A to Lightni | Rs.1,299.00  | -30%         | 277_Joyroom_S-A28_Braided_USB-A_to_Lightning_Fast_Charging_Cable__2M_.jpg
+2026-09-15 19:47:29 [INFO    ] [278] Joyroom S-A28 60W Braided USB-C to USB | Rs.1,549.00  | -38%         | 278_Joyroom_S-A28_60W_Braided_USB-C_to_USB-C_Fast_Charging_Cable__2M_.jpg
+2026-09-15 19:47:33 [INFO    ] [279] Joyroom S-A55 3A USB-A to Lightning Au | Rs.1,649.00  | -34%         | 279_Joyroom_S-A55_3A_USB-A_to_Lightning_Auto_Power-Off_Fast_Charging_Data_Cable_-_1..jpg
+2026-09-15 19:47:35 [INFO    ] [280] Joyroom JR-W17 3-in-1 Qi2 Magnetic Wir | Rs.8,499.00  | -23%         | 280_Joyroom_JR-W17_3-in-1_Qi2_Magnetic_Wireless_Charger.jpg
+2026-09-15 19:47:39 [INFO    ] [281] Joyroom S-UL012A12 USB-A Lightning cab | Rs.959.00    | -26%         | 281_Joyroom_S-UL012A12_USB-A_Lightning_cable_2.4A_20W_1.2m.jpg
+2026-09-15 19:47:41 [INFO    ] [282] Joyroom JR-W15 3-in-1 Wireless Chargin | Rs.7,379.00  | -13%         | 282_Joyroom_JR-W15_3-in-1_Wireless_Charging_Station.jpg
+2026-09-15 19:47:42 [INFO    ] [283] Joyroom JR-TG6 Triple Ports PD30W GaN  | Rs.4,920.00  | -18%         | 283_Joyroom_JR-TG6_Triple_Ports_PD30W_GaN_Charger.jpg
+2026-09-15 19:47:43 [INFO    ] [284] Joyroom JR-TG10 Triple Port 65W GaN Ch | Rs.6,029.00  | -11%         | 284_Joyroom_JR-TG10_Triple_Port_65W_GaN_Charger__EU____A14_USB-C_to_USB-C_100W_Cable.jpg
+2026-09-15 19:47:43 [INFO    ] [285] Joyroom JR-PR1 10000mAh 22.5W Built-in | Rs.8,450.00  | -16%         | 285_Joyroom_JR-PR1_10000mAh_22.5W_Built-in_Cable_Power_Bank.jpg
+2026-09-15 19:47:45 [INFO    ] [286] Joyroom JR-PR2L 35W Mini Power Bank 10 | Rs.11,425.00 | -24%         | 286_Joyroom_JR-PR2L_35W_Mini_Power_Bank_10000mAh_With_Built-in_Type-C_Cable.jpg
+2026-09-15 19:47:46 [INFO    ] [287] Aukey PA-B7S Omnia II Mis S 4 Port 100 | Rs.14,249.00 | -29%         | 287_Aukey_PA-B7S_Omnia_II_Mis_S_4_Port_100W_PD_Super_Fast_Charger.jpg
+2026-09-15 19:47:48 [INFO    ] [288] Aukey PC-GJ10C Clear Protective Case f | Rs.2,699.00  | -23%         | 288_Aukey_PC-GJ10C_Clear_Protective_Case_for_iPhone_15_Pro__MagSafe_Compatible_.jpg
+2026-09-15 19:47:48 [INFO    ] [289] Aukey CB-SCC242 Circlet Blink USB-C to | Rs.2,649.00  | -24%         | 289_Aukey_CB-SCC242_Circlet_Blink_USB-C_to_USB-C_240W_Braided_Fast_Charging_Cable.jpg
+2026-09-15 19:47:50 [INFO    ] [290] Aukey SP-GT10C iPhone 15 Pro Super Cle | Rs.1,399.00  | -30%         | 290_Aukey_SP-GT10C_iPhone_15_Pro_Super_Clear_Tempered_Glass_Screen_Protector.jpg
+2026-09-15 19:47:54 [INFO    ] [291] Aukey SP-GT20D iPhone 15 Pro Max Corni | Rs.1,899.00  | -24%         | 291_Aukey_SP-GT20D_iPhone_15_Pro_Max_Corning_Gorilla_Glass_Screen_Protector.jpg
+2026-09-15 19:47:55 [INFO    ] [292] Aukey SP-GT20C iPhone 15 Pro Corning G | Rs.1,899.00  | -24%         | 292_Aukey_SP-GT20C_iPhone_15_Pro_Corning_Gorilla_Glass_Screen_Protector.jpg
+2026-09-15 19:47:56 [INFO    ] [293] Aukey HD-M12 MagLink Freeze Magnetic W | Rs.7,449.00  | -12%         | 293_Aukey_HD-M12_MagLink_Freeze_Magnetic_Wireless_Car_Charger.jpg
+2026-09-15 19:47:57 [INFO    ] [294] Aukey PC-TM10C iPhone 15 Pro Clear Vie | Rs.1,899.00  | -28%         | 294_Aukey_PC-TM10C_iPhone_15_Pro_Clear_View_Transparent_Magnetic_Clear_Phone_Case_Wi.jpg
+2026-09-15 19:47:59 [INFO    ] [295] Aukey PC-TM10D IPhone 15 Pro Max Clear | Rs.1,899.00  | -28%         | 295_Aukey_PC-TM10D_IPhone_15_Pro_Max_Clear_View_Transparent_Magnetic_Clear_Phone_Cas.jpg
+2026-09-15 19:48:00 [INFO    ] [296] Aukey CB-MD2 Gold-Plated Micro USB Fas | Rs.849.00    | -29%         | 296_Aukey_CB-MD2_Gold-Plated_Micro_USB_Fast_Charging_Cable.jpg
+2026-09-15 19:48:01 [INFO    ] [297] Aukey CB-CD21 100W USB-C to USB-C Brai | Rs.2,899.00  | -17%         | 297_Aukey_CB-CD21_100W_USB-C_to_USB-C_Braided_Cable.jpg
+2026-09-15 19:48:02 [INFO    ] [298] Aukey CB-CL1 USB-C to Lightning Braide | Rs.3,249.00  | -19%         | 298_Aukey_CB-CL1_USB-C_to_Lightning_Braided_Cable_3.95ft.jpg
+2026-09-15 19:48:03 [INFO    ] [299] Aukey CB-CD45 USB-C to USB-C Cable 2.0 | Rs.1,399.00  | 0%           | 299_Aukey_CB-CD45_USB-C_to_USB-C_Cable_2.0_-_0.9m.jpg
+2026-09-15 19:48:04 [INFO    ] [300] Aukey PC-GJ10D iPhone 15 Pro Max Silic | Rs.2,499.00  | -22%         | 300_Aukey_PC-GJ10D_iPhone_15_Pro_Max_Silicone_Magnetic_Liquid_Phone_Case_With_Magsaf.jpg
+2026-09-15 19:48:04 [INFO    ] [301] Anker PowerLine USB-C to USB-A 3.0 Cab | Rs.1,699.00  | -23%         | 301_Anker_PowerLine_USB-C_to_USB-A_3.0_Cable_3FT.jpg
+2026-09-15 19:48:05 [INFO    ] [302] Anker Lightning to 3.5mm + Charging Ad | Rs.10,399.00 | -20%         | 302_Anker_Lightning_to_3.5mm___Charging_Adapter.jpg
+2026-09-15 19:48:10 [INFO    ] [303] Anker 322 USB-C to USB-C Braided Cable | Rs.1,899.00  | -14%         | 303_Anker_322_USB-C_to_USB-C_Braided_Cable_-6ft.jpg
+2026-09-15 19:48:10 [INFO    ] [304] Anker 322 USB-C to USB-C Braided Cable | Rs.1,749.00  | -20%         | 304_Anker_322_USB-C_to_USB-C_Braided_Cable___3ft.jpg
+2026-09-15 19:48:11 [INFO    ] [305] Anker USB-C to USB-C 240W Braided Cabl | Rs.8,999.00  | -18%         | 305_Anker_USB-C_to_USB-C_240W_Braided_Cable__6FT_.jpg
+2026-09-15 19:48:11 [INFO    ] [306] Anker MagGo 10K Ultra-Fast Magnetic Ch | Rs.19,199.00 | -13%         | 306_Anker_MagGo_10K_Ultra-Fast_Magnetic_Charge_Power_Bank.jpg
+2026-09-15 19:48:12 [INFO    ] [307] Anker Nano Power Bank 5000mAh Built-In | Rs.8,099.00  | -33%         | 307_Anker_Nano_Power_Bank_5000mAh_Built-In_Lightning_Connector.jpg
+2026-09-15 19:48:13 [INFO    ] [308] Anker PowerPort Speed 5 63W 5-Port USB | Rs.12,499.00 | -24%         | 308_Anker_PowerPort_Speed_5_63W_5-Port_USB_Wall_Charger_with_Dual_Quick_Charge_Ports.jpg
+2026-09-15 19:48:13 [INFO    ] [309] Anker 25W USB-C Wall Charger           | Rs.3,199.00  | -20%         | 309_Anker_25W_USB-C_Wall_Charger.jpg
+2026-09-15 19:48:15 [INFO    ] [310] Anker Nano USB-C to HDMI Cable 3ft     | Rs.4,249.00  | -15%         | 310_Anker_Nano_USB-C_to_HDMI_Cable_3ft.jpg
+2026-09-15 19:48:16 [INFO    ] [311] Anker MagGo 10K 35W Magnetic Wireless  | Rs.21,799.00 | -19%         | 311_Anker_MagGo_10K_35W_Magnetic_Wireless_Power_Bank.jpg
+2026-09-15 19:48:17 [INFO    ] [312] Anker Nano Power Bank 10,000mAh 45W wi | Rs.16,789.00 | -16%         | 312_Anker_Nano_Power_Bank_10_000mAh_45W_with_Built-In_Retractable_USB-C_Cable.jpg
+2026-09-15 19:48:17 [INFO    ] [313] Anker Zolo 240w Usb-C to Usb-C Fast Ch | Rs.2,199.00  | -27%         | 313_Anker_Zolo_240w_Usb-C_to_Usb-C_Fast_Charging_Braided_Cable_3.3f.jpg
+2026-09-15 19:48:19 [INFO    ] [314] Anker 310 USB-C to USB-C Cable 0.9m    | Rs.2,499.00  | -22%         | 314_Anker_310_USB-C_to_USB-C_Cable_0.9m.jpg
+2026-09-15 19:48:20 [INFO    ] [315] Anker PowerPort II Dual USB 12W Charge | Rs.4,299.00  | -22%         | 315_Anker_PowerPort_II_Dual_USB_12W_Charger.jpg
+2026-09-15 19:48:21 [INFO    ] [316] Anker Prime 250W 6-Port GaN USB-C Desk | Rs.49,499.00 | -10%         | 316_Anker_Prime_250W_6-Port_GaN_USB-C_Desktop_Charging_Station.jpg
+2026-09-15 19:48:22 [INFO    ] [317] Anker 240W USB-C to USB-C Ultra-Fast C | Rs.3,799.00  | 0%           | 317_Anker_240W_USB-C_to_USB-C_Ultra-Fast_Charging_Cable_3.3ft.jpg
+2026-09-15 19:48:23 [INFO    ] [318] Anker Prime Thunderbolt 5 Cable (1 m)  | Rs.9,999.00  | -17%         | 318_Anker_Prime_Thunderbolt_5_Cable__1_m__240W_Fast_Charging___80Gbps_Data_Transfer.jpg
+2026-09-15 19:48:23 [INFO    ] [319] Anker Zolo 20w 2 Pin Mini Charger With | Rs.2,899.00  | -19%         | 319_Anker_Zolo_20w_2_Pin_Mini_Charger_With_Official_Warranty.jpg
+2026-09-15 19:48:25 [INFO    ] [320] Anker 737 PowerCore 24K 140W Fast Char | Rs.37,999.00 | -10%         | 320_Anker_737_PowerCore_24K_140W_Fast_Charging_Power_Bank.jpg
+2026-09-15 19:48:27 [INFO    ] [321] Yolo Y-079 Flow Type-C to Type C Fast  | Rs.539.00    | -37%         | 321_Yolo_Y-079_Flow_Type-C_to_Type_C_Fast_Charging_Cable_60W_With_Official_Warranty.jpg
+2026-09-15 19:48:30 [INFO    ] [322] Yolo Y-077 Fast Charging Lightning Cab | Rs.489.00    | -35%         | 322_Yolo_Y-077_Fast_Charging_Lightning_Cable_With_Official_Warranty.jpg
+2026-09-15 19:48:31 [INFO    ] [323] Yolo Y-076 Type-C 18W Fast Charging Ca | Rs.489.00    | -25%         | 323_Yolo_Y-076_Type-C_18W_Fast_Charging_Cable_With_Official_Warranty.jpg
+2026-09-15 19:48:33 [INFO    ] [324] Yolo Y-201i Dual Port 20W Fast Charger | Rs.1,199.00  | -25%         | 324_Yolo_Y-201i_Dual_Port_20W_Fast_Charger_With_100_CM_Type_C_to_IOS_Cable.jpg
+2026-09-15 19:48:34 [INFO    ] [325] Yolo Y-201 Dual Port 20W Fast Charger  | Rs.1,079.00  | -42%         | 325_Yolo_Y-201_Dual_Port_20W_Fast_Charger_With_100_CM_Type_A_to_Type_C_Cable.jpg
+2026-09-15 19:48:35 [INFO    ] [326] Yolo Y-078 USB To Micro USB Cable With | Rs.449.00    | -40%         | 326_Yolo_Y-078_USB_To_Micro_USB_Cable_With_Official_Warranty.jpg
+2026-09-15 19:48:36 [INFO    ] [327] Yolo Y-080 Type-C to Lightning Chargin | Rs.559.00    | -34%         | 327_Yolo_Y-080_Type-C_to_Lightning_Charging_Cable_With_Official_Warranty.jpg
+2026-09-15 19:48:38 [INFO    ] [328] Yolo Y-084 Link 2 USB to Type C Chargi | Rs.583.00    | -31%         | 328_Yolo_Y-084_Link_2_USB_to_Type_C_Charging_Cable_With_Official_Warranty.jpg
+2026-09-15 19:48:39 [INFO    ] [329] Yolo Y-086 Link 4 4 in 1 Charging Cabl | Rs.749.00    | -32%         | 329_Yolo_Y-086_Link_4_4_in_1_Charging_Cable_With_Official_Warranty.jpg
+2026-09-15 19:48:41 [INFO    ] [330] Yolo Y-15 Type C Wired Earphone With O | Rs.839.00    | -24%         | 330_Yolo_Y-15_Type_C_Wired_Earphone_With_Official_Warranty.jpg
+2026-09-15 19:48:43 [INFO    ] [331] Yolo Y-15 Aux Wired Earphone With Offi | Rs.669.00    | -30%         | 331_Yolo_Y-15_Aux_Wired_Earphone_With_Official_Warranty.jpg
+2026-09-15 19:48:46 [INFO    ] [332] Yolo Y-14 Type C Wired Earphone With O | Rs.710.00    | -29%         | 332_Yolo_Y-14_Type_C_Wired_Earphone_With_Official_Warranty.jpg
+2026-09-15 19:48:48 [INFO    ] [333] Yolo Y-14 Aux Wired Earphone With Offi | Rs.589.00    | -26%         | 333_Yolo_Y-14_Aux_Wired_Earphone_With_Official_Warranty.jpg
+2026-09-15 19:48:49 [INFO    ] [334] Yolo YoPod Vibe Wireless Earbuds With  | Rs.2,499.00  | -22%         | 334_Yolo_YoPod_Vibe_Wireless_Earbuds_With_Official_Warranty.jpg
+2026-09-15 19:48:49 [INFO    ] [335] Joyroom JR-D8 Wireless Bluetooth Sport | Rs.4,899.00  | -28%         | 335_Joyroom_JR-D8_Wireless_Bluetooth_Sports_Neckband.jpg
+2026-09-15 19:48:53 [INFO    ] [336] Faster AS18 Open-Ear Bone Conduction W | Rs.6,999.00  | -18%         | 336_Faster_AS18_Open-Ear_Bone_Conduction_Wireless_Headphones.jpg
+2026-09-15 19:48:53 [INFO    ] [337] Audionic Jionee 2 Wired Handsfree      | Rs.599.00    | -37%         | 337_Audionic_Jionee_2_Wired_Handsfree.webp
+2026-09-15 19:49:09 [INFO    ] [338] Audionic Mark-1 Wired Handsfree Earpho | Rs.545.00    | -39%         | 338_Audionic_Mark-1_Wired_Handsfree_Earphone.webp
+2026-09-15 19:49:10 [INFO    ] [339] Audionic Max Pro 5 Wired In-Ear Handsf | Rs.599.00    | -33%         | 339_Audionic_Max_Pro_5_Wired_In-Ear_Handsfree_Earphone.webp
+2026-09-15 19:49:11 [INFO    ] [340] Audionic Reboot 303 Power Bank 30,000m | Rs.9,899.00  | -27%         | 340_Audionic_Reboot_303_Power_Bank_30_000mAh_65W.webp
+2026-09-15 19:49:11 [INFO    ] [341] Audionic Spark Pro S-220 Mini 20000mAh | Rs.4,299.00  | -28%         | 341_Audionic_Spark_Pro_S-220_Mini_20000mAh_22.5W_Power_Bank.webp
+2026-09-15 19:49:27 [INFO    ] [342] Dany Titan T-100 20000mAh PD 22.5W Fas | Rs.4,999.00  | -19%         | 342_Dany_Titan_T-100_20000mAh_PD_22.5W_Fast_Charging_Power_Bank.webp
+2026-09-15 19:49:34 [INFO    ] [343] Dany Titan T-90 10000mAh PD 22.5W Fast | Rs.3,399.00  | -32%         | 343_Dany_Titan_T-90_10000mAh_PD_22.5W_Fast_Charging_Power_Bank.webp
+2026-09-15 19:49:34 [INFO    ] [344] Apple Pencil Pro                       | Rs.27,499.00 | -8%          | 344_Apple_Pencil_Pro.jpg
+2026-09-15 19:49:38 [INFO    ] [345] Mcdodo Cab Luma 100W USB-C to USB-C Ch | Rs.3,099.00  | -23%         | 345_Mcdodo_Cab_Luma_100W_USB-C_to_USB-C_Charging_Cable_with_LED_1.2m.jpg
+2026-09-15 19:49:39 [INFO    ] [346] Mcdodo 45W Gana Mini + 100W Cab Luma C | Rs.7,499.00  | -17%         | 346_Mcdodo_45W_Gana_Mini___100W_Cab_Luma_Cosmic_Orange_Combo_Pack_Deal.jpg
+2026-09-15 19:49:41 [INFO    ] [347] Mcdodo 45W Gana Mini Ultimate Mini GaN | Rs.6,999.00  | -18%         | 347_Mcdodo_45W_Gana_Mini_Ultimate_Mini_GaN_Dual_Port_Charger.jpg
+2026-09-15 19:49:42 [INFO    ] [348] Mcdodo 2-in-1 Type C Cable with Samsun | Rs.5,499.00  | -21%         | 348_Mcdodo_2-in-1_Type_C_Cable_with_Samsung_Watch_Charger_1.2m.jpg
+2026-09-15 19:49:44 [INFO    ] [349] Mcdodo 60W USB-C to USB-C Cable with A | Rs.5,499.00  | -27%         | 349_Mcdodo_60W_USB-C_to_USB-C_Cable_with_Apple_Watch_Wireless_Charger_-_CA-2580____1.jpg
+2026-09-15 19:49:47 [INFO    ] [350] Mcdodo 2 in1 10,000 mAh 20W+15W Wirele | Rs.10,499.00 | -13%         | 350_Mcdodo_2_in1_10_000_mAh_20W_15W_Wireless_Power_Bank_with_foldable_stand.jpg
+2026-09-15 19:49:50 [INFO    ] [351] Mcdodo 240W Type C to Type C Cable 2m  | Rs.2,999.00  | -33%         | 351_Mcdodo_240W_Type_C_to_Type_C_Cable_2m_-_CA-3311.jpg
+2026-09-15 19:49:51 [INFO    ] [352] Mcdodo Car Charger Mobile 75W Dual Por | Rs.7,499.00  | -12%         | 352_Mcdodo_Car_Charger_Mobile_75W_Dual_Port_USB_A___C_Fast_Charging_-_CC-3690.jpg
+2026-09-15 19:49:54 [INFO    ] [353] Mcdodo Ai Auto Power Off PD Type-C To  | Rs.3,199.00  | -20%         | 353_Mcdodo_Ai_Auto_Power_Off_PD_Type-C_To_Lightning_Cable_1.8m_-_CA-7361.jpg
+2026-09-15 19:49:55 [INFO    ] [354] Faster FT-01A Airvibe 2 Over Ear Earbu | Rs.4,949.00  | -18%         | 354_Faster_FT-01A_Airvibe_2_Over_Ear_Earbuds.jpg
+2026-09-15 19:49:57 [INFO    ] [355] Faster G2000 RGB Lighting Dual Gaming  | Rs.4,399.00  | -20%         | 355_Faster_G2000_RGB_Lighting_Dual_Gaming_Wireless_Speakers_10W.jpg
+2026-09-15 19:49:59 [INFO    ] [356] Faster G1000 RGB Lighting Mini Gaming  | Rs.4,199.00  | -24%         | 356_Faster_G1000_RGB_Lighting_Mini_Gaming_Speaker_20W.jpg
+2026-09-15 19:50:02 [INFO    ] [357] Faster Rainbow 4s Portable Wireless Sp | Rs.4,899.00  | -18%         | 357_Faster_Rainbow_4s_Portable_Wireless_Speaker_10w.jpg
+2026-09-15 19:50:03 [INFO    ] [358] Faster PD-45W Dual Port  Super Fast Ch | Rs.5,499.00  | -21%         | 358_Faster_PD-45W_Dual_Port__Super_Fast_Charging_Wall_Charger.jpg
+2026-09-15 19:50:04 [INFO    ] [359] Faster S5 ANC Over-Ear Wireless Headph | Rs.5,799.00  | -17%         | 359_Faster_S5_ANC_Over-Ear_Wireless_Headphone_Special_Edition.jpg
+2026-09-15 19:50:06 [INFO    ] [360] Faster BG-400 RGB Gaming Headset       | Rs.6,499.00  | 0%           | 360_Faster_BG-400_RGB_Gaming_Headset.jpg
+2026-09-15 19:50:06 [INFO    ] [361] Faster S5 ANC Over-Ear Wireless Headph | Rs.6,699.00  | -16%         | 361_Faster_S5_ANC_Over-Ear_Wireless_Headphones_With_Active_Noise.jpg
+2026-09-15 19:50:07 [INFO    ] [362] Faster M2 Audio Cable For Type-C to 3. | Rs.1,299.00  | -30%         | 362_Faster_M2_Audio_Cable_For_Type-C_to_3.5mm_Port.jpg
+2026-09-15 19:50:08 [INFO    ] [363] Type C Charging Cable with Built-in Ph | Rs.599.00    | -80%         | 363_Type_C_Charging_Cable_with_Built-in_Phone_Stand.webp
+2026-09-15 19:50:09 [INFO    ] [364] Baseus Adaman Metal Digital Display Po | Rs.11,999.00 | -27%         | 364_Baseus_Adaman_Metal_Digital_Display_Power_Bank_65W_20000mAh.webp
+2026-09-15 19:50:09 [INFO    ] [365] Apple EarPods USB-C Handsfree          | Rs.5,799.00  | -28%         | 365_Apple_EarPods_USB-C_Handsfree.png
+2026-09-15 19:50:11 [INFO    ] [366] Belkin Compact 20W PD Wall Charger 2 P | Rs.2,899.00  | -42%         | 366_Belkin_Compact_20W_PD_Wall_Charger_2_Pin.webp
+2026-09-15 19:50:12 [INFO    ] [367] Belkin 25W PD Wall Charger 3 Pin       | Rs.3,299.00  | -31%         | 367_Belkin_25W_PD_Wall_Charger_3_Pin.jpg
+2026-09-15 19:50:12 [INFO    ] [368] Belkin Compact 30W PD Wall Charger 2 P | Rs.3,699.00  | -38%         | 368_Belkin_Compact_30W_PD_Wall_Charger_2_Pin.webp
+2026-09-15 19:50:13 [INFO    ] [369] Belkin Compact 45W PD Wall Charger Wit | Rs.5,499.00  | -21%         | 369_Belkin_Compact_45W_PD_Wall_Charger_With_USB-C_To_USB-C_Cable_2_Pin.jpg
+2026-09-15 19:50:13 [INFO    ] [370] Belkin Boost Charger Pro 2 In 1 Magnet | Rs.23,499.00 | -27%         | 370_Belkin_Boost_Charger_Pro_2_In_1_Magnetic_Charging_Pad_15W.webp
+2026-09-15 19:50:14 [INFO    ] [371] Samsung USB C To USB C Cable 1m        | Rs.749.00    | -38%         | 371_Samsung_USB_C_To_USB_C_Cable_1m.webp
+2026-09-15 19:50:15 [INFO    ] [372] Samsung 45W Power Adapter with USB-C t | Rs.7,399.00  | -26%         | 372_Samsung_45W_Power_Adapter_with_USB-C_to_USB-C_Cable__5A_1.8m__2_Pin.jpg
+2026-09-15 19:50:16 [INFO    ] [373] Samsung 65W Adapter 2 Pin Trio USB-C X | Rs.9,299.00  | -23%         | 373_Samsung_65W_Adapter_2_Pin_Trio_USB-C_X_2_Ports_USB-A_Port.webp
+2026-09-15 19:50:17 [INFO    ] [374] Samsung 45W Power Adapter with USB-C t | Rs.7,799.00  | -26%         | 374_Samsung_45W_Power_Adapter_with_USB-C_to_USB-C_Cable__5A_1.8m__3_Pin.jpg
+2026-09-15 19:50:18 [INFO    ] [375] Universal Waterproof Mobile Phone Dry  | Rs.389.00    | -35%         | 375_Universal_Waterproof_Mobile_Phone_Dry_Bag_6_Inch.jpg
+2026-09-15 19:50:19 [INFO    ] [376] Fast Charging Type C Data Cable        | Rs.99.00     | -78%         | 376_Fast_Charging_Type_C_Data_Cable.jpg
+2026-09-15 19:50:19 [INFO    ] [377] AKG Wired Handsfree Earphones          | Rs.149.00    | -57%         | 377_AKG_Wired_Handsfree_Earphones.webp
+2026-09-15 19:50:21 [INFO    ] [378] SY-T24 USB Type-C Wired Handsfree Earp | Rs.299.00    | -50%         | 378_SY-T24_USB_Type-C_Wired_Handsfree_Earphones.jpg
+2026-09-15 19:50:21 [INFO    ] [379] SY-T26 USB Type-C Wired Handsfree Earp | Rs.299.00    | -50%         | 379_SY-T26_USB_Type-C_Wired_Handsfree_Earphones.jpg
+2026-09-15 19:50:22 [INFO    ] [380] SY-T25 USB Type-C Wired Handsfree Earp | Rs.299.00    | -50%         | 380_SY-T25_USB_Type-C_Wired_Handsfree_Earphones.jpg
+2026-09-15 19:50:23 [INFO    ] [381] Remax RC-137a 65W Chaining Series Fast | Rs.149.00    | -40%         | 381_Remax_RC-137a_65W_Chaining_Series_Fast_Charging_Data_Cable.jpg
+2026-09-15 19:50:23 [INFO    ] [382] GS-05 2-in-1 Wired In-Ear Earphones wi | Rs.149.00    | -50%         | 382_GS-05_2-in-1_Wired_In-Ear_Earphones_with_Microphone.jpg
+2026-09-15 19:50:24 [INFO    ] [383] Universal U15 2-in-1 Wired In-Ear Earp | Rs.149.00    | -50%         | 383_Universal_U15_2-in-1_Wired_In-Ear_Earphones_with_Microphone.jpg
+2026-09-15 19:50:25 [INFO    ] [384] PUBG Gaming Finger Sleeves – 1 Pair    | Rs.49.00     | -51%         | 384_PUBG_Gaming_Finger_Sleeves___1_Pair.jpg
+2026-09-15 19:50:25 [INFO    ] [385] M-Tech Wired Handsfree Earphones with  | Rs.179.00    | -40%         | 385_M-Tech_Wired_Handsfree_Earphones_with_Microphone__3.5mm_.jpg
+2026-09-15 19:50:30 [INFO    ] [386] Mobile Phone Dustproof Speaker Mesh St | Rs.489.00    | -30%         | 386_Mobile_Phone_Dustproof_Speaker_Mesh_Stickers_10_Pcs.jpg
+2026-09-15 19:51:06 [INFO    ] [387] LRB-308 Auto Zop 65W Dual Port Car Cha | Rs.999.00    | -16%         | 387_LRB-308_Auto_Zop_65W_Dual_Port_Car_Charger.png
+2026-09-15 19:51:06 [INFO    ] [388] LRB-295 Boltza 2.4A Dual USB Car Charg | Rs.549.00    | -44%         | 388_LRB-295_Boltza_2.4A_Dual_USB_Car_Charger.png
+2026-09-15 19:51:12 [INFO    ] [389] LRB-309 Drivra 55W Car Charger         | Rs.869.00    | -44%         | 389_LRB-309_Drivra_55W_Car_Charger.png
+2026-09-15 19:51:13 [INFO    ] [390] LRB-307 Drift Charge 55W Car Charger   | Rs.849.00    | -21%         | 390_LRB-307_Drift_Charge_55W_Car_Charger.png
+2026-09-15 19:51:14 [INFO    ] [391] LRB-306 Drift Charge 55W Super Fast Ca | Rs.849.00    | -46%         | 391_LRB-306_Drift_Charge_55W_Super_Fast_Car_Charger.png
+2026-09-15 19:51:15 [INFO    ] [392] LRB-297 Trackwatt 55W Dual Port Super  | Rs.959.00    | -51%         | 392_LRB-297_Trackwatt_55W_Dual_Port_Super_Fast_Car_Charger.png
+2026-09-15 19:51:20 [INFO    ] [393] LRB-296 Voltzen Mini Dual USB Car Char | Rs.549.00    | -44%         | 393_LRB-296_Voltzen_Mini_Dual_USB_Car_Charger.png
+2026-09-15 19:51:20 [INFO    ] [394] LRB-196 Dual Port Car Charger          | Rs.1,149.00  | -43%         | 394_LRB-196_Dual_Port_Car_Charger.png
+2026-09-15 19:51:23 [INFO    ] [395] LRB-273 Buzzer Pro True Wireless Earbu | Rs.3,749.00  | -25%         | 395_LRB-273_Buzzer_Pro_True_Wireless_Earbuds.webp
+2026-09-15 19:51:35 [INFO    ] [396] LRB-321 Boom Sphere True Wireless Earb | Rs.2,239.00  | -36%         | 396_LRB-321_Boom_Sphere_True_Wireless_Earbuds.png
+2026-09-15 19:51:38 [INFO    ] [397] LRB-268 Battal Bass True Wireless Earb | Rs.2,790.00  | -29%         | 397_LRB-268_Battal_Bass_True_Wireless_Earbuds.png
+2026-09-15 19:52:10 [INFO    ] [398] LRB-274 Super Bass True Wireless Earbu | Rs.2,599.00  | -28%         | 398_LRB-274_Super_Bass_True_Wireless_Earbuds.png
+2026-09-15 19:52:11 [INFO    ] [399] LRB LEB-335 Fury Buds Wireless Earbuds | Rs.4,539.00  | -39%         | 399_LRB_LEB-335_Fury_Buds_Wireless_Earbuds.webp
+2026-09-15 19:52:16 [INFO    ] [400] LEB-325 StromPods Wireless Gaming Earb | Rs.5,479.00  | -32%         | 400_LEB-325_StromPods_Wireless_Gaming_Earbuds.png
+2026-09-15 19:52:22 [INFO    ] [401] LRB-311 Bass Nest True Wireless Earbud | Rs.4,169.00  | -25%         | 401_LRB-311_Bass_Nest_True_Wireless_Earbuds.png
+2026-09-15 19:52:22 [INFO    ] [402] LRB-322 HaloBass Wired Lightning Hands | Rs.1,329.00  | -38%         | 402_LRB-322_HaloBass_Wired_Lightning_Handsfree.png
+2026-09-15 19:52:35 [INFO    ] [403] LRB-281 Wired Handsfree Earphones with | Rs.410.00    | -45%         | 403_LRB-281_Wired_Handsfree_Earphones_with_Mic.png
+2026-09-15 19:52:38 [INFO    ] [404] LRB-280 Wired Handsfree Earphones with | Rs.410.00    | -41%         | 404_LRB-280_Wired_Handsfree_Earphones_with_Mic.png
+2026-09-15 19:52:43 [INFO    ] [405] LRB-275 Wired Handsfree Earphones with | Rs.389.00    | -35%         | 405_LRB-275_Wired_Handsfree_Earphones_with_Mic.png
+2026-09-15 19:52:48 [INFO    ] [406] LRB-279 Wired Handsfree Earphones with | Rs.719.00    | -28%         | 406_LRB-279_Wired_Handsfree_Earphones_with_Mic.png
+2026-09-15 19:52:49 [INFO    ] [407] LRB-237 Wired Handsfree Earphones with | Rs.399.00    | -34%         | 407_LRB-237_Wired_Handsfree_Earphones_with_Mic.png
+2026-09-15 19:52:50 [INFO    ] [408] LRB-267 Wired Handsfree Earphones with | Rs.1,049.00  | -31%         | 408_LRB-267_Wired_Handsfree_Earphones_with_Mic.png
+2026-09-15 19:52:51 [INFO    ] [409] LRB-266 Wired Handsfree Earphones with | Rs.839.00    | -35%         | 409_LRB-266_Wired_Handsfree_Earphones_with_Mic.jpg
+2026-09-15 19:53:22 [INFO    ] [410] LRB-233 Wired Handsfree Earphones with | Rs.629.00    | -34%         | 410_LRB-233_Wired_Handsfree_Earphones_with_Mic.png
+2026-09-15 19:53:35 [INFO    ] [411] LRB-232 Wired Handsfree Earphones with | Rs.629.00    | -35%         | 411_LRB-232_Wired_Handsfree_Earphones_with_Mic.png
+2026-09-15 19:53:44 [INFO    ] [412] LRB-230 Wired Handsfree Earphones with | Rs.399.00    | -34%         | 412_LRB-230_Wired_Handsfree_Earphones_with_Mic.png
+2026-09-15 19:53:45 [INFO    ] [413] LRB-229 Wired Handsfree Earphones with | Rs.399.00    | -34%         | 413_LRB-229_Wired_Handsfree_Earphones_with_Mic.png
+2026-09-15 19:53:46 [INFO    ] [414] LRB-228 Wired Handsfree Earphones with | Rs.399.00    | -34%         | 414_LRB-228_Wired_Handsfree_Earphones_with_Mic.png
+2026-09-15 19:53:54 [INFO    ] [415] LRB-313 25W Fast Charger with USB-C to | Rs.1,499.00  | -40%         | 415_LRB-313_25W_Fast_Charger_with_USB-C_to_Lightning_Cable.png
+2026-09-15 19:53:56 [INFO    ] [416] LRB-323 HubPro GaN 4-Port Fast Charger | Rs.3,199.00  | -32%         | 416_LRB-323_HubPro_GaN_4-Port_Fast_Charger_with_Cable.png
+2026-09-15 19:53:57 [INFO    ] [417] LRB-312 25W USB-C Fast Charger         | Rs.810.00    | -25%         | 417_LRB-312_25W_USB-C_Fast_Charger.png
+2026-09-15 19:53:58 [INFO    ] [418] LRB-311 45W USB-C Fast Charger         | Rs.999.00    | -25%         | 418_LRB-311_45W_USB-C_Fast_Charger.png
+2026-09-15 19:53:58 [INFO    ] [419] LRB-212 Dual-Port Charger With Built-I | Rs.989.00    | 0%           | 419_LRB-212_Dual-Port_Charger_With_Built-In_Type_C_Cable.png
+2026-09-15 19:54:00 [INFO    ] [420] LRB-212 Micro USB Charging Cable With  | Rs.899.00    | -15%         | 420_LRB-212_Micro_USB_Charging_Cable_With_Built-In_Micro_Cable.png
+2026-09-15 19:54:03 [INFO    ] [421] LRB-291 Micro USB 3.1A Fast Charger    | Rs.919.00    | -41%         | 421_LRB-291_Micro_USB_3.1A_Fast_Charger.png
+2026-09-15 19:54:04 [INFO    ] [422] LRB-294 Dual Port 25W Quick Charger Wi | Rs.1,469.00  | -33%         | 422_LRB-294_Dual_Port_25W_Quick_Charger_With_C_to_C__Cable.png
+2026-09-15 19:54:07 [INFO    ] [423] LRB-293 Type-C 20W Quick Charger With  | Rs.1,259.00  | -30%         | 423_LRB-293_Type-C_20W_Quick_Charger_With_Type_C_Cable.png
+2026-09-15 19:54:08 [INFO    ] [424] LRB-292 Type-C 3.1A Quick Charger With | Rs.1,069.00  | -41%         | 424_LRB-292_Type-C_3.1A_Quick_Charger_With_Type_C_Cable.png
+2026-09-15 19:54:16 [INFO    ] [425] LRB-291 PowerBoom Dual USB 2.4A Type-C | Rs.999.00    | 0%           | 425_LRB-291_PowerBoom_Dual_USB_2.4A_Type-C_Charger.png
+2026-09-15 19:54:17 [INFO    ] [426] LRB-265 Single USB 25W Fast Charger    | Rs.1,989.00  | -30%         | 426_LRB-265_Single_USB_25W_Fast_Charger.png
+2026-09-15 19:54:21 [INFO    ] [427] LRB-140 Dual USB 2.4A Smart Charger    | Rs.939.00    | -1%          | 427_LRB-140_Dual_USB_2.4A_Smart_Charger.png
+2026-09-15 19:54:21 [INFO    ] [428] LRB-130 Single USB 2.4A Fast Charger   | Rs.879.00    | -39%         | 428_LRB-130_Single_USB_2.4A_Fast_Charger.png
+2026-09-15 19:54:22 [INFO    ] [429] LRB-95 Triple USB 2.4A Smart ChargerWi | Rs.829.00    | -44%         | 429_LRB-95_Triple_USB_2.4A_Smart_ChargerWith_Built_Cable.png
+2026-09-15 19:54:23 [INFO    ] [430] LRB-255 Dual USB 4.5A Fast Charger Wit | Rs.799.00    | -33%         | 430_LRB-255_Dual_USB_4.5A_Fast_Charger_With_Built-In_Type-C_Cable.png
+2026-09-15 19:54:27 [INFO    ] [431] LRB-256 Dual USB Fast Charger with Bui | Rs.749.00    | -38%         | 431_LRB-256_Dual_USB_Fast_Charger_with_Built-In_Type-C_Cable.png
+2026-09-15 19:54:27 [INFO    ] [432] LRB-175 Triple Port 45W GaN Super Fast | Rs.2,019.00  | -45%         | 432_LRB-175_Triple_Port_45W_GaN_Super_Fast_Charger.png
+2026-09-15 19:54:34 [INFO    ] [433] LRB-221 Dual USB 3.1A Fast Charger Wit | Rs.759.00    | -37%         | 433_LRB-221_Dual_USB_3.1A_Fast_Charger_With_Built-In_Cable.png
+2026-09-15 19:54:35 [INFO    ] [434] LRB-220 Dual USB 3.1A Fast Charger Wit | Rs.879.00    | -35%         | 434_LRB-220_Dual_USB_3.1A_Fast_Charger_With_Built-In_Cable.png
+2026-09-15 19:54:37 [INFO    ] [435] LRB-219 4.5A Dual USB Fast Charger Wit | Rs.939.00    | -42%         | 435_LRB-219_4.5A_Dual_USB_Fast_Charger_With_Built-In_Type-C_Cable.png
+2026-09-15 19:54:38 [INFO    ] [436] LRB-218 3.1A Dual USB Smart Fast Charg | Rs.879.00    | -43%         | 436_LRB-218_3.1A_Dual_USB_Smart_Fast_Charger_With_Built-In_Cable.png
+2026-09-15 19:54:39 [INFO    ] [437] LRB-215 3.1A Dual USB Smart Fast Charg | Rs.949.00    | -37%         | 437_LRB-215_3.1A_Dual_USB_Smart_Fast_Charger_With_Built-In_Cable.png
+2026-09-15 19:54:44 [INFO    ] [438] LRB-214 3.1A Dual USB Smart Fast Charg | Rs.879.00    | -30%         | 438_LRB-214_3.1A_Dual_USB_Smart_Fast_Charger_With_Built-In_Cable.png
+2026-09-15 19:54:45 [INFO    ] [439] LRB-217 3.1A Dual USB Smart Fast Charg | Rs.949.00    | -41%         | 439_LRB-217_3.1A_Dual_USB_Smart_Fast_Charger_With_Built-In_Cable.png
+2026-09-15 19:54:46 [INFO    ] [440] LRB-216 3.1A Fast Charger With Built-I | Rs.759.00    | -50%         | 440_LRB-216_3.1A_Fast_Charger_With_Built-In_Micro_USB_Cable.png
+2026-09-15 19:54:46 [INFO    ] [441] LRB-142 FlashPlug 3.1A Dual USB Fast C | Rs.949.00    | -37%         | 441_LRB-142_FlashPlug_3.1A_Dual_USB_Fast_Charger_With_Built_In_charging_Cable.png
+2026-09-15 19:54:47 [INFO    ] [442] LRB-282 Type-C 80W Fast Charging Data  | Rs.449.00    | -40%         | 442_LRB-282_Type-C_80W_Fast_Charging_Data_Cable.png
+2026-09-15 19:54:50 [INFO    ] [443] LRB-282 Micro USB 80W Fast Charging Da | Rs.399.00    | -47%         | 443_LRB-282_Micro_USB_80W_Fast_Charging_Data_Cable.png
+2026-09-15 19:54:51 [INFO    ] [444] LRB-179 Type-C 80W Fast Charging Data  | Rs.229.00    | -54%         | 444_LRB-179_Type-C_80W_Fast_Charging_Data_Cable.png
+2026-09-15 19:54:52 [INFO    ] [445] LRB-274 Type-C 2.4A Fast Charging Data | Rs.219.00    | -44%         | 445_LRB-274_Type-C_2.4A_Fast_Charging_Data_Cable.png
+2026-09-15 19:54:52 [INFO    ] [446] LRB-274 Micro USB 2.4A Fast Charging D | Rs.199.00    | -58%         | 446_LRB-274_Micro_USB_2.4A_Fast_Charging_Data_Cable.png
+2026-09-15 19:54:53 [INFO    ] [447] LRB-178 Micro USB 2.1A Fast Charging D | Rs.219.00    | -25%         | 447_LRB-178_Micro_USB_2.1A_Fast_Charging_Data_Cable.png
+2026-09-15 19:54:54 [INFO    ] [448] LRB-200 Lightning 2.4A Fast Charging D | Rs.349.00    | -46%         | 448_LRB-200_Lightning_2.4A_Fast_Charging_Data_Cable.png
+2026-09-15 19:54:55 [INFO    ] [449] LRB-299 Type-C 60W Fast Charging Cable | Rs.499.00    | -38%         | 449_LRB-299_Type-C_60W_Fast_Charging_Cable.webp
+2026-09-15 19:54:55 [INFO    ] [450] LRB-299 C to C 60W Fast Charging Data  | Rs.559.00    | -35%         | 450_LRB-299_C_to_C_60W_Fast_Charging_Data_Cable.webp
+2026-09-15 19:54:57 [INFO    ] [451] LRB-299 Micro USB 60W Fast Charging Da | Rs.449.00    | -47%         | 451_LRB-299_Micro_USB_60W_Fast_Charging_Data_Cable.png
+2026-09-15 19:54:58 [INFO    ] [452] LRB-300 C to C 100W Fast Charging Data | Rs.549.00    | -35%         | 452_LRB-300_C_to_C_100W_Fast_Charging_Data_Cable.png
+2026-09-15 19:54:59 [INFO    ] [453] LRB-300 Type-C 100W Fast Charging Data | Rs.449.00    | -36%         | 453_LRB-300_Type-C_100W_Fast_Charging_Data_Cable.png
+2026-09-15 19:55:05 [INFO    ] [454] LRB-300 3-in-1 100W Fast Charging Data | Rs.739.00    | -38%         | 454_LRB-300_3-in-1_100W_Fast_Charging_Data_Cable.png
+2026-09-15 19:55:06 [INFO    ] [455] LRB-301 3-in-1 Keychain 60W Fast Charg | Rs.529.00    | -38%         | 455_LRB-301_3-in-1_Keychain_60W_Fast_Charging_Data_Cable.png
+2026-09-15 19:55:07 [INFO    ] [456] LRB-183 3-in-1 80W Fast Charging Data  | Rs.459.00    | -26%         | 456_LRB-183_3-in-1_80W_Fast_Charging_Data_Cable.png
+2026-09-15 19:55:07 [INFO    ] [457] LRB-320 Micro USB Data Cable 2.4A Fast | Rs.399.00    | -47%         | 457_LRB-320_Micro_USB_Data_Cable_2.4A_Fast_Charging.png
+2026-09-15 19:55:08 [INFO    ] [458] LRB-184 Type-C Data Cable 3.1A Fast Ch | Rs.310.00    | -8%          | 458_LRB-184_Type-C_Data_Cable_3.1A_Fast_Charging.png
+2026-09-15 19:55:09 [INFO    ] [459] LRB-247 65W Type-C to Type-C Data Cabl | Rs.399.00    | -24%         | 459_LRB-247_65W_Type-C_to_Type-C_Data_Cable.png
+2026-09-15 19:55:11 [INFO    ] [460] LRB-240 Type-C to Type-C Data Cable    | Rs.569.00    | -43%         | 460_LRB-240_Type-C_to_Type-C_Data_Cable.png
+2026-09-15 19:55:15 [INFO    ] [461] LRB-195 Lightning Data Cable 4.5A Fast | Rs.279.00    | -42%         | 461_LRB-195_Lightning_Data_Cable_4.5A_Fast_Charging.png
+2026-09-15 19:55:17 [INFO    ] [462] LRB-183 Micro USB Data Cable High-Spee | Rs.289.00    | -36%         | 462_LRB-183_Micro_USB_Data_Cable_High-Speed_Charging___Data_Transfer.png
+2026-09-15 19:55:22 [INFO    ] [463] LRB LCC-350PD Power Snap 30W PD Fast C | Rs.859.00    | -46%         | 463_LRB_LCC-350PD_Power_Snap_30W_PD_Fast_Charger.png
+2026-09-15 19:55:22 [INFO    ] [464] LRB LCC-345 Rapid Clip 3A Fast Charger | Rs.759.00    | -37%         | 464_LRB_LCC-345_Rapid_Clip_3A_Fast_Charger.png
+2026-09-15 19:55:23 [INFO    ] [465] LRB LCC-340PD Turbo Clip 30W PD Fast C | Rs.899.00    | -40%         | 465_LRB_LCC-340PD_Turbo_Clip_30W_PD_Fast_Charger.png
+2026-09-15 19:55:40 [INFO    ] [466] LRB LCC-135 Fast Clip Charger 2.4A Fas | Rs.679.00    | -38%         | 466_LRB_LCC-135_Fast_Clip_Charger_2.4A_Fast_Charging.png
+2026-09-15 19:55:41 [INFO    ] [467] LRB LCC-125 2.4A Fast Clip Charger     | Rs.399.00    | -47%         | 467_LRB_LCC-125_2.4A_Fast_Clip_Charger.png
+2026-09-15 19:55:51 [INFO    ] [468] LRB LCC-11 Fast USB DC Charger 3 USB P | Rs.519.00    | -45%         | 468_LRB_LCC-11_Fast_USB_DC_Charger_3_USB_Ports_Micro___Type-C.png
+2026-09-15 19:55:52 [INFO    ] [469] LRB-262 22.5W Fast Charging Power Bank | Rs.3,879.00  | -25%         | 469_LRB-262_22.5W_Fast_Charging_Power_Bank.png
+2026-09-15 19:55:52 [INFO    ] [470] LRB-288 10000mAh 22.5W Fast Charging P | Rs.2,269.00  | -38%         | 470_LRB-288_10000mAh_22.5W_Fast_Charging_Power_Bank.png
+2026-09-15 19:56:00 [INFO    ] [471] LPB-710PD 10000mAh 22.5W Fast Charging | Rs.4,199.00  | -30%         | 471_LPB-710PD_10000mAh_22.5W_Fast_Charging_Power_Bank.png
+2026-09-15 19:56:07 [INFO    ] [472] LPB-720PD 20000mAh 22.5W Fast Charging | Rs.6,299.00  | -30%         | 472_LPB-720PD_20000mAh_22.5W_Fast_Charging_Power_Bank_With_Built-In_Cables.png
+2026-09-15 19:56:14 [INFO    ] [473] LPB-730PD 30000mAh 22.5W Fast Charging | Rs.7,869.00  | -30%         | 473_LPB-730PD_30000mAh_22.5W_Fast_Charging_Power_Bank_With_Built-In_Cables.png
+2026-09-15 19:56:15 [INFO    ] [474] LRB-289 QuantumVolt 20000mAh 22.5W Fas | Rs.5,899.00  | -25%         | 474_LRB-289_QuantumVolt_20000mAh_22.5W_Fast_Charging_Power_Bank.png
+2026-09-15 19:56:23 [INFO    ] [475] LRB-287 10000mAh 22.5W Power Bank      | Rs.4,469.00  | -25%         | 475_LRB-287_10000mAh_22.5W_Power_Bank.png
+2026-09-15 19:56:24 [INFO    ] [476] LRB-285 Voltra 10000mAh 22.5W Fast Cha | Rs.2,019.00  | -45%         | 476_LRB-285_Voltra_10000mAh_22.5W_Fast_Charging_Power_Bank.png
+2026-09-15 19:56:27 [INFO    ] [477] LRB-284 30000mAh 22.5W Fast Charging P | Rs.5,899.00  | -31%         | 477_LRB-284_30000mAh_22.5W_Fast_Charging_Power_Bank_Built-In_Cables.png
+2026-09-15 19:56:28 [INFO    ] [478] LRB-620PD Power Bank 22.5 w            | Rs.5,399.00  | -25%         | 478_LRB-620PD_Power_Bank_22.5_w.png
+2026-09-15 19:56:29 [INFO    ] [479] RONIN R-3515 Ocean Wireless Neckband   | Rs.6,740.00  | -25%         | 479_RONIN_R-3515_Ocean_Wireless_Neckband.jpg
+2026-09-15 19:56:30 [INFO    ] [480] Xiaomi Power Bank 10000mAh 22.5W Lite  | Rs.4,699.00  | -33%         | 480_Xiaomi_Power_Bank_10000mAh_22.5W_Lite.webp
+2026-09-15 19:56:32 [INFO    ] [481] Audionic Trance Airbud 810 True Wirele | Rs.9,999.00  | -9%          | 481_Audionic_Trance_Airbud_810_True_Wireless_Earbuds_with_LCD_Display___ANC.webp
+2026-09-15 19:56:35 [INFO    ] [482] Audionic Airbud 690 ION True Wireless  | Rs.3,499.00  | -30%         | 482_Audionic_Airbud_690_ION_True_Wireless_Earbuds.webp
+2026-09-15 19:56:36 [INFO    ] [483] Audionic Reboot 202 Power Bank 20000mA | Rs.6,999.00  | -30%         | 483_Audionic_Reboot_202_Power_Bank_20000mAh_65W.webp
+2026-09-15 19:56:37 [INFO    ] [484] OnePlus Nord Buds 3r True Wireless Ear | Rs.11,499.00 | -31%         | 484_OnePlus_Nord_Buds_3r_True_Wireless_Earbuds.webp
+2026-09-15 19:56:38 [INFO    ] [485] Huawei FreeClip 2 Special Edition Wire | Rs.65,999.00 | -13%         | 485_Huawei_FreeClip_2_Special_Edition_Wireless_Earbuds.webp
+2026-09-15 19:56:39 [INFO    ] [486] HOCO UPA22 Type-C to 3.5mm Silicone Au | Rs.679.00    | -43%         | 486_HOCO_UPA22_Type-C_to_3.5mm_Silicone_Audio_Cable_1M.webp
+2026-09-15 19:56:40 [INFO    ] [487] HOCO UPA22 Silicone 3.5mm to 3.5mm AUX | Rs.679.00    | -15%         | 487_HOCO_UPA22_Silicone_3.5mm_to_3.5mm_AUX_Audio_Cable_1M.webp
+2026-09-15 19:56:41 [INFO    ] [488] HOCO UA42 Mini USB Bluetooth 5.4 Adapt | Rs.1,489.00  | -26%         | 488_HOCO_UA42_Mini_USB_Bluetooth_5.4_Adapter_For_PC_Laptop.webp
+2026-09-15 19:56:43 [INFO    ] [489] HOCO UA17 USB Male to Type-C Female OT | Rs.679.00    | -32%         | 489_HOCO_UA17_USB_Male_to_Type-C_Female_OTG_Adapter_60W.jpg
+2026-09-15 19:56:44 [INFO    ] [490] HOCO UA25 Type-C Card Reader SD TF Dua | Rs.1,419.00  | -43%         | 490_HOCO_UA25_Type-C_Card_Reader_SD_TF_Dual_Slot_2TB.webp
+2026-09-15 19:56:44 [INFO    ] [491] HOCO CS55A 30W Dual Port Fast Wall Cha | Rs.1,489.00  | -26%         | 491_HOCO_CS55A_30W_Dual_Port_Fast_Wall_Charger_PD_Type_C_QC3.0.webp
+2026-09-15 19:56:45 [INFO    ] [492] HOCO C109 Fighter Single Port 18W Fast | Rs.479.00    | -47%         | 492_HOCO_C109_Fighter_Single_Port_18W_Fast_Wall_Charger.jpg
+2026-09-15 19:56:46 [INFO    ] [493] HOCO UA31C Type-C Male to USB Female O | Rs.409.00    | -52%         | 493_HOCO_UA31C_Type-C_Male_to_USB_Female_OTG_Adapter_USB_3.0.webp
+2026-09-15 19:56:47 [INFO    ] [494] HOCO UA31D USB Male to Type-C Female U | Rs.409.00    | -49%         | 494_HOCO_UA31D_USB_Male_to_Type-C_Female_USB_2.0_Adapter.webp
+2026-09-15 19:56:48 [INFO    ] [495] HOCO C126 Pure Power 40W 3 Port Fast W | Rs.1,889.00  | -37%         | 495_HOCO_C126_Pure_Power_40W_3_Port_Fast_Wall_Charger_2C1A.webp
+2026-09-15 19:56:49 [INFO    ] [496] HOCO C152 Modern 70W 6 Port Desktop Fa | Rs.4,729.00  | -17%         | 496_HOCO_C152_Modern_70W_6_Port_Desktop_Fast_Charging_Station.webp
+2026-09-15 19:56:51 [INFO    ] [497] HOCO CQ3 Noble 3 in 1 Magnetic Wireles | Rs.8,099.00  | -18%         | 497_HOCO_CQ3_Noble_3_in_1_Magnetic_Wireless_Fast_Charger_Foldable.webp
+2026-09-15 19:56:51 [INFO    ] [498] HOCO L20A Fair Dual Wireless Lavalier  | Rs.3,849.00  | -18%         | 498_HOCO_L20A_Fair_Dual_Wireless_Lavalier_Microphone_Type-C___Lightning.webp
+2026-09-15 19:56:51 [INFO    ] [499] HOCO HC1 Trendy Sound 5W IPX5 Portable | Rs.2,909.00  | -39%         | 499_HOCO_HC1_Trendy_Sound_5W_IPX5_Portable_Bluetooth_Speaker.jpg
+2026-09-15 19:56:54 [INFO    ] [500] HOCO US08 4K 60Hz High-Speed HDTV to H | Rs.1,219.00  | -36%         | 500_HOCO_US08_4K_60Hz_High-Speed_HDTV_to_HDTV_Cable_3M.webp
+2026-09-15 19:56:54 [INFO    ] [501] HOCO EQ5 Energy ANC ENC TWS Wireless E | Rs.4,049.00  | -26%         | 501_HOCO_EQ5_Energy_ANC_ENC_TWS_Wireless_Earbuds_BT_5.3.webp
+2026-09-15 19:56:54 [INFO    ] [502] HOCO EW98 ANC AI Translation Bluetooth | Rs.4,049.00  | -26%         | 502_HOCO_EW98_ANC_AI_Translation_Bluetooth_6.0_TWS_Earbuds.webp
+2026-09-15 19:56:55 [INFO    ] [503] HOCO M101 Pro Type-C Crystal Sound Wir | Rs.879.00    | -32%         | 503_HOCO_M101_Pro_Type-C_Crystal_Sound_Wired_Earphones_with_Mic.webp
+2026-09-15 19:56:56 [INFO    ] [504] HOCO UPA21 2-in-1 3.5mm Male to Dual F | Rs.609.00    | -49%         | 504_HOCO_UPA21_2-in-1_3.5mm_Male_to_Dual_Female_Audio_Splitter_Cable.webp
+2026-09-15 19:56:57 [INFO    ] [505] HOCO UPA21 3.5mm Female to Dual 3.5mm  | Rs.609.00    | -49%         | 505_HOCO_UPA21_3.5mm_Female_to_Dual_3.5mm_Male__Headphone___Mic__Y-Splitter_Audio_Ad.webp
+2026-09-15 19:56:58 [INFO    ] [506] HOCO D100 1080P Full HD Webcam with Bu | Rs.6,079.00  | -19%         | 506_HOCO_D100_1080P_Full_HD_Webcam_with_Built-in_Microphone.webp
+2026-09-15 19:56:59 [INFO    ] [507] HOCO HB52 Wow 8 in 1 Type-C Hub 4K 60H | Rs.5,669.00  | -19%         | 507_HOCO_HB52_Wow_8_in_1_Type-C_Hub_4K_60Hz_PD100W_RJ45.webp
+2026-09-15 19:57:01 [INFO    ] [508] HOCO AC5 Level Universal Conversion Tr | Rs.2,969.00  | -22%         | 508_HOCO_AC5_Level_Universal_Conversion_Travel_Adapter_Dual_USB.webp
+2026-09-15 19:57:02 [INFO    ] [509] HOCO CS14 Ocean PD 20W Dual Port Fast  | Rs.1,149.00  | -28%         | 509_HOCO_CS14_Ocean_PD_20W_Dual_Port_Fast_Wall_Charger_Type_C_QC3.0.webp
+2026-09-15 19:57:04 [INFO    ] [510] HOCO UPA20 3.5mm Male to Female Audio  | Rs.609.00    | -49%         | 510_HOCO_UPA20_3.5mm_Male_to_Female_Audio_Extension_Cable_2M.webp
+2026-09-15 19:57:05 [INFO    ] [511] HOCO UA27 HD Type-C to HDMI 4K 30Hz Ca | Rs.2,429.00  | -31%         | 511_HOCO_UA27_HD_Type-C_to_HDMI_4K_30Hz_Cable.webp
+2026-09-15 19:57:07 [INFO    ] [512] HOCO X102 Fresh 3-in-1 Fast Charging C | Rs.879.00    | -41%         | 512_HOCO_X102_Fresh_3-in-1_Fast_Charging_Cable_1M.webp
+2026-09-15 19:57:08 [INFO    ] [513] HOCO X102 Fresh 2.4A Micro-USB Fast Ch | Rs.539.00    | -40%         | 513_HOCO_X102_Fresh_2.4A_Micro-USB_Fast_Charging_Cable_1M.jpg
+2026-09-15 19:57:09 [INFO    ] [514] HOCO X59 Victory 60W Type-C to Type-C  | Rs.809.00    | -46%         | 514_HOCO_X59_Victory_60W_Type-C_to_Type-C_Fast_Charging_Cable.webp
+2026-09-15 19:57:10 [INFO    ] [515] HOCO X50 Exquisito 100W Type-C to Type | Rs.1,219.00  | -36%         | 515_HOCO_X50_Exquisito_100W_Type-C_to_Type-C_Fast_Charging_Cable_2M.webp
+2026-09-15 19:57:11 [INFO    ] [516] HOCO X50 Exquisito 100W Type-C to Type | Rs.1,079.00  | -40%         | 516_HOCO_X50_Exquisito_100W_Type-C_to_Type-C_Fast_Charging_Cable_1M.webp
+2026-09-15 19:57:11 [INFO    ] [517] HOCO X123 Victory 3-in-1 Fast Charging | Rs.1,019.00  | -46%         | 517_HOCO_X123_Victory_3-in-1_Fast_Charging_Cable_1.jpg
+2026-09-15 19:57:12 [INFO    ] [518] HOCO HC10 Sonar Portable Wireless Blue | Rs.3,919.00  | -18%         | 518_HOCO_HC10_Sonar_Portable_Wireless_Bluetooth_Speaker_1200mAh.jpg
+2026-09-15 19:57:12 [INFO    ] [519] HOCO BS51 Gold Brick 5W Portable Wirel | Rs.3,379.00  | -25%         | 519_HOCO_BS51_Gold_Brick_5W_Portable_Wireless_Bluetooth_Speaker.webp
+2026-09-15 19:57:13 [INFO    ] [520] HOCO BS60 Exploring 5W Wireless Sports | Rs.2,699.00  | -29%         | 520_HOCO_BS60_Exploring_5W_Wireless_Sports_Bluetooth_Speaker.jpg
+2026-09-15 19:57:14 [INFO    ] [521] HOCO CS13 Ocean PD 20W Type-C Fast Wal | Rs.949.00    | -41%         | 521_HOCO_CS13_Ocean_PD_20W_Type-C_Fast_Wall_Charger_Adapter.webp
+2026-09-15 19:57:15 [INFO    ] [522] HOCO N40 Mighty PD 20W Single Port Typ | Rs.1,889.00  | -27%         | 522_HOCO_N40_Mighty_PD_20W_Single_Port_Type-C_Fast_Wall_Charger.webp
+2026-09-15 19:57:15 [INFO    ] [523] HOCO CW6 Pro 15W Fast Wireless Charger | Rs.2,029.00  | -32%         | 523_HOCO_CW6_Pro_15W_Fast_Wireless_Charger_Aluminum_Alloy_Pad.webp
+2026-09-15 19:57:16 [INFO    ] [524] HOCO CS26A 45W 3-Port Fast Wall Charge | Rs.2,159.00  | -28%         | 524_HOCO_CS26A_45W_3-Port_Fast_Wall_Charger_2x_Type_C___USB-A.webp
+2026-09-15 19:57:16 [INFO    ] [525] Hoco E100 Graceful Anti-Lost Smart Tra | Rs.2,699.00  | -33%         | 525_Hoco_E100_Graceful_Anti-Lost_Smart_Tracker_for_iOS.webp
+2026-09-15 19:57:19 [INFO    ] [526] Audionic Spark Pro S-200 Power Bank 20 | Rs.4,299.00  | -28%         | 526_Audionic_Spark_Pro_S-200_Power_Bank_20000mAh.webp
+2026-09-15 19:57:19 [INFO    ] [527] Apple USB-C Power Adapter (20W)        | Rs.6,099.00  | -13%         | 527_Apple_USB-C_Power_Adapter__20W_.jpg
+2026-09-15 19:57:20 [INFO    ] [528] Anker Charger 20W Compact 3 Pin        | Rs.3,499.00  | -30%         | 528_Anker_Charger_20W_Compact_3_Pin.webp
+2026-09-15 19:57:20 [INFO    ] [529] Anker Nano Charger (100W) with USB-C C | Rs.10,999.00 | -29%         | 529_Anker_Nano_Charger__100W__with_USB-C_Cable.webp
+2026-09-15 19:57:21 [INFO    ] [530] Anker PowerDrive 30W Dual Port Car Cha | Rs.3,649.00  | -34%         | 530_Anker_PowerDrive_30W_Dual_Port_Car_Charger.webp
+2026-09-15 19:57:22 [INFO    ] [531] Anker Nano Travel Adapter 5-in-1 20W   | Rs.8,299.00  | -31%         | 531_Anker_Nano_Travel_Adapter_5-in-1_20W.webp
+2026-09-15 19:57:22 [INFO    ] [532] Lenovo HE05 Original Wireless Neckband | Rs.1,180.00  | -51%         | 532_Lenovo_HE05_Original_Wireless_Neckband.jpg
+2026-09-15 19:57:23 [INFO    ] [533] R1s Bluetooth Selfie Sticks with Remot | Rs.1,199.00  | -52%         | 533_R1s_Bluetooth_Selfie_Sticks_with_Remote_and_Selfie_Light_3-in-1_Multifunctional_.jpg
+2026-09-15 19:57:23 [INFO    ] [534] BUY 1 GET 1 FREE FREE Mobile Phone Sig | Rs.475.00    | -32%         | 534_BUY_1_GET_1_FREE_FREE_Mobile_Phone_Signal_Booster___Better_Calls___Internet_LIMI.jpg
+2026-09-15 19:57:24 [INFO    ] [535] Type C Smart Auto Stop Charging Adapte | Rs.1,740.00  | -24%         | 535_Type_C_Smart_Auto_Stop_Charging_Adapter__Auto_Disconnect_Charger___Portable_USB_.jpg
+2026-09-15 19:57:24 [INFO    ] [536] Infinix MagPower XP03 3000mAh Magnetic | Rs.1,999.00  | -50%         | 536_Infinix_MagPower_XP03_3000mAh_Magnetic_Wireless_Power_Bank___15W_Wireless___12W_.jpg
+2026-09-15 19:57:25 [INFO    ] [537] Dimiqi 5000mAh Wireless Power Bank Fas | Rs.2,999.00  | -40%         | 537_Dimiqi_5000mAh_Wireless_Power_Bank_Fast_Charging_Portable_Charger.jpg
+2026-09-15 19:57:25 [INFO    ] [538] Infinix XP05 5000mAh Power Go Power Ba | Rs.1,499.00  | -50%         | 538_Infinix_XP05_5000mAh_Power_Go_Power_Bank___Type-C___USB_Dual_Ports__Fast_Chargin.jpg
+2026-09-15 19:57:26 [INFO    ] [539] MagPower XP06 Pro Turbo 5000mAh Magnet | Rs.5,000.00  | -38%         | 539_MagPower_XP06_Pro_Turbo_5000mAh_Magnetic_Wireless_Power_Bank_with_Cooling_Fan___.jpg
+2026-09-15 19:57:26 [INFO    ] [540] Samsung 25W PD Adapter USB-C Fast Char | Rs.2,499.00  | -29%         | 540_Samsung_25W_PD_Adapter_USB-C_Fast_Charger.jpg
+2026-09-15 19:57:27 [INFO    ] [541] Honor T10 Dual Sim with Official Warra | Rs.32,349.00 | -19%         | 541_Honor_T10_Dual_Sim_with_Official_Warranty.webp
+2026-09-15 19:57:28 [INFO    ] [542] Xiaomi Redmi Note 13 Pro Dual Sim with | Rs.74,499.00 | -29%         | 542_Xiaomi_Redmi_Note_13_Pro_Dual_Sim_with_Official_Warranty.webp
+2026-09-15 19:57:28 [INFO    ] [543] Metal Bike Mobile Holder with USB Char | Rs.1,099.00  | -27%         | 543_Metal_Bike_Mobile_Holder_with_USB_Charger___Heavy_Duty_Motorcycle_Phone_Holder__.jpg
+2026-09-15 19:57:28 [INFO    ] -----------------------------------------------------------------
+2026-09-15 19:57:28 [INFO    ] Saved JSON -> telex_output/products.json
+2026-09-15 19:57:28 [INFO    ] Saved CSV  -> telex_output/products.csv
+2026-09-15 19:57:28 [INFO    ] =================================================================
+2026-09-15 19:57:28 [INFO    ] Total Products  : 543
+2026-09-15 19:57:28 [INFO    ] Images Saved    : 543 -> telex_output/images/
+2026-09-15 19:57:28 [INFO    ] JSON            : telex_output/products.json
+2026-09-15 19:57:28 [INFO    ] CSV             : telex_output/products.csv
+2026-09-15 19:57:28 [INFO    ] Time Elapsed    : 1074s
+2026-09-15 19:57:28 [INFO    ] =================================================================

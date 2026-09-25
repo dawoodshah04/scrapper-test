@@ -1,0 +1,186 @@
+[
+  {
+    "title": "Galaxy A27 5G",
+    "model_code": "SM-A276BLIJPKD",
+    "price": "PKR 124,999",
+    "product_url": "https://www.samsung.com/pk/smartphones/galaxy-a/galaxy-a27-5g-light-pink-256gb-sm-a276blijpkd/",
+    "image_url": "//images.samsung.com/is/image/samsung/p6pim/pk/sm-a276blijpkd/gallery/pk-galaxy-a27-5g-sm-a276-sm-a276blijpkd-thumb-554203370",
+    "local_image": "samsung_output/images/01_Galaxy_A27_5G.png"
+  },
+  {
+    "title": "Galaxy A17 5G",
+    "model_code": "SM-A176BZAGPKD",
+    "price": "PKR 99,999",
+    "product_url": "https://www.samsung.com/pk/smartphones/galaxy-a/galaxy-a17-5g-gray-256gb-sm-a176bzagpkd/",
+    "image_url": "//images.samsung.com/is/image/samsung/p6pim/pk/sm-a176bzagpkd/gallery/pk-galaxy-a17-5g-sm-a176-sm-a176bzagpkd-thumb-554071283",
+    "local_image": "samsung_output/images/02_Galaxy_A17_5G.png"
+  },
+  {
+    "title": "Galaxy A37 5G",
+    "model_code": "SM-A376BDGVPKD",
+    "price": "PKR 152,999",
+    "product_url": "https://www.samsung.com/pk/smartphones/galaxy-a/galaxy-a37-5g-awesome-graygreen-256gb-sm-a376bdgvpkd/",
+    "image_url": "//images.samsung.com/is/image/samsung/p6pim/pk/sm-a376bdgvpkd/gallery/pk-galaxy-a37-5g-sm-a376-sm-a376bdgvpkd-thumb-552380107",
+    "local_image": "samsung_output/images/03_Galaxy_A37_5G.png"
+  },
+  {
+    "title": "Galaxy A57 5G",
+    "model_code": "SM-A576BDBPPKD",
+    "price": "PKR 167,999",
+    "product_url": "https://www.samsung.com/pk/smartphones/galaxy-a/galaxy-a57-5g-awesome-navy-256gb-sm-a576bdbppkd/",
+    "image_url": "//images.samsung.com/is/image/samsung/p6pim/pk/sm-a576bdbppkd/gallery/pk-galaxy-a57-5g-sm-a576-sm-a576bdbppkd-thumb-552382159",
+    "local_image": "samsung_output/images/04_Galaxy_A57_5G.png"
+  },
+  {
+    "title": "Galaxy S26",
+    "model_code": "SM-S942BZKPPKD",
+    "price": "PKR 379,999",
+    "product_url": "https://www.samsung.com/pk/smartphones/galaxy-s26/buy/?modelCode=SM-S942BZKPPKD",
+    "image_url": "//images.samsung.com/is/image/samsung/p6pim/pk/s2602/gallery/pk-galaxy-s26-s942-sm-s942bzkppkd-thumb-550915707",
+    "local_image": "samsung_output/images/05_Galaxy_S26.png"
+  },
+  {
+    "title": "Galaxy S26+",
+    "model_code": "SM-S947BZKOPKD",
+    "price": "PKR 444,999",
+    "product_url": "https://www.samsung.com/pk/smartphones/galaxy-s26/buy/?modelCode=SM-S947BZKOPKD",
+    "image_url": "//images.samsung.com/is/image/samsung/p6pim/pk/s2602/gallery/pk-galaxy-s26-s947-sm-s947bzkopkd-thumb-550915926",
+    "local_image": "samsung_output/images/06_Galaxy_S26_.png"
+  },
+  {
+    "title": "Galaxy S26 Ultra",
+    "model_code": "SM-S948BZVOPKD",
+    "price": "PKR 519,999",
+    "product_url": "https://www.samsung.com/pk/smartphones/galaxy-s26-ultra/buy/?modelCode=SM-S948BZVOPKD",
+    "image_url": "//images.samsung.com/is/image/samsung/p6pim/pk/s2602/gallery/pk-galaxy-s26-ultra-s948-sm-s948bzvopkd-thumb-550917052",
+    "local_image": "samsung_output/images/07_Galaxy_S26_Ultra.png"
+  },
+  {
+    "title": "Galaxy A07",
+    "model_code": "SM-A075FLVDPKD",
+    "price": "PKR 42,999",
+    "product_url": "https://www.samsung.com/pk/smartphones/galaxy-a/galaxy-a07-light-violet-64gb-sm-a075flvdpkd/",
+    "image_url": "//images.samsung.com/is/image/samsung/p6pim/pk/sm-a075flvdpkd/gallery/pk-galaxy-a07-sm-a075-sm-a075flvdpkd-thumb-548696144",
+    "local_image": "samsung_output/images/08_Galaxy_A07.png"
+  },
+  {
+    "title": "Galaxy A17",
+    "model_code": "SM-A175FZAOPKD",
+    "price": "PKR 94,999",
+    "product_url": "https://www.samsung.com/pk/smartphones/galaxy-a/galaxy-a17-gray-256gb-sm-a175fzaopkd/",
+    "image_url": "//images.samsung.com/is/image/samsung/p6pim/pk/sm-a175fzaopkd/gallery/pk-galaxy-a17-sm-a175-sm-a175fzaopkd-thumb-549001563",
+    "local_image": "samsung_output/images/09_Galaxy_A17.png"
+  },
+  {
+    "title": "Galaxy S25 FE",
+    "model_code": "SM-S731BDBWPKD",
+    "price": "PKR 254,999",
+    "product_url": "https://www.samsung.com/pk/smartphones/galaxy-s/galaxy-s25-fe-navy-512gb-sm-s731bdbwpkd/",
+    "image_url": "//images.samsung.com/is/image/samsung/p6pim/pk/sm-s731bdbwpkd/gallery/pk-galaxy-s25-fe-sm-s731-562279-sm-s731bdbwpkd-thumb-549078360",
+    "local_image": "samsung_output/images/10_Galaxy_S25_FE.png"
+  },
+  {
+    "title": "Galaxy A26 5G",
+    "model_code": "SM-A266BZIJPKD",
+    "price": "PKR 94,999",
+    "product_url": "https://www.samsung.com/pk/smartphones/galaxy-a/galaxy-a26-5g-peach-pink-256gb-sm-a266bzijpkd/",
+    "image_url": "//images.samsung.com/is/image/samsung/p6pim/pk/sm-a266bzijpkd/gallery/pk-galaxy-a26-5g-sm-a266-sm-a266bzijpkd-thumb-545584798",
+    "local_image": "samsung_output/images/11_Galaxy_A26_5G.png"
+  },
+  {
+    "title": "Galaxy A36 5G",
+    "model_code": "SM-A366BZKVPKD",
+    "price": "PKR 119,999",
+    "product_url": "https://www.samsung.com/pk/smartphones/galaxy-a/galaxy-a36-5g-awesome-black-256gb-sm-a366bzkvpkd/",
+    "image_url": "//images.samsung.com/is/image/samsung/p6pim/pk/sm-a366bzkvpkd/gallery/pk-galaxy-a36-5g-sm-a366-sm-a366bzkvpkd-thumb-545585329",
+    "local_image": "samsung_output/images/12_Galaxy_A36_5G.png"
+  },
+  {
+    "title": "Galaxy A56 5G",
+    "model_code": "SM-A566BLIWPKD",
+    "price": "PKR 137,999",
+    "product_url": "https://www.samsung.com/pk/smartphones/galaxy-a/galaxy-a56-5g-awesome-pink-256gb-sm-a566bliwpkd/",
+    "image_url": "//images.samsung.com/is/image/samsung/p6pim/pk/sm-a566bliwpkd/gallery/pk-galaxy-a56-5g-sm-a566-sm-a566bliwpkd-thumb-545585605",
+    "local_image": "samsung_output/images/13_Galaxy_A56_5G.png"
+  },
+  {
+    "title": "Galaxy S25 Ultra",
+    "model_code": "SM-S938BZSOPKD",
+    "price": "PKR 459,999",
+    "product_url": "https://www.samsung.com/pk/smartphones/galaxy-s25-ultra/buy/?modelCode=SM-S938BZSOPKD",
+    "image_url": "//images.samsung.com/is/image/samsung/p6pim/pk/2501/gallery/pk-galaxy-s25-s938-sm-s938bzsopkd-thumb-544708435",
+    "local_image": "samsung_output/images/14_Galaxy_S25_Ultra.png"
+  },
+  {
+    "title": "Galaxy S24 FE",
+    "model_code": "SM-S721BZKCPKD",
+    "price": "PKR 219,999",
+    "product_url": "https://www.samsung.com/pk/smartphones/galaxy-s/galaxy-s24-fe-graphite-256gb-sm-s721bzkcpkd/",
+    "image_url": "//images.samsung.com/is/image/samsung/p6pim/pk/sm-s721bzkcpkd/gallery/pk-galaxy-s24-fe-s721-sm-s721bzkcpkd-thumb-543638028",
+    "local_image": "samsung_output/images/15_Galaxy_S24_FE.png"
+  },
+  {
+    "title": "Galaxy S24 Ultra (Online Exclusive)",
+    "model_code": "SM-S928BLGWPKD",
+    "price": "PKR 541,999",
+    "product_url": "https://www.samsung.com/pk/smartphones/galaxy-s24-ultra/buy/?modelCode=SM-S928BLGWPKD",
+    "image_url": "//images.samsung.com/is/image/samsung/p6pim/pk/sm-s928blgwpkd/gallery/pk-galaxy-s24-s928-519417-sm-s928blgwpkd-thumb-543035563",
+    "local_image": "samsung_output/images/16_Galaxy_S24_Ultra__Online_Exclusive_.png"
+  },
+  {
+    "title": "Galaxy Z Flip6",
+    "model_code": "SM-F741BLGEPKD",
+    "price": "PKR 384,999",
+    "product_url": "https://www.samsung.com/pk/smartphones/galaxy-z-flip6/buy/?modelCode=SM-F741BLGEPKD",
+    "image_url": "//images.samsung.com/is/image/samsung/p6pim/pk/sm-f741blgepkd/gallery/pk-galaxy-zflip6-f741-519770-sm-f741blgepkd-thumb-543086488",
+    "local_image": "samsung_output/images/17_Galaxy_Z_Flip6.png"
+  },
+  {
+    "title": "Galaxy A55 5G",
+    "model_code": "SM-A556EZKWPKD",
+    "price": "PKR 139,999",
+    "product_url": "https://www.samsung.com/pk/smartphones/galaxy-a/galaxy-a55-5g-awesome-navy-256gb-sm-a556ezkwpkd/",
+    "image_url": "//images.samsung.com/is/image/samsung/p6pim/pk/sm-a556ezkwpkd/gallery/pk-galaxy-a55-5g-sm-a556-sm-a556ezkwpkd-thumb-541456407",
+    "local_image": "samsung_output/images/18_Galaxy_A55_5G.png"
+  },
+  {
+    "title": "Galaxy A25 5G",
+    "model_code": "SM-A256ELBHPKD",
+    "price": "PKR 98,500",
+    "product_url": "https://www.samsung.com/pk/smartphones/galaxy-a/galaxy-a25-5g-light-blue-256gb-sm-a256elbhpkd/",
+    "image_url": "//images.samsung.com/is/image/samsung/p6pim/pk/sm-a256elbhpkd/gallery/pk-galaxy-a25-5g-sm-a256-sm-a256elbhpkd-thumb-539617371",
+    "local_image": "samsung_output/images/19_Galaxy_A25_5G.png"
+  },
+  {
+    "title": "Galaxy S24 Ultra",
+    "model_code": "SM-S928BZTWPKD",
+    "price": "PKR 541,999",
+    "product_url": "https://www.samsung.com/pk/smartphones/galaxy-s24-ultra/buy/?modelCode=SM-S928BZTWPKD",
+    "image_url": "//images.samsung.com/is/image/samsung/p6pim/pk/sm-s928bztwpkd/gallery/pk-galaxy-s24-s928-489293-sm-s928bztwpkd-thumb-540477148",
+    "local_image": "samsung_output/images/20_Galaxy_S24_Ultra.png"
+  },
+  {
+    "title": "Galaxy A34 5G",
+    "model_code": "SM-A346ELGEPKD",
+    "price": "PKR 116,999",
+    "product_url": "https://www.samsung.com/pk/smartphones/galaxy-a/galaxy-a34-5g-awesome-lime-256gb-sm-a346elgepkd/",
+    "image_url": "//images.samsung.com/is/image/samsung/p6pim/pk/sm-a346elgepkd/gallery/pk-galaxy-a34-5g-sm-a346-sm-a346elgepkd-thumb-538124879",
+    "local_image": "samsung_output/images/21_Galaxy_A34_5G.png"
+  },
+  {
+    "title": "Galaxy Z Fold5",
+    "model_code": "SM-F946BZEGPKD",
+    "price": "PKR 656,999",
+    "product_url": "https://www.samsung.com/pk/smartphones/galaxy-z/galaxy-z-fold5-cream-512gb-sm-f946bzegpkd/",
+    "image_url": "//images.samsung.com/is/image/samsung/p6pim/pk/sm-f946bzegpkd/gallery/pk-galaxy-z-fold5-f946-472130-sm-f946bzegpkd-thumb-538237532",
+    "local_image": "samsung_output/images/22_Galaxy_Z_Fold5.png"
+  },
+  {
+    "title": "Galaxy A13",
+    "model_code": "SM-A135FLBGPKD",
+    "price": "PKR 57,999",
+    "product_url": "https://www.samsung.com/pk/smartphones/galaxy-a/galaxy-a13-light-blue-64gb-sm-a135flbgpkd/",
+    "image_url": "//images.samsung.com/is/image/samsung/p6pim/pk/sm-a135flbgpkd/gallery/pk-galaxy-a13-sm-a135-sm-a135flbgpkd-thumb-532103437",
+    "local_image": "samsung_output/images/23_Galaxy_A13.png"
+  }
+]
