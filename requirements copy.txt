@@ -1,0 +1,7 @@
+requests
+beautifulsoup4
+langchain
+langchain-google-genai
+pydantic
+python-dotenv
+langchain_core
